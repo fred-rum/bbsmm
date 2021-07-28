@@ -1,0 +1,68 @@
+For Steam, create the minimal "getting started" guide and link to the
+main PDF, with links both near the top and the bottom.
+
+
+if snow is drawn on a map improperly (?), _snow.tga might not save
+correctly.  The next time the level is opened, trying to draw snow
+again will crash the editor.
+
+Special sections:
+- editor & game bugs
+- differences from MudRunner (are these useful?)
+- design considerations
+- editor tips (doesn't need to be separated?)
+- XML, JSON, bitmap formats
+
+navigate via the terrain panels
+
+floating, docked panels
+
+adding a feature and then selecting undo crashes the editor?
+
+right-click and drag in the main panel
+
+selections and multiple selections in the Scene View
+
+Ctrl-Z and Ctrl-Y messages are displayed at the bottom of the main panel
+
+the map editor window
+  menu bar
+  toolbar
+  main panel
+    navigation controls
+    selection controls
+  output panel
+  terrain panel
+  file view tab
+  keyboard navigation of hierarchical lists
+  scene view panel
+  property panel
+    various property types...
+
+U is E-W, V is N-S.
+
+Model - Replace displays the replaced model erratically until one of
+the Rebuild options is selected.
+
+Is the editor crashy because I'm abusing it so much, or is it always
+crashy?
+
+highlight most useful (non-obvious?) controls (keyboard or mouse)?
+
+During pack, "File not found"
+  I had a Sound or SoundDomain that wasn't configured.
+
+what's up with the "proving grounds" mode?
+  is there a proving grounds map somewhere?
+
+truck reference:
+  type: scout, highway, offroad, heavy (heavy_duty is like offroad)
+  editor name
+  game name (?)
+  AWD? (always, engageable, unlockable)
+  diff lock? (always, engageable, unlockable)
+  tires: (highway, allterrain, offroad, mud, chains
+    CompatibleWheels Type -> classes/wheels/*.xml
+  trailer capability: hitch (trailer), low saddle, high saddle
+  cargo capacity w/o trailer
+  DLC
