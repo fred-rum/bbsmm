@@ -66,3 +66,13 @@ truck reference:
   trailer capability: hitch (trailer), low saddle, high saddle
   cargo capacity w/o trailer
   DLC
+
+DiffLockType: None, Uninstalled, Installed, Always
+Torque: default (always on), full (when AWD enabled), none, connectable (w/ upgrade)
+DefaultTire
+CompatibleWheels points to an XML file of possible add-on tires
+
+what does middle click do?
+
+group trucks by US vs. Russian?
+push DLC to bottom of lists?
