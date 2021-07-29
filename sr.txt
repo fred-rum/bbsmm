@@ -52,21 +52,6 @@ highlight most useful (non-obvious?) controls (keyboard or mouse)?
 During pack, "File not found"
   I had a Sound or SoundDomain that wasn't configured.
 
-what's up with the "proving grounds" mode?
-  is there a proving grounds map somewhere?
-
-truck reference:
-  type: scout, highway, offroad, heavy (heavy_duty is like offroad)
-  editor name
-  game name (?)
-  AWD? (always, engageable, unlockable)
-  diff lock? (always, engageable, unlockable)
-  tires: (highway, allterrain, offroad, mud, chains
-    CompatibleWheels Type -> classes/wheels/*.xml
-  trailer capability: hitch (trailer), low saddle, high saddle
-  cargo capacity w/o trailer
-  DLC
-
 DiffLockType: None, Uninstalled, Installed, Always
 Torque: default (always on), full (when AWD enabled), none, connectable (w/ upgrade)
 DefaultTire
@@ -76,3 +61,12 @@ what does middle click do?
 
 group trucks by US vs. Russian?
 push DLC to bottom of lists?
+
+How to use this book section:
+- sequential, or reference, but be sure to read XXX sections first
+- editor is not a consumer-level product; it is debugged mostly only to the extent that Saber used its features to create its maps
+  - introduction to bug, tips, design considerations
+- if you used MudRunner section
+
+Named properties section can be skipped, but it does give some useful
+tips, especially for keyboard shortcuts.
