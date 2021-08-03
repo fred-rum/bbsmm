@@ -6,38 +6,17 @@ if snow is drawn on a map improperly (?), _snow.tga might not save
 correctly.  The next time the level is opened, trying to draw snow
 again will crash the editor.
 
-Special sections:
-- editor & game bugs
-- differences from MudRunner (are these useful?)
-- design considerations
-- editor tips (doesn't need to be separated?)
-- XML, JSON, bitmap formats
-
-navigate via the terrain panels
-
 floating, docked panels
 
 adding a feature and then selecting undo crashes the editor?
 
-right-click and drag in the main panel
-
-selections and multiple selections in the Scene View
-
 Ctrl-Z and Ctrl-Y messages are displayed at the bottom of the main panel
 
-the map editor window
-  menu bar
-  toolbar
-  main panel
-    navigation controls
-    selection controls
-  output panel
-  terrain panel
-  file view tab
-  keyboard navigation of hierarchical lists
-  scene view panel
-  property panel
-    various property types...
+need a general Undo section; this might just be a pointer to other sections:
+  undo selected property changes
+  undo brush painting
+  undo mud (doesn't work)
+  restore from archive
 
 U is E-W, V is N-S.
 
@@ -57,11 +36,6 @@ Torque: default (always on), full (when AWD enabled), none, connectable (w/ upgr
 DefaultTire
 CompatibleWheels points to an XML file of possible add-on tires
 
-what does middle click do?
-
-group trucks by US vs. Russian?
-push DLC to bottom of lists?
-
 How to use this book section:
 - sequential, or reference, but be sure to read XXX sections first
 - editor is not a consumer-level product; it is debugged mostly only to the extent that Saber used its features to create its maps
@@ -70,3 +44,49 @@ How to use this book section:
 
 Named properties section can be skipped, but it does give some useful
 tips, especially for keyboard shortcuts.
+
+Instead of having a section for "Move a Truck, Model, or Plant",
+describe only "move a truck" in the "Trucks" section.  Then refer
+to this as necessary when describing how to move a model or plant in
+those sections.
+
+Every section of the quick start should have a link to the
+corresponding full description.  Possibly it should be right at the
+top to grab anyone who clicked the wrong section in the table of
+contents.
+
+MaxHeight determines the precision of terrain height.
+Terrain height pixels can take on 4096 values.
+With MaxHeight="512", height resolution is ~0.125m, about 5 inches.
+- should only be used when there are no areas of flattish terrain where the user can build up speed
+- perfectly flat terrain is OK, e.g. an ice lake
+MaxHeight="128" feels more reasonable.
+terrain pixels are about 0.5m on a side
+
+when snow is added to a material without a snow_layer, it simply raises the terrain by the height of the "snow"
+when snow is added to a material with a snow_layer, it only raises the height of the snow layer
+check "Update Material" in the brush dialog to paint snow_layer material along with the snow depth
+
+can cross references be formatted differently?
+- separate their text from surrounding text, similar to the Literal style
+- make it obvious that it's a link
+not automatically, but if I position the cursor ahead of a reference
+and select Edit->Fields, I can use the arrow buttons to quickly step
+through all references and manually reformat them.  e.g. do this last.
+
+do some materials suppress mud? (extrudes or automatic)
+
+I can run two copies of the SnowRunner editor at once
+  any advantage to that?
+
+breakable ice = IsExtrudable
+NoGrass prevents grass from distributions
+ice_01 and ice_02 have IsSoil="false"
+
+avoid exposed tall cliffs in the terrain height
+  they stretch the texture layer and make it look unnatural
+
+can close the brush dialog box and still get its functions via the keyboard
+
+use 'Terrain Brightness' toolbar button to make it easier to see thin
+lines for mud
