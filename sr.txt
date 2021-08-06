@@ -90,3 +90,75 @@ can close the brush dialog box and still get its functions via the keyboard
 
 use 'Terrain Brightness' toolbar button to make it easier to see thin
 lines for mud
+
+when editing zone_settings.json, make a backup before and after your changes.
+if the packing process isn't able to read the JSON file properly, it writes
+back a "clean" version with all the data missing that it couldn't read.
+
+zones are randomly ordered in the list on the left of the navigation map.
+no way to fix their order.
+
+my guide is more accurate and better tested
+
+icon types:
+  travel services
+  cargo areas
+  objectives
+  vehicles
+  misc
+
+flat:
+rounding radius is the radius (in meters) of the center of the boundary line
+  inner radius is rounding radius - thickness/2
+  outer radius is rounding radius + thickness/2
+minimum thickness is equal to the corner radius
+  so the inner radius is never less than half the rounding radius
+
+center of line is inset by thickness
+  outer edge is inset by thickness * 1/2
+
+thickness is half the specified thickness
+  call it breadth?
+
+effects of terrain height on zone ribbon placement
+
+should garage exit be relatively flat?
+
+hypothesis:
+  if an unknown ID starts with the same characters as an existing ID,
+    the properties are stolen from that ID *even if it still exists*.
+-or-
+  if an ID is renamed in the main editor, it communicates this to the zone
+    settings editor
+
+Azov 73210 + superheavy semi-trailer = ~36 m long
+CAT 770G = < 5 m wide
+
+commit property changes (particular ID naming) before opening the zone editor
+
+spurious new campaign start always selects an empty save slot if there is one.
+  recommend leaving one open.
+
+UI_HUD_RECOVERY_NO_ID_IN_EDITOR message when using truck recovery
+  is it looking for the map name?
+
+How does "recover" work after a gateway crossing?
+
+keyboad shortcuts for the zone settings editor
+  e.g. F2 to edit a property string
+
+all flavors of saddle_high can be locked in the garage and/or it can have a price,
+  but it is still available and given for free with purchase of a trailer
+
+all flavors of saddle_low cannot be locked in the garage, and it cannot have a price
+  and it is always available and given for free with purchase of a trailer
+
+how to:
+  rename a zone
+  duplicate a zone
+
+permission denied while packing:
+  exit the map in the game
+
+Save in the main editor updates zone_settings.json with any renamed
+IDs.  It doesn't touch anything else, including new or deleted zones.
