@@ -153,12 +153,64 @@ all flavors of saddle_high can be locked in the garage and/or it can have a pric
 all flavors of saddle_low cannot be locked in the garage, and it cannot have a price
   and it is always available and given for free with purchase of a trailer
 
-how to:
-  rename a zone
-  duplicate a zone
-
 permission denied while packing:
   exit the map in the game
 
-Save in the main editor updates zone_settings.json with any renamed
-IDs.  It doesn't touch anything else, including new or deleted zones.
+truck ID
+
+can directly edit objective name once created
+
+the game generates spurious "confirm" keypresses while iconified.
+  if the cursor is over new game, it may overwrite an existing game
+  to avoid destroying a campaign, make sure at least one save slot is empty
+
+can "truck" delivery apply to a trailer?
+
+are the various regulaar zone IDs implicitly on the same map as the primary?
+  or can they be on any map, but the global zone ID is needed only so that
+  the navigation map can highlight the primary zone?
+
+general description of the black arrow used for initializing properties
+  confirmation dialog
+  toggle between null and non-null
+
+if the objective details are viewed before the cargo is spawned, selecting the cargo under the goal description centers the map on one of the cargo loading areas that carries that cargo type.
+
+cargo categories when spawn has occurred:
+  selectable - unpacked, correct type for goal
+
+  highlighted - unpacked, matches spawned type, but not goal type
+                cargo loading zone with goal type
+                packed on detached trailer trailer?
+
+  unrecognized - packed
+                 different than spawn type and goal type
+                 model that has never been packed
+
+cargo categories when spawn has not occurred:
+  selectable - "first" cargo loading zone with goal type
+
+  recognized - other cargo loading zones with goal type
+
+  unrecognized - everything else
+
+the 3-D model on the map is randomly normal size or oversized
+
+cargo is spawned as in a manual loading zone
+  does not spawn if any cargo is in the zone (of same type or other type)
+  does not remove previously spawned cargo if objective is restarted
+
+if a cargo delivery stage is not active, no delivery icons are on the map
+  even for spawned cargo.
+  however, all unpacked cargo is still labeled on the map
+
+what happens to spawned cargo when the player leaves the map?
+
+multiple spawned cargos can be listed for the same zone
+
+cargo models are not appropriate to place on the map
+  use 'spawn cargo for stage' instead
+  cargo models cannot be delivered until packed
+  cargo models don't appear as cargo delivery sources until packed and unpacked
+
+Rounding radius is never more than half the minimum dimension.
