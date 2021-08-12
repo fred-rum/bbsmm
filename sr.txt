@@ -36,12 +36,6 @@ Torque: default (always on), full (when AWD enabled), none, connectable (w/ upgr
 DefaultTire
 CompatibleWheels points to an XML file of possible add-on tires
 
-How to use this book section:
-- sequential, or reference, but be sure to read XXX sections first
-- editor is not a consumer-level product; it is debugged mostly only to the extent that Saber used its features to create its maps
-  - introduction to bug, tips, design considerations
-- if you used MudRunner section
-
 Named properties section can be skipped, but it does give some useful
 tips, especially for keyboard shortcuts.
 
@@ -139,9 +133,6 @@ commit property changes (particular ID naming) before opening the zone editor
 spurious new campaign start always selects an empty save slot if there is one.
   recommend leaving one open.
 
-UI_HUD_RECOVERY_NO_ID_IN_EDITOR message when using truck recovery
-  is it looking for the map name?
-
 How does "recover" work after a gateway crossing?
 
 keyboad shortcuts for the zone settings editor
@@ -156,61 +147,63 @@ all flavors of saddle_low cannot be locked in the garage, and it cannot have a p
 permission denied while packing:
   exit the map in the game
 
-truck ID
-
-can directly edit objective name once created
-
 the game generates spurious "confirm" keypresses while iconified.
   if the cursor is over new game, it may overwrite an existing game
   to avoid destroying a campaign, make sure at least one save slot is empty
 
-can "truck" delivery apply to a trailer?
-
-are the various regulaar zone IDs implicitly on the same map as the primary?
+are the various regular zone IDs implicitly on the same map as the primary?
   or can they be on any map, but the global zone ID is needed only so that
   the navigation map can highlight the primary zone?
 
-general description of the black arrow used for initializing properties
-  confirmation dialog
-  toggle between null and non-null
-
-if the objective details are viewed before the cargo is spawned, selecting the cargo under the goal description centers the map on one of the cargo loading areas that carries that cargo type.
-
-cargo categories when spawn has occurred:
-  selectable - unpacked, correct type for goal
-
-  highlighted - unpacked, matches spawned type, but not goal type
-                cargo loading zone with goal type
-                packed on detached trailer trailer?
-
-  unrecognized - packed
-                 different than spawn type and goal type
-                 model that has never been packed
-
-cargo categories when spawn has not occurred:
-  selectable - "first" cargo loading zone with goal type
-
-  recognized - other cargo loading zones with goal type
-
-  unrecognized - everything else
-
-the 3-D model on the map is randomly normal size or oversized
-
-cargo is spawned as in a manual loading zone
-  does not spawn if any cargo is in the zone (of same type or other type)
-  does not remove previously spawned cargo if objective is restarted
-
-if a cargo delivery stage is not active, no delivery icons are on the map
-  even for spawned cargo.
-  however, all unpacked cargo is still labeled on the map
-
 what happens to spawned cargo when the player leaves the map?
 
-multiple spawned cargos can be listed for the same zone
+If the same destination zone is used for multiple goals, they share UI Desc:
+  truck delivery - yes
+  cargo delivery - yes
+  others - TBD
 
-cargo models are not appropriate to place on the map
-  use 'spawn cargo for stage' instead
-  cargo models cannot be delivered until packed
-  cargo models don't appear as cargo delivery sources until packed and unpacked
+what axes does the "Rotation" property group use?
+  X ain't X, that's for sure
 
-Rounding radius is never more than half the minimum dimension.
+recover to garage:
+  UI_HUD_RECOVERY_NO_ID_IN_EDITOR
+  where should a name be set?
+    it's not (Terrain)->Description level->ID
+
+troubleshooting:
+  if the navigation map shows a pile of text in the upper left corner and
+    hangs, check for two zones with the same ID
+  ModMapError.txt when loading the map in the game
+    definitely used for:
+      invalid truck ID in objective
+      invalid zone ID in objective
+    but doesn't catch all errors
+
+do UIDs of different types need to be different?
+
+redocument behavior of slow asset dialogs
+
+in cargo reference, list the number of individual logs per load
+
+model in Editor is superset of all appearances
+
+static shadows are from finished model
+  they're replaced with dynamic shadows as you get closer
+
+figure out what can be changed in a mod that people are already playing
+  are changes incorporated into an existing game ata ll?
+  if something collides with the player's truck, can they recover?
+  changes in terrain height? (up or down)
+  new models that may collide?
+  removed models/plants are always safe?
+  touch plant distributions could rearrange plants?
+  removed objectives that may be in progress?
+  changed truck ID that is being used or was already awarded?
+  lock or unlock parts
+  add or remove maps from region
+  change map to region?
+  move zones
+  change zones used by objectives
+  add or remove objectives? (check completion progress in profile, too)
+  add, change, or remove stages from objective
+  are updates at mod.io automatically downloaded and used?
