@@ -207,3 +207,29 @@ figure out what can be changed in a mod that people are already playing
   add or remove objectives? (check completion progress in profile, too)
   add, change, or remove stages from objective
   are updates at mod.io automatically downloaded and used?
+
+living area goal type is broken?
+  or do I just not know how to set it up?
+
+contests
+  can contests have any other requirements besides the standard 3?
+contracts
+
+I recall that the custom truck guide describes how to extract and
+modify the meshes of installed trucks.  Can I use the same technique
+for models, e.g. to check rock collision models?
+
+(Terrain)->Procedural snow coverage
+  affects all trucks at half strength, even the one being driven
+    is not applied to glass, interior, wheels, tires
+    if a truck has both mud and snow, the mud wins where it is present
+
+"snowy" level affects weather
+  requires snow_layer in a material
+
+
+lights are broken when Dev Tools->Change Time is used
+  also when Sky is forced to Night in the map
+  flare visible, but lights don't light up other objects or terrain
+  light works properly in editor after rebuild terrain
+    or in game after natural passage of time
