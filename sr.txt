@@ -215,10 +215,6 @@ contests
   can contests have any other requirements besides the standard 3?
 contracts
 
-I recall that the custom truck guide describes how to extract and
-modify the meshes of installed trucks.  Can I use the same technique
-for models, e.g. to check rock collision models?
-
 (Terrain)->Procedural snow coverage
   affects all trucks at half strength, even the one being driven
     is not applied to glass, interior, wheels, tires
@@ -233,3 +229,84 @@ lights are broken when Dev Tools->Change Time is used
   flare visible, but lights don't light up other objects or terrain
   light works properly in editor after rebuild terrain
     or in game after natural passage of time
+
+Can use localization to change the name while keeping the logo.
+
+custom employer names use Husky Forwarding icon
+  can they be localized?
+    yes
+
+game crashes:
+  not if more than 3 employers
+  sometimes if custom employer name isn't configured as custom
+    icon doesn't matter and is ignored
+
+multi-stage models show only a single model on the navigation map
+  (usually their final form)
+
+uiTitle must be specified for initial objectives to be activated
+
+if objective is not activated, then the user can activate it using the
+  same interface as tracking it; activating it then also tracks it
+  very strange
+
+if two objectives are finished simultaneously, only one reward popup appears
+
+if a contract is listed in objectives
+  it is automatically activated at the beginning of the map
+    even if it is blocked!
+  the first listed objective is the one that is initially tracked
+otherwise
+  the player has to activate it manually before any progress can be made
+  must wait until unlocked to activate
+  manual activation also starts tracking
+completing the tracked objective
+  starts tracking a random other objective
+
+
+Standardized format for properties?
+  Path, e.g. Scene->(Terrain)->Zones-><zone_id>->Wall->*Is wall*
+    in ZSE: objectiveSettings->contestSettings+<Contest Name>->rewards+ObjectiveRewardsByTime->timeSettings->GOLD/SILVER->Time limit
+  Edit type: Dropdown menu, Dropdoene menu or free text, True/False, etc.
+  Purpose
+  Default value, or result if property is missing
+  Result if property has bad value
+  use a thick blue bar on only the left side?
+  use a sequence of defined paragraph types
+
+Should there be a different character format for variable values
+  (e.g. <zone_id>) within a literal?
+    How should it look?
+      same gray background, but different foreground color, e.g. dark purple?
+    it isn't often the focus of the literal, so highlighting it may be a mistake
+
+animation speed is controlled by Scene->Time speed property
+
+what happens if an objective truck leaves the zone (via a gateway)?
+  does it lose its truck ID?
+  is it still reserved?
+  is it left behind in its new zone if the objective is restarted?
+
+contest
+  how long is an in-game hour?
+    2:30 (150 seconds) in real time, a 24:1 ratio, so 1 day = 1 hour
+  the offer zone for a contest is listed on the navigation map from when the
+    offer is first *viewed* until it is completed;
+    the offer zone remains listed after completion, although the game does
+      not state what is being offered there.
+
+task:
+  available in the driving view when unloacked
+  listed under "task giver" when discovered:
+    drive within 10 meters, or
+    reveal with a watchpoint
+    remains until completed
+  listed under "tasks" when activated; remains until completed
+
+contest:
+  available in the driving view when unloacked
+  listed under "task giver" when discovered:
+    drive within 10 meters, or
+    reveal with a watchpoint
+    remains forever
+  listed under "contests" when discovered; remains until completed
