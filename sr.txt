@@ -287,26 +287,15 @@ what happens if an objective truck leaves the zone (via a gateway)?
   is it still reserved?
   is it left behind in its new zone if the objective is restarted?
 
-contest
-  how long is an in-game hour?
-    2:30 (150 seconds) in real time, a 24:1 ratio, so 1 day = 1 hour
-  the offer zone for a contest is listed on the navigation map from when the
-    offer is first *viewed* until it is completed;
-    the offer zone remains listed after completion, although the game does
-      not state what is being offered there.
+where model assets are described, mention that some rocks & ice chunks are
+  modeled as plants.
 
-task:
-  available in the driving view when unloacked
-  listed under "task giver" when discovered:
-    drive within 10 meters, or
-    reveal with a watchpoint
-    remains until completed
-  listed under "tasks" when activated; remains until completed
+Note that not all assets are guaranteed to be working.
+  once released, Saber is hesitant to remove or change an asset since someone may be using it
 
-contest:
-  available in the driving view when unloacked
-  listed under "task giver" when discovered:
-    drive within 10 meters, or
-    reveal with a watchpoint
-    remains forever
-  listed under "contests" when discovered; remains until completed
+reverse distances
+reverse loop delay
+document loop delay
+test sound Conditions
+try variations of conditions
+document conditions
