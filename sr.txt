@@ -293,9 +293,29 @@ where model assets are described, mention that some rocks & ice chunks are
 Note that not all assets are guaranteed to be working.
   once released, Saber is hesitant to remove or change an asset since someone may be using it
 
-reverse distances
-reverse loop delay
-document loop delay
-test sound Conditions
-try variations of conditions
-document conditions
+What happens if sound doesn't have a name?
+or doesn't have a file?
+  'File not found.' during pack
+
+if the Editor offers to restore a backup, it is the latest *unsaved* data,
+newer than the saved data.
+But it doesn't restore the camera position.
+
+map's *.pak file includes files that look relevant, but aren't
+  e.g. all images in ui/textures
+
+can I "skip time" from the navigation map in level_test?
+  does that let me test different times?
+    yes
+
+bugs to avoid section as part of "publish":
+  tasks/contests offered in the same place at the same time
+
+music stops during a contest
+
+add a section describing game time
+  rate of passage (1 hour = 1 day)
+  times of day are as used in the ambient music
+  does "skip time" skip to each of these times of day?
+
+what happens if music times overlap?
