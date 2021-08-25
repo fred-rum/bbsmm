@@ -49,14 +49,6 @@ corresponding full description.  Possibly it should be right at the
 top to grab anyone who clicked the wrong section in the table of
 contents.
 
-MaxHeight determines the precision of terrain height.
-Terrain height pixels can take on 4096 values.
-With MaxHeight="512", height resolution is ~0.125m, about 5 inches.
-- should only be used when there are no areas of flattish terrain where the user can build up speed
-- perfectly flat terrain is OK, e.g. an ice lake
-MaxHeight="128" feels more reasonable.
-terrain pixels are about 0.5m on a side
-
 when snow is added to a material without a snow_layer, it simply raises the terrain by the height of the "snow"
 when snow is added to a material with a snow_layer, it only raises the height of the snow layer
 check "Update Material" in the brush dialog to paint snow_layer material along with the snow depth
@@ -264,16 +256,6 @@ completing the tracked objective
   starts tracking a random other objective
 
 
-Standardized format for properties?
-  Path, e.g. Scene->(Terrain)->Zones-><zone_id>->Wall->*Is wall*
-    in ZSE: objectiveSettings->contestSettings+<Contest Name>->rewards+ObjectiveRewardsByTime->timeSettings->GOLD/SILVER->Time limit
-  Edit type: Dropdown menu, Dropdoene menu or free text, True/False, etc.
-  Purpose
-  Default value, or result if property is missing
-  Result if property has bad value
-  use a thick blue bar on only the left side?
-  use a sequence of defined paragraph types
-
 Should there be a different character format for variable values
   (e.g. <zone_id>) within a literal?
     How should it look?
@@ -287,22 +269,9 @@ what happens if an objective truck leaves the zone (via a gateway)?
   is it still reserved?
   is it left behind in its new zone if the objective is restarted?
 
-where model assets are described, mention that some rocks & ice chunks are
-  modeled as plants.
-
-Note that not all assets are guaranteed to be working.
-  once released, Saber is hesitant to remove or change an asset since someone may be using it
-
-if the Editor offers to restore a backup, it is the latest *unsaved* data,
-newer than the saved data.
-But it doesn't restore the camera position.
-
-map's *.pak file includes files that look relevant, but aren't
-  e.g. all images in ui/textures
-
-can I "skip time" from the navigation map in level_test?
-  does that let me test different times?
-    yes
+As part of "publish":
+  map's *.pak file includes files that look relevant, but aren't
+    e.g. all images in ui/textures
 
 bugs to avoid section as part of "publish":
   tasks/contests offered in the same place at the same time
@@ -320,3 +289,46 @@ is it possible to link two multi-stage models to one objective?
   should I mention this possibility and its behavior?
 
 What if two sound domains overlap?
+
+
+what happens when you continue a game where the map has changed
+  trucks are at their moved positions?
+  revealed map is as saved?
+  mud & ruts?
+  objectives are as saved?
+  map is changed
+    what if height has changed under truck(s)?
+    what if model on top of truck?
+
+clicking away from a paint brush (e.g. Geometry)
+  doesn't immediately select the target in the Scene View
+  it only de-selects the pain brush
+  click again to select the new target
+  same in the main panel
+
+keyboard shortcut:
+  F - "fly to"
+  other key - go to next (expanded) feature starting with that letter
+    e.g. G for garage or garage exit
+    but then how to I actually select that feature?
+
+lights off at 6:00 am
+lights on in the evening (barely visible at first)
+
+the free camera moves faster when the left mouse button is held down
+
+editor also has recurring bugs that I can't diagnose the source of.
+  these aren't documented.
+
+can an objective award a DLC truck?
+
+is it reasonable to award cosmetic items in a contest?
+  e.g. rims
+  if so, write a tip
+
+Change Time rotates through daytime presets
+  night first
+  all variants for each time, in order
+  last is an average of n-t-d and first day1 variant
+
+Change "string" to something less computer geeky?
