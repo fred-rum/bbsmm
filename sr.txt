@@ -298,6 +298,8 @@ what happens when you continue a game where the map has changed
   objectives are as saved?
   map is changed
     what if height has changed under truck(s)?
+      truck falls
+      does it get stuck in terrain?
     what if model on top of truck?
 
 clicking away from a paint brush (e.g. Geometry)
@@ -305,15 +307,6 @@ clicking away from a paint brush (e.g. Geometry)
   it only de-selects the pain brush
   click again to select the new target
   same in the main panel
-
-keyboard shortcut:
-  F - "fly to"
-  other key - go to next (expanded) feature starting with that letter
-    e.g. G for garage or garage exit
-    but then how to I actually select that feature?
-
-lights off at 6:00 am
-lights on in the evening (barely visible at first)
 
 the free camera moves faster when the left mouse button is held down
 
@@ -326,9 +319,34 @@ is it reasonable to award cosmetic items in a contest?
   e.g. rims
   if so, write a tip
 
-Change Time rotates through daytime presets
-  night first
-  all variants for each time, in order
-  last is an average of n-t-d and first day1 variant
-
 Change "string" to something less computer geeky?
+  e.g. "text"
+
+is border visibility 64 meters?
+
+use "path object" instead of "spline object"
+
+models are the only object for which static shadows can be disabled
+  plants and overlays have shadows as defined by its type
+
+For every property/bitmap, is it possible to categorize them by when
+  the Editor notices updates? e.g.
+    RO = read only (not editable)
+    NV = not visible
+    I = immediate,
+    RS = after rebuild selected terrain
+    RQ = after rebuild terrain (quick)
+    RT = rebuild terrain (full)
+  if so, include this info with each property declaration
+    e.g. right-justified to the right of the declaration
+    colored, and as a hyperlink to an explanation
+  some visual features don't have an associated property,
+    e.g. static shadows for plants
+    how to categorize/document those?
+  procedural snow
+    I (even after model/plant rotation, etc)
+  rebuild terrain is needed specifically for
+    lights
+    shadows
+    grass
+    other distributions (maybe? or are they implicitly stable?)
