@@ -222,12 +222,6 @@ lights are broken when Dev Tools->Change Time is used
   light works properly in editor after rebuild terrain
     or in game after natural passage of time
 
-Can use localization to change the name while keeping the logo.
-
-custom employer names use Husky Forwarding icon
-  can they be localized?
-    yes
-
 game crashes:
   not if more than 3 employers
   sometimes if custom employer name isn't configured as custom
@@ -236,33 +230,17 @@ game crashes:
 multi-stage models show only a single model on the navigation map
   (usually their final form)
 
-uiTitle must be specified for initial objectives to be activated
-
 if objective is not activated, then the user can activate it using the
   same interface as tracking it; activating it then also tracks it
   very strange
 
-if two objectives are finished simultaneously, only one reward popup appears
-
-if a contract is listed in objectives
-  it is automatically activated at the beginning of the map
-    even if it is blocked!
-  the first listed objective is the one that is initially tracked
-otherwise
+Objectives:
   the player has to activate it manually before any progress can be made
   must wait until unlocked to activate
   manual activation also starts tracking
 completing the tracked objective
   starts tracking a random other objective
 
-
-Should there be a different character format for variable values
-  (e.g. <zone_id>) within a literal?
-    How should it look?
-      same gray background, but different foreground color, e.g. dark purple?
-    it isn't often the focus of the literal, so highlighting it may be a mistake
-
-animation speed is controlled by Scene->Time speed property
 
 what happens if an objective truck leaves the zone (via a gateway)?
   does it lose its truck ID?
@@ -275,20 +253,6 @@ As part of "publish":
 
 bugs to avoid section as part of "publish":
   tasks/contests offered in the same place at the same time
-
-add a section describing game time
-  rate of passage (1 hour = 1 day)
-  times of day are as used in the ambient music
-  does "skip time" skip to each of these times of day?
-  does light change at other times of day?
-
-\n adds newline?
-
-is it possible to link two multi-stage models to one objective?
-  or did the Tayga mission link one to cargo delivery and one to the stage?
-  should I mention this possibility and its behavior?
-
-What if two sound domains overlap?
 
 
 what happens when you continue a game where the map has changed
@@ -308,26 +272,8 @@ clicking away from a paint brush (e.g. Geometry)
   click again to select the new target
   same in the main panel
 
-the free camera moves faster when the left mouse button is held down
-
 editor also has recurring bugs that I can't diagnose the source of.
   these aren't documented.
-
-can an objective award a DLC truck?
-
-is it reasonable to award cosmetic items in a contest?
-  e.g. rims
-  if so, write a tip
-
-Change "string" to something less computer geeky?
-  e.g. "text"
-
-is border visibility 64 meters?
-
-use "path object" instead of "spline object"
-
-models are the only object for which static shadows can be disabled
-  plants and overlays have shadows as defined by its type
 
 For every property/bitmap, is it possible to categorize them by when
   the Editor notices updates? e.g.
@@ -350,3 +296,31 @@ For every property/bitmap, is it possible to categorize them by when
     shadows
     grass
     other distributions (maybe? or are they implicitly stable?)
+
+grass is suppressed under certain models
+  only if the bounding box touches the ground surface
+  if the model is entirely above or below ground, grass is not suppressed
+  this might have its own mask, or might use the occlusion mask
+    e.g. us_3part_factory_1_part_objective has no occlusion,
+      and does not suppress grass
+    and the occlusion texture is the only one mentioned in the class XML
+
+if there is a region, locked items are determined only by the RSE
+
+custom employer names use Husky Forwarding icon
+  can they be localized?
+    yes
+
+Can &lt; be used in UI text?
+  probably not, but confirm and document yes or no
+
+Can <br>, <ol>, and <li> be used in multi-line UI texts?
+
+multiple of the same type for the zone
+
+Use the term "zone locator" consistently where appropriate.
+
+Change "ribbon" to "perimeter".
+
+if visit zones goal has no zones specified,
+  objective cannot be accepted
