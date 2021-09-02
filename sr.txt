@@ -139,10 +139,6 @@ all flavors of saddle_low cannot be locked in the garage, and it cannot have a p
 permission denied while packing:
   exit the map in the game
 
-the game generates spurious "confirm" keypresses while iconified.
-  if the cursor is over new game, it may overwrite an existing game
-  to avoid destroying a campaign, make sure at least one save slot is empty
-
 are the various regular zone IDs implicitly on the same map as the primary?
   or can they be on any map, but the global zone ID is needed only so that
   the navigation map can highlight the primary zone?
@@ -183,7 +179,8 @@ static shadows are from finished model
   they're replaced with dynamic shadows as you get closer
 
 figure out what can be changed in a mod that people are already playing
-  are changes incorporated into an existing game ata ll?
+  are changes incorporated into an existing game at all?
+    yes
   if something collides with the player's truck, can they recover?
   changes in terrain height? (up or down)
   new models that may collide?
@@ -196,6 +193,7 @@ figure out what can be changed in a mod that people are already playing
   change map to region?
   move zones
   change zones used by objectives
+  change zone types added by completed objectives
   add or remove objectives? (check completion progress in profile, too)
   add, change, or remove stages from objective
   are updates at mod.io automatically downloaded and used?
@@ -307,20 +305,20 @@ grass is suppressed under certain models
 
 if there is a region, locked items are determined only by the RSE
 
-custom employer names use Husky Forwarding icon
-  can they be localized?
-    yes
-
-Can &lt; be used in UI text?
-  probably not, but confirm and document yes or no
-
-Can <br>, <ol>, and <li> be used in multi-line UI texts?
-
-multiple of the same type for the zone
-
-Use the term "zone locator" consistently where appropriate.
-
-Change "ribbon" to "perimeter".
-
 if visit zones goal has no zones specified,
   objective cannot be accepted
+what if Seismograph has no zones members?
+what if actions has no zoneToFill members?
+
+zones section needs property declarations
+
+gateway back to same map
+  causes copy of truck to be left behind
+  while player is driving a truck that isn't on the navigation map or list
+
+a crafting zone that requires no inputs is just a complex cargo zone + storehouse
+
+if models prefer to be in the same place,
+  displace one vertically by < 1mm to avoid warning dialogs
+
+character limit for all UI text
