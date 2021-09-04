@@ -303,22 +303,6 @@ grass is suppressed under certain models
       and does not suppress grass
     and the occlusion texture is the only one mentioned in the class XML
 
-if there is a region, locked items are determined only by the RSE
-
-if visit zones goal has no zones specified,
-  objective cannot be accepted
-what if Seismograph has no zones members?
-what if actions has no zoneToFill members?
-
 zones section needs property declarations
 
-gateway back to same map
-  causes copy of truck to be left behind
-  while player is driving a truck that isn't on the navigation map or list
-
-a crafting zone that requires no inputs is just a complex cargo zone + storehouse
-
-if models prefer to be in the same place,
-  displace one vertically by < 1mm to avoid warning dialogs
-
-character limit for all UI text
+Bottom panel of ZSE/RSE is for filesystem errors
