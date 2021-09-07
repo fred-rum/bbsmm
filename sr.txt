@@ -304,5 +304,3 @@ grass is suppressed under certain models
     and the occlusion texture is the only one mentioned in the class XML
 
 Bottom panel of ZSE/RSE is for filesystem errors
-
-local transform mode doesn't work for references
