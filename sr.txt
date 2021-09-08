@@ -295,12 +295,33 @@ For every property/bitmap, is it possible to categorize them by when
     grass
     other distributions (maybe? or are they implicitly stable?)
 
-grass is suppressed under certain models
-  only if the bounding box touches the ground surface
-  if the model is entirely above or below ground, grass is not suppressed
-  this might have its own mask, or might use the occlusion mask
-    e.g. us_3part_factory_1_part_objective has no occlusion,
-      and does not suppress grass
-    and the occlusion texture is the only one mentioned in the class XML
-
 Bottom panel of ZSE/RSE is for filesystem errors
+
+trucks
+terrain height
+mud
+models
+plants
+distributions
+materials
+snow depth
+*(Wetness)
+*(Colorization)
+sounds?
+overlays
+*rivers
+*(Water)
+*(WaterMud)
+river markup
+*references
+
+remove "geometric" from elevated overlay and conforming overlay?
+
+Use more Header4 to simplify ToC?
+  improve formatting of Header4
+    background of light yellowish green?
+or increase prominence of header 1 in ToC
+  e.g. light green background
+
+the Editor automatically excludes any distribution brushes
+  that refer to a plant that doesn't exist
