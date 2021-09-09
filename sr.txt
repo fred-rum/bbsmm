@@ -300,28 +300,25 @@ Bottom panel of ZSE/RSE is for filesystem errors
 trucks
 terrain height
 mud
+(Colorization)
 models
 plants
 distributions
 materials
 snow depth
-*(Wetness)
-*(Colorization)
-sounds?
 overlays
+ruler
 *rivers
 *(Water)
 *(WaterMud)
+(Wetness)
+sounds & sound domains
 river markup
 *references
 
-remove "geometric" from elevated overlay and conforming overlay?
-
-Use more Header4 to simplify ToC?
-  improve formatting of Header4
-    background of light yellowish green?
-or increase prominence of header 1 in ToC
-  e.g. light green background
-
 the Editor automatically excludes any distribution brushes
   that refer to a plant that doesn't exist
+
+test and document use of breakable ice
+
+how is a gateway locked/unlocked?
