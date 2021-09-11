@@ -1,57 +1,17 @@
 For Steam, create the minimal "getting started" guide and link to the
 main PDF, with links both near the top and the bottom.
 
-
-if snow is drawn on a map improperly (?), _snow.tga might not save
-correctly.  The next time the level is opened, trying to draw snow
-again will crash the editor.
-
-floating, docked panels
-
-adding a feature and then selecting undo crashes the editor?
-
-Ctrl-Z and Ctrl-Y messages are displayed at the bottom of the main panel
-
-need a general Undo section; this might just be a pointer to other sections:
-  undo selected property changes
-  undo brush painting
-  undo mud (doesn't work)
-  restore from archive
-
 U is E-W, V is N-S.
-
-Model - Replace displays the replaced model erratically until one of
-the Rebuild options is selected.
-
-Is the editor crashy because I'm abusing it so much, or is it always
-crashy?
-
-highlight most useful (non-obvious?) controls (keyboard or mouse)?
-
-During pack, "File not found"
-  I had a Sound or SoundDomain that wasn't configured.
 
 DiffLockType: None, Uninstalled, Installed, Always
 Torque: default (always on), full (when AWD enabled), none, connectable (w/ upgrade)
 DefaultTire
 CompatibleWheels points to an XML file of possible add-on tires
 
-Named properties section can be skipped, but it does give some useful
-tips, especially for keyboard shortcuts.
-
-Instead of having a section for "Move a Truck, Model, or Plant",
-describe only "move a truck" in the "Trucks" section.  Then refer
-to this as necessary when describing how to move a model or plant in
-those sections.
-
 Every section of the quick start should have a link to the
 corresponding full description.  Possibly it should be right at the
 top to grab anyone who clicked the wrong section in the table of
 contents.
-
-when snow is added to a material without a snow_layer, it simply raises the terrain by the height of the "snow"
-when snow is added to a material with a snow_layer, it only raises the height of the snow layer
-check "Update Material" in the brush dialog to paint snow_layer material along with the snow depth
 
 can cross references be formatted differently?
 - separate their text from surrounding text, similar to the Literal style
@@ -201,56 +161,9 @@ figure out what can be changed in a mod that people are already playing
 living area goal type is broken?
   or do I just not know how to set it up?
 
-contests
-  can contests have any other requirements besides the standard 3?
-contracts
-
-(Terrain)->Procedural snow coverage
-  affects all trucks at half strength, even the one being driven
-    is not applied to glass, interior, wheels, tires
-    if a truck has both mud and snow, the mud wins where it is present
-
-"snowy" level affects weather
-  requires snow_layer in a material
-
-
-lights are broken when Dev Tools->Change Time is used
-  also when Sky is forced to Night in the map
-  flare visible, but lights don't light up other objects or terrain
-  light works properly in editor after rebuild terrain
-    or in game after natural passage of time
-
-game crashes:
-  not if more than 3 employers
-  sometimes if custom employer name isn't configured as custom
-    icon doesn't matter and is ignored
-
-multi-stage models show only a single model on the navigation map
-  (usually their final form)
-
-if objective is not activated, then the user can activate it using the
-  same interface as tracking it; activating it then also tracks it
-  very strange
-
-Objectives:
-  the player has to activate it manually before any progress can be made
-  must wait until unlocked to activate
-  manual activation also starts tracking
-completing the tracked objective
-  starts tracking a random other objective
-
-
-what happens if an objective truck leaves the zone (via a gateway)?
-  does it lose its truck ID?
-  is it still reserved?
-  is it left behind in its new zone if the objective is restarted?
-
 As part of "publish":
   map's *.pak file includes files that look relevant, but aren't
     e.g. all images in ui/textures
-
-bugs to avoid section as part of "publish":
-  tasks/contests offered in the same place at the same time
 
 
 what happens when you continue a game where the map has changed
@@ -263,12 +176,6 @@ what happens when you continue a game where the map has changed
       truck falls
       does it get stuck in terrain?
     what if model on top of truck?
-
-clicking away from a paint brush (e.g. Geometry)
-  doesn't immediately select the target in the Scene View
-  it only de-selects the pain brush
-  click again to select the new target
-  same in the main panel
 
 editor also has recurring bugs that I can't diagnose the source of.
   these aren't documented.
@@ -305,7 +212,7 @@ models
 plants
 distributions
 materials
-snow depth
+winter map
 overlays
 ruler
 *rivers
@@ -313,7 +220,7 @@ ruler
 *(WaterMud)
 (Wetness)
 sounds & sound domains
-river markup
+*river markup
 *references
 
 the Editor automatically excludes any distribution brushes
@@ -321,4 +228,4 @@ the Editor automatically excludes any distribution brushes
 
 test and document use of breakable ice
 
-how is a gateway locked/unlocked?
+season 5 is released
