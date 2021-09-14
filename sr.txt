@@ -215,10 +215,11 @@ materials
 winter map
 overlays
 ruler
-*rivers
-*(Water)
-*(WaterMud)
+rivers
+  (Water)
+  (WaterMud)
 (Wetness)
+*breakable ice
 sounds & sound domains
 *river markup
 *references
@@ -228,4 +229,4 @@ the Editor automatically excludes any distribution brushes
 
 test and document use of breakable ice
 
-season 5 is released
+Be consistent whether a brush has "modes" or "functions".
