@@ -218,23 +218,16 @@ ruler
 rivers
   (Water)
   (WaterMud)
+  *river markup
 (Wetness)
 *breakable ice
 sounds & sound domains
-*river markup
-*references
+references
 
-the Editor automatically excludes any distribution brushes
-  that refer to a plant that doesn't exist
+test and document river markup
 
 test and document use of breakable ice
 
-Be consistent whether a brush has "modes" or "functions".
-
-New Folder doesn't allow spaces
-  but you can create or rename a folder in the Windows Explorer,
-    and it works fine
-
-Move the Group property to a common section where groups are described.
-
-map size must be a multiple of 2 in each direction
+how to publish
+  put it in a "conclusion" book part (or "wrap up")
+  move the "details of the map editor window" in there as well
