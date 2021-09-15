@@ -230,3 +230,11 @@ the Editor automatically excludes any distribution brushes
 test and document use of breakable ice
 
 Be consistent whether a brush has "modes" or "functions".
+
+New Folder doesn't allow spaces
+  but you can create or rename a folder in the Windows Explorer,
+    and it works fine
+
+Move the Group property to a common section where groups are described.
+
+map size must be a multiple of 2 in each direction
