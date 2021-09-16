@@ -44,30 +44,6 @@ back a "clean" version with all the data missing that it couldn't read.
 zones are randomly ordered in the list on the left of the navigation map.
 no way to fix their order.
 
-my guide is more accurate and better tested
-
-icon types:
-  travel services
-  cargo areas
-  objectives
-  vehicles
-  misc
-
-flat:
-rounding radius is the radius (in meters) of the center of the boundary line
-  inner radius is rounding radius - thickness/2
-  outer radius is rounding radius + thickness/2
-minimum thickness is equal to the corner radius
-  so the inner radius is never less than half the rounding radius
-
-center of line is inset by thickness
-  outer edge is inset by thickness * 1/2
-
-thickness is half the specified thickness
-  call it breadth?
-
-effects of terrain height on zone ribbon placement
-
 should garage exit be relatively flat?
 
 hypothesis:
@@ -208,3 +184,9 @@ how to publish
 
 The map/region name looks retarded when selecting the custom scenario,
   but it will look better when you publish your mod.
+
+
+https://drive.google.com/drive/u/1/my-drive
+https://drive.google.com/file/d/1x_CtAODJ8bd9d5wilTKIZIziYaE8C-JM/view?usp=sharing
+
+https://snowrunner.mod.io/guides/big-book-of-snowrunner-map-making/edit
