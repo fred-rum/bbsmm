@@ -99,20 +99,6 @@ all flavors of saddle_low cannot be locked in the garage, and it cannot have a p
 permission denied while packing:
   exit the map in the game
 
-are the various regular zone IDs implicitly on the same map as the primary?
-  or can they be on any map, but the global zone ID is needed only so that
-  the navigation map can highlight the primary zone?
-
-what happens to spawned cargo when the player leaves the map?
-
-If the same destination zone is used for multiple goals, they share UI Desc:
-  truck delivery - yes
-  cargo delivery - yes
-  others - TBD
-
-what axes does the "Rotation" property group use?
-  X ain't X, that's for sure
-
 recover to garage:
   UI_HUD_RECOVERY_NO_ID_IN_EDITOR
   where should a name be set?
@@ -127,16 +113,9 @@ troubleshooting:
       invalid zone ID in objective
     but doesn't catch all errors
 
-do UIDs of different types need to be different?
-
 redocument behavior of slow asset dialogs
 
 in cargo reference, list the number of individual logs per load
-
-model in Editor is superset of all appearances
-
-static shadows are from finished model
-  they're replaced with dynamic shadows as you get closer
 
 figure out what can be changed in a mod that people are already playing
   are changes incorporated into an existing game at all?
@@ -158,14 +137,6 @@ figure out what can be changed in a mod that people are already playing
   add, change, or remove stages from objective
   are updates at mod.io automatically downloaded and used?
 
-living area goal type is broken?
-  or do I just not know how to set it up?
-
-As part of "publish":
-  map's *.pak file includes files that look relevant, but aren't
-    e.g. all images in ui/textures
-
-
 what happens when you continue a game where the map has changed
   trucks are at their moved positions?
   revealed map is as saved?
@@ -176,6 +147,10 @@ what happens when you continue a game where the map has changed
       truck falls
       does it get stuck in terrain?
     what if model on top of truck?
+
+living area goal type is broken?
+  or do I just not know how to set it up?
+
 
 editor also has recurring bugs that I can't diagnose the source of.
   these aren't documented.
@@ -218,16 +193,18 @@ ruler
 rivers
   (Water)
   (WaterMud)
-  *river markup
+  river markup
 (Wetness)
-*breakable ice
+breakable ice
 sounds & sound domains
 references
-
-test and document river markup
-
-test and document use of breakable ice
 
 how to publish
   put it in a "conclusion" book part (or "wrap up")
   move the "details of the map editor window" in there as well
+  map's *.pak file includes files that look relevant, but aren't
+    e.g. all images in ui/textures
+
+
+The map/region name looks retarded when selecting the custom scenario,
+  but it will look better when you publish your mod.
