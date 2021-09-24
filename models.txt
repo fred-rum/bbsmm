@@ -1,0 +1,1887 @@
+decal = one-sided; static
+board = floating sign; static
+R = Russian writing or iconography
+E = English writing or US/Canadian iconography
+
+
+themed English sign groups:
+  banner_city_pub_01: The Irish Pub - established 1824 (floating)
+  banner_city_pub_02: The Irish Pub - established 1824 (floating)
+  banner_city_pub_03: (irish flag) - (US flag) - (shamrock) (sidewalk sign)
+  banner_city_pub_03: (irish flag) - (US flag) - (shamrock) (one-sided)
+
+  banner_factory_03: Stoltman (fixed)
+  banner_factory_04: Stoltman (floating)
+  banner_factory_05: Stoltman (one-sided; curved for smokestack)
+  banner_factory_06: loading area (floating)
+  banner_factory_07: storage (floating)
+
+  banner_dam_01: Elizabeth Dam (fixed)
+  banner_dam_02: Danger - water subject to sudden rise - Elizabeth Dam (fixed)
+  banner_dam_06: Elizabeth Dam (one-sided)
+
+  banner_city_06: books store (floating)
+  banner_city_07: sale (one-sided)
+  banner_city_08: 50% (one-sided)
+
+  banner_city_11: Uncle Andrio Pizza (floating)
+  banner_city_12: (blank) (floating)
+  banner_city_19: Uncle Andrio Pizza (one-sided)
+
+  banner_city_13: Country Store - Saber (floating)
+  banner_city_14: best price - best quality (floating)
+
+  banner_city_hotel_01: P.B. Grand Hotel - since 1875 (floating)
+  banner_city_hotel_02: Grand Hotel 24 Hours (floating)
+  banner_city_hotel_03: since 1875 (one-sided)
+
+  banner_city_jimmy_01: Jimmy LK - lumber seller (floating)
+  banner_city_jimmy_02: Jimmy LK - 24open (floating)
+  banner_city_jimmy_03: office (floating)
+
+  banner_city_kenvolt_01: Kenvolt Service (floating)
+  banner_city_kenvolt_02: free brake check up (floating)
+  banner_city_kenvolt_03: office (floating)
+  banner_city_kenvolt_04: car wash (floating)
+
+  banner_farm_02: Mathew and Sons - american farm - since 1978
+  banner_farm_03: USA (one-sided - curved for silo)
+  banner_farm_04: farm store (one-sided)
+  banner_farm_06: Matthew's Farm (one-sided)
+  banner_farm_09: milk (one-sided)
+  banner_farm_11: (US flag) (one-sided - curved for barn roof?)
+  banner_farm_12: (bull head) (one-sided)
+  banner_farm_14: Matthew & Sons (one-sided)
+
+  banner_felton_01: Folton Drilling Company (dynamic)
+
+  banner_lumber_01: lumber mill - Bushstog (floating)
+  banner_lumber_02: Bushstog Lumber Mill - since 1875 (fixed)
+  banner_city_hotel_03: since 1875 (one-sided)
+
+  banner_motel_01: Holtlen Motel - vacancy (fixed)
+
+  factory_01: Wolfgrip - USA
+  factory_02: Wolfgrip
+  factory_03: Wolfgrip
+  banner_servicehub_02: Wolfgrip (fixed)
+  banner_servicehub_03: Wolfgrip (floating)
+
+  banner_warehouse_01: MH Warehouse (fixed)
+  banner_warehouse_04: MH Warehouse (one-sided)
+
+  banner_warehouse_02: Sheldbox Warehouse (fixed)
+  banner_warehouse_03: Sheldbox Warehouse (one-sided)
+
+  ca_banner_machine_yard_01: Clarke's Machine Yard (one-sided - curved for ?)
+  ca_banner_machine_yard_02: Clarke's Machine Yard (one-sided)
+  ca_banner_machine_yard_03: Clarke's Machine Yard (floating)
+  ca_banner_machine_yard_06: Clarke's (floating)
+  ca_banner_machine_yard_04: machine yard (floating)
+  ca_banner_machine_yard_05: Clarke's Machine Yard (fixed)
+  ca_banner_machine_yard_07: 1 - 2 - 3
+  ca_banner_machine_yard_08a: MA (floating)
+  ca_banner_machine_yard_08b: CHI (floating)
+  ca_banner_machine_yard_08c: NE (floating)
+  ca_banner_machine_yard_08d: YA (floating)
+  ca_banner_machine_yard_08e: RD (floating)
+
+  ca_banner_radge_mix_cement_01: Ridge Mix Cement (two-sided - curved for ?)
+  ca_banner_radge_mix_cement_02: Ridge Mix Cement (omni-sided - curved for ?)
+  ca_banner_radge_mix_cement_03: Ridge Mix Cement (floating)
+  ca_banner_radge_mix_cement_04: Ridge Mix Cement (floating) (for smokestack?)
+  ca_banner_radge_mix_cement_05: Ridge Mix Cement (floating)
+  ca_banner_radge_mix_cement_06: (blank) (floating)
+  ca_banner_radge_mix_cement_07: Ridge Mix Cement (floating)
+  ca_banner_radge_mix_cement_08: Ridge Mix Cement (fixed)
+
+  ca_banner_yukon_iron_works_01: YK (two-sided - curved for smokestack?)
+  ca_banner_yukon_iron_works_03: Yukon Ironworks (fixed)
+  ca_banner_yukon_iron_works_04: Yukon Ironworks (two-sided - curved for smokestack)
+  ca_banner_yukon_iron_works_05: Yukon Ironworks (fixed)
+
+  decal_greenlake_01: Greenlake Paper & Packaging (one-sided)
+  decal_greenlake_02: Greenlake Paper & Packaging (one-sided)
+
+fixed signs - no text
+  banner_factory_01: (blank)
+  banner_farm_01: (blank)
+
+fixed English signs
+  banner churh_01: Baptist Church - God has answers (includes URL for Saber)
+  banner_city_20: Washington High School
+  banner_city_warehouse_01: municipal warehouse
+  banner_city_warehouse_02: city central
+  banner_city_warehouse_03: welcome/goodbye - have a nice day
+  banner_factory_08a: danger - hard hat area
+  banner_garage_logo_01: truck services
+
+dynamic English signs
+  ad_parking: hotel parking only
+  ad_recycled: recycled water; do not drink
+  banner_city_16: 50% off - super price
+  banner_lumber_05: loading
+
+floating signs - no text
+  ca_banner_radge_mix_cement_06: (blank) (floating)
+
+floating English signs
+  banner_city_01: Voltov Motor - 1967
+  banner_city_02: Saberola (drink)
+  banner_city_03: auto parts - tires - tuning
+  banner_city_04: office
+  banner_city_05: Saberola
+  banner_city_10: Invers Bank
+  banner_city_12: (blank)
+  banner_city_15: cold beer - always fresh
+  banner_city_17: main entrance
+  banner_city_22: food mart
+  banner_city_hotel_04: coffee - cafe & shop
+  banner_city_hotel_06: kanford bakery
+  banner_city_hotel_07: bowling & bar
+  banner_city_jimmy_03: office (floating)
+  banner_city_kenvolt_02: free brake check up
+  banner_city_kenvolt_03: office
+  banner_city_kenvolt_04: car wash
+  banner_dam_03: no pedestrians beyond this point
+  banner_dam_04: personnel only
+  banner_factory_06: loading area
+  banner_factory_07: storage
+  banner_lumber_03: storage (floating)
+  banner_servicehub_03: loading area (floating)
+  ca_banner_machine_yard_04: machine yard (floating)
+  ca_banner_machine_yard_07: 1 - 2 - 3 (floating)
+  ca_banner_machine_yard_08a: MA (floating)
+  ca_banner_machine_yard_08b: CHI (floating)
+  ca_banner_machine_yard_08c: NE (floating)
+  ca_banner_machine_yard_08d: YA (floating)
+  ca_banner_machine_yard_08e: RD (floating)
+
+one-sided signs - no text:
+  ca_banner_yukon_iron_works_02: (curved for furnace?)
+
+one-sided signs English signs (invisible from back):
+  banner_city_09: since 1870
+  banner_city_16: 50% off - super price
+  banner_city_21: 24H hamburgers & hot dogs
+  banner_city_23: open
+  banner_city_hotel_03: since 1875
+  banner_city_hotel_05: coffee shop
+  banner_city_hotel_08: Killdanny American Cream Ale
+  banner_city_jimmy_04: warehouse sale
+  banner_city_kenvolt_05: no trucks allowed
+  banner_city_kenvolt_06: open 24 hours
+  banner_city_pub_04: Parp Premium Lager
+  banner_dam_05: cash only
+  banner_dam_07: US flag
+  banner_factory_08: danger - hard hat area
+  banner_farm_03: USA (curved for silo)
+  banner_farm_04: farm store (one-sided)
+  banner_farm_05: Green Valley - founded in 1800
+  banner_farm_07: ECO Purified Water
+  banner_farm_08: (US flag) (one-sided)
+  banner_farm_09: milk (one-sided)
+  banner_farm_11: (US flag) (one-sided - curved for barn roof?)
+  banner_farm_12: (bull head) (one-sided)
+  banner_farm_13: best in USA (one-sided)
+  banner_garage_01: 16'-6"
+  banner_garage_02: G1
+  banner_garage_03: G2
+  banner_garage_04: G3
+  banner_garage_05: G4
+  banner_garage_06: G5
+  banner_garage_07: oil (one-sided - curved for ?)
+  banner_garage_08: oil (two-sided - curved for propane tank?)
+  banner_lumber_04: wood waste (one-sided)
+  banner_lumber_06: office (one-sided)
+  banner_lumber_07: FLKS (one-sided)
+  banner_lumber_08: (no smoking) (one-sided)
+  banner_servicehub_05: entry (one-sided)
+  banner_servicehub_06: do not enter (one-sided)
+  banner_servicehub_07: work hours - 6 am-10 pm (one-sided)
+  banner_warehouse_07: work hours - 6 am-10 pm (one-sided)
+  banner_servicehub_08: storage 2 - 8'-3" - (hard hat) (one-sided)
+  banner_servicehub_09: storage 3 - 8'-3" - (hard hat) (one-sided)
+  banner_warehouse_05: parking for employees only (one-sided)
+  banner_warehouse_06: strictly no parking in this area (one-sided)
+  banner_warehouse_blue_01: 1 (one-sided)
+  banner_warehouse_blue_02: 2 (one-sided)
+  banner_warehouse_blue_03: 3 (one-sided)
+  banner_warehouse_green_01: 1 (one-sided)
+  banner_warehouse_green_02: 2 (one-sided)
+  banner_warehouse_green_03: 3 (one-sided)
+  banner_warehouse_green_05: 5 (one-sided)
+
+English graffiti (one-sided)
+  graffiti_01
+  graffiti_01_02
+  graffiti_01_05
+  graffiti_01_06
+  graffiti_02_02
+  graffiti_02_03
+  graffiti_02_05
+  graffiti_03_01
+  graffiti_03_02
+  graffiti_r_01_03 - curved for ?
+  graffiti_r_01_04 - curved for ?
+  graffiti_r_02 - curved for ?
+  graffiti_r_02_04 - curved for ?
+
+Russian fixed signs
+  road_sign_garbage_stop - "dumping of garbage prohibited"
+  road_sign_ru_05_antonovka - "Antonovka Village"
+  road_sign_ru_05_antonovka_off - "Antonovka Village"
+  road_sign_ru_05_poddonskoe - "Poddonskoe Village"
+  road_sign_ru_05_poddonskoe_off - "Poddonskoe Village"
+
+container
+  container
+  container_01
+  container_20ft_01
+  container_8ft_01
+
+liquid tank
+  container_03: (Russian) "fire danger"
+  container_03_objective: (Russian) "fire danger"
+  fuel_tank: (Russian) "fire danger"
+  gas_stations_rus_03: (Russian) "fire danger"
+  gas_stations_rus_04: (Russian) "fire danger"
+  oil_tank_rus_01 - elevated tank
+  oil_tank_rus_01_no_snow - elevated tank
+  tank_01
+  tank_02
+
+  container_04: (English) "trailers only"
+  container_05: (English) "trailers only"
+  container_06: (English) "trailers only"
+  oil_tank_01: (English) "crude oil"
+
+  rus_tank_01: (Russian) "fire danger"
+  rus_tank_02: (Russian)
+  rus_tank_03: (Russian) small trailer on blocks
+  rus_tank_04: (Russian) small rusted trailer
+  rus_tank_05: (Russian) "kvass" - small trailer
+  rus_tank_06: (Russian) "milk" - medium trailer
+
+English container and container company decals
+  banner_conteyners_01: Bergin Inc. (one-sided)
+  banner_conteyners_02: DS Trans Corp. (one-sided)
+  banner_conteyners_03: DS Trans Corp. (one-sided)
+  banner_conteyners_04: DS Trans Corp. - very heavy (four-sided)
+  banner_conteyners_05: DS Trans Corp. - very heavy (four-sided)
+  banner_conteyners_06: Bergin Inc. - very heavy (four-sided)
+
+fixed Russian signs
+  antonovskie petroglif: interpretive sign for Antonovsky Petroglyphs
+
+oil drilling and derricks
+  abadonned_oil_derrek_01
+  abadonned_oil_derrek_01_objective
+  oil_derrek_01_objective
+  oil_pump_01
+  oil_pump_02 - folded for storage
+  rus_drilling_rig_01_objective
+  rus_drilling_rig_02_objective
+  rus_drilling_rig_03_objective
+
+towers
+  antena
+  antena_broken
+  meteo_station_us_01
+  radio_station_rus_objective
+  red_nav_light_01
+  rus_antena_07
+  rus_antena_07_inst
+  rus_antena_07_blue
+  rus_broken_pumptower_01_objective
+  rus_broken_pumptower_02_objective
+  rus_controlbunker_tower_01 - guard tower
+  rus_jail_tower - old guard tower
+  rus_jail_tower_02 - old guard tower
+  rus_jail_tower_01 - old guard tower
+  rus_watchtower - watch/guard tower
+  rus_watchtower_01 - watch tower
+  rus_pandus_01 - low observation post
+  rus_pandus_01_02 - low observation post
+  rus_high_tower_01
+  rus_high_tower_01_02
+  rus_high_tower_01_objective
+  rus_high_tower_space_hanger_02
+  rus_mine_lift_01
+  rus_pumptower_01
+
+cranes
+  crane_01 - on rails
+  crane_big_01 - on rails
+  crane_seaport_usa_01 - on rails
+  rus_crane_01
+  rus_crane_01_inst
+  
+commercial structures
+  airfield_building_rus_01
+  barn_round_01
+  barn_round_rus_01
+  barn_round_rus_02
+  garage01
+  garage_02 - interior only
+  garage_mill_red - interior only
+  garage_mill_white
+  garage_mill_white_a
+  garage_rus_02
+  garage_rus_02a
+  garage_rus_03
+  motels_03 (English)
+  motels_04 (English)
+  motels_05 (English)
+  motels_06 (English)
+  rus_windmill
+  shop_rus_01 - (R) "shop"
+
+small buildings
+  anim_rus_garage_07
+  barn_03
+  barn_03_a
+  barn_03_old
+
+temporary living quarters
+  anim_rus_garage_07
+  caravan_01
+  caravan_02
+  observatory_2
+  rus_exfactory_rocket_07
+  service_cabin_rus_01
+  service_cabin_rus_nolight_01
+  service_cabin_rus_02 - (R) "cashier"
+  service_cabin_rus_02a
+  service_cabin_rus_03
+  service_cabin_rus_04
+  service_cabin_rus_06
+  tent_01
+  tent_02
+
+Russian military structures
+  blockpost_abandoned_rus_02
+  bunker_01
+  bunker_02
+  bunker_03
+  bunker_04
+  bunker_05
+  bunker_06
+  bunker_07
+  bunker_08
+  bunker_09
+  rus_controlbunker_01 - R "guard post"
+  rus_controlbunker_02_1_part_objectives - with building and power lines everywhere
+  rus_controlbunker_02_2_part_objectives - helicopter pad with helicopter
+  rus_controlbunker_02_3_part_objectives
+  rus_controlbunker_02_4_part_objectives
+  rus_controlbunker_tower_01 - guard tower
+  rus_gun_01
+  rus_missile_system_building_01 - large mostly windowless building with radome on top
+  rus_missile_system_building_02 - smaller mostly windowless building with radome on top
+  rus_missile_system_building_03 - "the people and army are one" - mostly windowless building
+  rus_missile_system_rocket_2
+  rus_radiolocator_02
+
+military scenery
+  tank_barrier_01 - hedgehog vehicle barrier
+  tank_barrier_02 - dragon's tooth vehicle barrier
+
+open structures
+  barn_01
+  barn_02
+  barn_open_01
+  barn_open_01_old
+  cargo_platform_wide
+  rus_barn_01
+  rus_barn_01_02
+  rus_busstop_01
+  rus_busstop_01_02
+  rus_canopy_01
+  rus_canopy_01_inst
+  rus_canopy_02
+  rus_city_building_09 - open kiosks
+  rus_city_building_10
+  rus_city_building_10_01
+  rus_city_building_10_02
+  rus_city_building_10_02_inst
+  rus_factory_storage_02
+  rus_factory_storage_03
+  rus_factory_storage_03_inst
+  rus_shelter_01
+  rus_shelter_02
+  rus_shelter_03
+  storage_rus_02_02
+  tent_02
+
+loading areas
+  cargo_platform_us_01
+  cargo_platform_us_01a
+  cargo_platform_us_01_b
+  cargo_platform_us_02
+  rus_cargo_platform_01
+  rus_cargo_platform_02
+  rus_platform_01
+
+building accessories
+  air_conditioner_01 - window unit
+  air_conditioner_02 - wall unit
+  air_conditioner_03 - stand alone
+  antenna_01 - satellite dish
+  caravan_01a_short - awning
+  camera_01 - security camera
+  surveillance_camera_01
+  extinguisher_pbr_test (English)
+  fire_stand_rus_01 - (Russian) "fire shield - sand"
+  fusebox_01_02
+  fusebox_02
+  fusebox_03 (English)
+  fusebox_04
+  fusebox_05 (English)
+  fusebox_06
+  fusebox_07
+  fusebox_08
+  fusebox_09 (English)
+  radiolocator_01 - radar
+  rus_radar_01_anim
+  red_nav_light_01
+  rus_antenna_01 - yagi antenna
+  rus_balcony_ru04_01
+  rus_balcony_ru04_02
+
+english industrial structures
+  factory_bricks_01: (warning signs on back)
+  factory_main_01: (warning signs on back)
+  paper_factory01_stage_0
+  paper_factory01_objective - "Greenlake Paper & Packaging"
+  paper_factory02_stage_0
+  paper_factory02_objective - "Paper & Packaging"
+  paper_factory03_stage_0 (English)
+  paper_factory03_objective - "Greenlake Paper & Packaging"
+  paper_factory04_stage_0 (English)
+  paper_factory04_objective
+  paper_factory05_stage_0
+  paper_factory05_objective - "Greenlake Paper & Packaging"
+  paper_factory06_stage_0
+  paper_factory06_objective
+
+industrial structures
+  rus_exfactory_rocket_01
+  rus_exfactory_rocket_02
+  rus_exfactory_rocket_03
+  rus_exfactory_rocket_04
+  rus_exfactory_rocket_05
+  rus_exfactory_rocket_06
+  rus_exfactory_rocket_07
+  rus_exfactory_rocket_08
+  rus_factory_01
+  rus_factory_02
+  rus_factory_03
+  rus_factory_04
+  rus_factory_04_02
+  rus_factory_05
+  rus_factory_06
+  rus_factory_07
+  rus_factory_08
+  rus_factory_10
+  rus_factory_05_chimney
+  rus_factory_06_chimney
+  rus_factory_07_chimney
+  rus_factory_craft_01
+  rus_factory_craft_02
+  rus_factory_craft_03
+  rus_factory_craft_04
+  rus_factory_rocket_01
+  rus_factory_rocket_02
+  rus_factory_rocket_03
+  rus_factory_rocket_04
+  rus_factory_rocket_05
+  rus_factory_rocket_06
+  rus_factory_rocket_01_01_objective
+  rus_factory_storage_01
+  rus_factory_storage_02
+  rus_factory_storage_02_02
+  rus_factory_storage_03
+  rus_factory_storage_03_inst
+
+  rus_fuel_factory_03_01 - boiler
+  rus_fuel_factory_03_objective
+  rus_fuel_factory_04_objective
+  rus_fuel_factory_05_objective
+  rus_fuel_factory_05_stage_0
+  rus_fuel_factory_06
+  rus_fuel_factory_07
+  rus_fuel_factory_08
+  rus_fuel_factory_09
+  rus_fuel_factory_10
+  rus_fuel_factory_11
+  rus_fuel_factory_12
+  rus_fuel_factory_13
+  rus_fuel_factory_pipe_07
+  rus_fuel_factory_pipe_08
+  rus_fuel_storage_can_01 - large petroleum tank
+  rus_fuel_storage_pipe_01
+
+  silo_strc
+
+  rus_steamshop_01
+  rus_steamshop_02
+
+  tatra_admin - (R) "administration"
+  tatra_facility_objective - (R) "assembly shop"
+  tatra_station
+  tatra_steamshop
+  tatra_znak - "tatra" (fixed sign)
+  tatra_checkpoint - "tatra"
+
+  us_3part_factory_1_part_objective
+  us_3part_factory_2_part_objective
+  us_3part_factory_3_part_objective
+
+industrial scenery
+  rus_firesand_01 - closed angled box
+  rus_fireshield_01 - (E) firefighting equipment
+
+english commercial structures
+  churh_01
+  city_building_04: welcome to grand hotel
+  city_building_06
+  city_building_07
+  city_building_08: (warning signs on back)
+  city_building_09: (warning signs on back)
+  city_building_10: (warning signs on back)
+  city_building_11: (warning signs on back)
+  city_building_12
+  city_building_13
+  city_building_3f_01: "warehouse"
+  generation_point_01
+  port_us_01 - (warning signs in Dutch)
+  port_us_02 - (English)
+
+  garage_p2 - (English) truck services
+
+  gas_stations_02 - G - Greshell Gas Company - car service - food mart (fixed)
+  gas_stations_03: G - steel river - gas (fixed)
+  gas_stations_04: G - Greshell Gas Company - food mart (fixed)
+  banner_gas_station_01: G - best in america - (gas prices) - food mart - car service (fixed)
+  banner_city_21: 24H hamburgers & hot dogs (one-sided)
+  banner_city_22: food mart (floating)
+  banner_city_23: open (one-sided)
+
+russian commercial structures
+  cafe_rus_01 - cafe
+  church_rus_01
+  church_rus_02
+  rus_bell_tower_01
+  rus_monastic_cell_01
+  city_building_rus_02
+  city_building_rus_03
+  city_building_rus_04: shop
+  city_building_rus_05
+  city_building_rus_06: (hammer and sickle)
+  rus_base_01_building_objective
+  rus_base_02_building_objective - loading dock
+  rus_city_building_04 - "Beans Minimarket - fruits / vegetables"
+  rus_city_building_05 - "grocery store"
+  rus_city_building_06 - "pharmacy 24"
+  rus_city_building_07 - secure kiosk
+  rus_city_building_08 - secure kiosk - "beer - water"
+  rus_city_building_09 - open kiosks
+  rus_city_building_12 - open kiosks - "news - repair - co-op"
+  rus_city_building_11 - "products for astronauts"
+  rus_city_building_14 - open kiosk - "instruments - rocket parts"
+  rus_city_cafe_01 - "snack bar"
+  rus_city_cafe_01 - "barbecue"
+
+  gas_stations_building_rus_02 - gas station - cashier - air
+  gas_stations_building_rus_abandoned_02 - gas station - cashier - air
+  gas_stations_rus_03
+
+  gas_stations_awning_rus_01 - no gas pumps
+  gas_stations_awning_rus_02 - with gas pumps
+  gas_stations_awning_rus_abandoned_02 - with gas pumps
+
+russian ghost city structures
+  ghostcity_DK - "house of culture"
+  ghostcity_building
+  ghostcity_building_02
+  ghostcity_building_03
+  ghostcity_building_04
+  ghostcity_building_05
+  ghostcity_building_06
+  ghostcity_building_07
+  ghostcity_building_09
+  ghostcity_debris_01_objective
+  ghostcity_fountain
+  ghostcity_junk_01
+  ghostcity_junk_02
+  ghostcity_playground - multiple items
+  ghostcity_playground_01 - merry-go-round
+  ghostcity_playground_02 - swing
+  ghostcity_playground_03 - seesaw
+  ghostcity_playground_04 - monkey bars
+  ghostcity_playground_05 - pull-up bars
+  ghostcity_playground_06 - shelter
+  ghostcity_playground_07 - rocket slide
+  ghostcity_stall - "newspapers magazines"
+  ghostcity_univermag - "store"
+
+buildings under construction
+  constr_brick_01_objective
+  constr_metal_01_objective
+  constr_wood_01_objective
+  rus_constr_bricks_01_objective
+
+road accessories
+  asphalt_border_01 - curved curb
+  asphalt_border_02 - short curb
+  parking_stop_01 - low pipe
+  rus_pipe_limiter_01 - low pipe
+  lattice_01
+  lattice_02
+  lattice_03 - (English) underground service access
+  lattice_04 - manhole
+  road_blocker_01 (destr)
+  road_cone_01 (dyn)
+  road_marking_01 - white stripe
+  road_marking_01yel - yellow stripe
+  road_marking_02 - long white stripe
+  road_marking_02yel - long yellow stripe
+  road_marking_03 - short white stripe
+  road_marking_03yel - short yellow stripe
+  road_marking_04 - thin white stripe
+  road_marking_05 - crosswalk
+  road_marking_06 - "stop"
+  road_marking_07 - yield
+  road_marking_08 - "1" in blue square, e.g. bay number
+  road_marking_08a - "2" in blue square, e.g. bay number
+  road_marking_08b - "3" in blue square, e.g. bay number
+  road_marking_09 - thin arrow
+  road_marking_10 - prohibited lane
+  road_marking_11 - end of prohibited lane
+  road_marking_nosn_10 - prohibited lane (no snow)
+  road_marking_nosn_11 - end of prohibited lane (no snow)
+
+dynamic supplies
+  bag_cement_01
+  can_01 - fuel can
+  can_02 - propane tank
+  can_03 - welding tank
+
+furniture
+  bench_01 (dynamic)
+  rus_bench_01 (destr)
+  chair_01 (dynamic)
+  rus_furniture_armchair_01
+  rus_furniture_armchair_02
+  rus_furniture_cupboard_01
+  rus_furniture_cupboard_02
+  rus_furniture_fridge_01
+  rus_furniture_fridge_02
+  rus_furniture_piano_01
+  rus_furniture_piano_02
+  rus_furniture_sofa_01
+  rus_furniture_sofa_02
+  rus_furniture_table_01
+  rus_table_01
+  table_benches_01
+  table_01
+
+commercial scenery
+  firehydrant_01_usa - "open" (static)
+  garbage_box_big_01 - dumpster (static)
+  trash_can_rus_01 - dumpster
+  meteo_station_device_01
+  meteo_station_device_02
+  meteo_station_device_02_02
+  meteo_station_device_03
+  parasol_01
+  rus_hose_01
+  rus_hose_01_no_snow
+  portable_toilet_01_lr
+  rus_biowc_01 - portable toilet
+  rus_estocada_01 - car lift ramp
+  rus_estocada_01_inst - car lift ramp
+  rus_estocada_02 - car lift ramp
+  rus_fence_08 - information board
+  rus_fence_08_02 - information board
+  rus_fence_08_red - information board
+  rus_fence_08_blue - information board
+  rus_scaffold_01
+  rus_trash_can_01
+  rus_trash_can_02
+
+  barrel_01: 5 barrels (static, 1/2 scale)
+  barrel_02 (dynamic, 1/2 scale)
+  barrel_03 (dynamic)
+  barrel_04 (dynamic)
+  barrel_05 (dynamic)
+  barrel_06 (dynamic)
+  big_pipes (static)
+  blockbrick_01 (static)
+  box_01 (dynamic)
+  rus_box_01 - open top (destr)
+  rus_box_02 - crate (Russian) (static)
+  rus_box_02_02 - crate (Russian) (static)
+  rus_box_02_03 - crate (Russian) (static)
+  rus_box_02_04 - crate (Russian) (static)
+  rus_box_03 - crate (static)
+  rus_box_04 - crate - (Russian) "Radium 226 - dangerous cargo" - includes floating decals for 2nd box "Strontium" (static)
+  rus_box_05 - crate - (Russian) "Strontium - dangerous cargo" (static)
+  rus_woodenbox_01 - crates
+  rus_woodenbox_02 - crates
+  rus_woodenbox_03 - crates
+  rus_woodenbox_04 - crates
+  rus_woodenbox_05 - crates
+  rus_woodenbox_06 - crates
+  cellulose_pallet_01 (static)
+  cellulose_pallet_02 (static)
+  concrete_blocks (destr)
+  metal_cargo_01 - sheet roll (static)
+  metal_cargo_01_no_snow - sheet roll (static)
+  metal_cargo_02 - sheet roll (static)
+  metals_01a - beams(static)
+  metals_02 - corrugated sheets
+  pallet_01 - "plaster"
+  pipe_01
+  pipe_01_set
+  pipe_02
+  pipe_03
+  pipe_03_set
+  rus_concrete_beam_01 - R
+  rus_concrete_tube_01
+  rus_packed_cargo_01 - rusted metal beams
+  rus_packed_cargo_02 - steel I beams
+  rus_packed_cargo_03 - air vent sections
+  rus_spool
+  spool
+  tank_lr_01
+  tank_lr_01_no_snow
+  tentbox_01 - cargo covered by tarp
+
+bulk pile
+  coal_01
+  debris_01
+  debris_02
+  debris_02_inst
+  ghostcity_debris_01_objective
+  garbage_heap_01 - big pile of bagged garbage
+  ruins_01
+  ruins_01_inst
+  ruins_objective
+  rus_dump_junk_01
+  rus_dump_junk_02
+  rus_dump_junk_03
+  rus_metaljunk_01 - pile of tractor
+  rus_metaljunk_02
+  rus_metaljunk_03
+  rus_metaljunk_04
+  rus_boards_01
+  small_pipes
+
+residential scenery
+  basketball_hoop_01 (static)
+  bbq_01 (dynamic)
+  bbq_02 (dynamic)
+  flowerbed_01 (static)
+  flowerbed_02 (static)
+  garden_bucket_01 (dynamic)
+  rus_pail_01
+  rus_seedbed_01
+  rus_seedbed_01_02
+  parasol_01
+  rus_hose_01
+  rus_hose_01_no_snow
+  boat_01 (dynamic)
+  boat_tansport_01 (dynamic)
+  rus_boat_01 (dynamic)
+  rus_boat_01_01 - rowboat (static)
+  rus_boat_01_02 - rowboat (static)
+  rus_boat_01_04 - rowboat (static)
+  rus_boat_01_03 - sailboat (static)
+  rus_boat_01_05 - sailboat (static)
+  rus_boat_01_06 - sailboat (static)
+  rus_boat_garage_01 - boathouse
+  rus_boat_garage_01_inst - boathouse
+  rus_boat_garage_02 - long boathouse
+  rus_boat_garage_03 - old boathouse
+  rus_boat_garage_03_inst - old boathouse
+  rus_cart_02 - wheelbarrow
+  rus_rags_01 - clothesline with clothes
+  rus_rags_02 - clothesline without clothes
+  sign_for_sale - (E) "home for sale"
+  sign_residential_area - "residential quiet zone - please be respectful"
+  slide_01
+  trampoline_01
+
+small garage
+  rus_garage_metall_01 (no landmark)
+  rus_garage_metall_01_02 (with landmark)
+  rus_garage_metall_02
+  rus_garage_metall_04
+  rus_garage_metall_04_02 (with landmark)
+  rus_garage_metall_05
+  rus_garage_metall_05_inst
+  rus_garage_metall_06
+  rus_garage_metall_06_inst
+  rus_garage_metall_07
+  rus_shed_02
+
+large garage/warehouse
+  rus_garage_01 (no landmark)
+  rus_garage_01_02 (with landmark)
+  rus_garage_04
+  rus_garage_04a
+  rus_garage_05
+  rus_garage_05a
+  rus_garage_08
+  rus_garage_metall_03
+  rus_storehouse_01
+  rus_storehouse_02
+  rus_storehouse_03
+  storage_rus_02_02
+  tatra_utility_01
+  tatra_utility_02
+  tatra_utility_03
+  tatra_warehouse_objective
+  trailer_storage
+
+barrier
+  barrier_01 - closed
+  barrier_01a - open
+  barrier_01_objective
+  crossing_rus_01 - open
+  concrete_block_02
+  concrete_block_03
+  concrete_block_03_objective
+  concrete_block_04
+  concrete_block_08
+  kpp_gate_barrier_rus - (destr)
+  kpp_gate_rus - (hammer & sickle) (destr)
+
+foundation/slab
+  concrete_block_01 (static)
+  concrete_block_06
+  concrete_block_07
+  concrete_block_07_without_damage
+  concrete_block_09 (Russian)
+  concrete_block_10
+  concrete_block_10_inst
+  concrete_sidewalk_long_01
+  concrete_sidewalk_long_cracked_01
+  concrete_sidewalk_long_02
+  concrete_sidewalk_long_cracked_02
+  concrete_sidewalk_short_01
+  concrete_sidewalk_short_cracked_01
+  rus_slab_01
+  rus_slab_02
+  rus_slab_02_01
+  rus_slab_03
+  rus_slab_04
+
+pier
+  port_pirs_01 - large concrete pier
+  pirs_small_01 - personal wooden pier
+  concrete_block_05 - concrete foundation and mooring block
+  knecht - mooring block
+  rus_pier
+  rus_pier_01_objective
+  rus_pier_02_objective
+
+sea buildings
+  lighthouse_01
+  lighthouse_02
+
+animals
+  bear_01
+  birds_flying_01
+  birds_sea_01
+  buterfly_flying_01
+  cat_01
+  fish_man1 - fisherman in rowboat, can only be seen at a distance
+  fish_man_notshy - fisherman in rowboat, can be seen much closer
+  hunter_01
+  mushroomer_01
+  tiger_01
+
+road bridge
+  bridge_road_01
+  bridge_road_01_a
+  bridge_road_01_a_objective
+  bridge_road_01_b
+  bridge_road_01_b_half
+  bridge_road_01_b_objective
+  bridge_road_01_c
+  bridge_road_01_sn
+  bridge_road_01_sn_objective
+  bridge_road_01_sn_trial0301
+  rus_bridge_road_001_objective
+  rus_bridge_road_01
+  rus_bridge_road_01_a
+  rus_bridge_road_01_b
+  rus_bridge_road_01_b_objective
+  rus_bridge_road_01_objective
+  rus_bridge_road_01snow_objective
+  rus_bridge_road_02a
+  rus_bridge_road_08_short_sn
+  rus_bridge_road_08_long_sn
+
+road bridge/ramp
+  rus_polygon_road_01
+  rus_polygon_road_02
+
+bridge and other support (for extra height)
+  bridge_road_01_support
+  bridge_road_01_sn_support
+  metal_bridge_big_01_support
+  piling_01 - metal
+  piling_02 - crude logs
+  piling_03 - metal
+  pipe_support
+  pole_banner_01 (destr)
+  rus_bridge_road_07_base
+  rus_bridge_road_07_middle
+  rus_bridge_road_07_upper
+
+other road structures
+  rus_bridge_road_big_base
+  sign_triangle_unevenness - low ground clearance
+  rus_bridge_road_island_base
+  rus_tunnel_01
+  rus_tunnel_01_02
+  tunnel_01
+  tunnel_02
+  tunnel_03
+  sign_tunnel - tunnel
+  snow_patch_02
+  trafficlight_01
+
+primitive bridge
+  bridge_logs_01_objective
+  bridge_wooden
+  bridge_wooden_02
+  bridge_wooden_big_01
+  bridge_wooden_big_01_02
+  bridge_wooden_big_02
+  bridge_wooden_big_02_objective
+  rus_glg_bridge_03
+  rus_glg_bridge_04
+  rus_glg_bridge_01
+  rus_glg_bridge_02
+  rus_glg_bridge_05
+
+broken bridge
+  rus_bridge_broken_01
+  rus_bridge_broken_02
+  rus_bridge_broken_04b
+  rus_bridge_broken_04
+  rus_bridge_broken_011a
+  rus_bridge_broken_01a
+  rus_bridge_broken_02a
+  rus_bridge_broken_03a
+  rus_bridge_broken_04a
+  rus_bridge_broken_02b
+  rus_bridge_broken_03b
+  rus_bridge_broken_04c
+  rus_bridge_road_03_broken
+  rus_bridge_road_04_base
+
+rail
+  rail_01 - single rail track with mini ties
+  rail_blocker_02 - end of the line (English)
+  rail_blocker_03
+  rail_blocker_objective_01 (English)
+  rail_blocker_objective_rus_01
+  rus_railway_stoper_01
+  rail_crossing_01
+  crossing_rus_01 - crossing with open gate
+  bridge_and_train_objective
+  trailer_train_rocket_01_collision
+  trailer_train_rocket_01_objective
+  rus_bridge_road_04nocross
+  rus_bridge_road_05
+  rus_bridge_road_05_no_collision
+  rus_bridge_road_06
+  rus_bridge_road_08
+  rus_bridge_road_09_no_collision
+  rus_bridge_road_big_objective
+  ca_rail_carriage_01
+  ca_rail_carriage_02
+  ca_rail_carriage_03
+  ca_rail_carriage_04
+  ca_rail_carriage_05
+  ca_rail_carriage_06
+  rus_rail_carriage_01
+  rus_rail_carriage_01_02
+  rus_rail_carriage_02
+  rus_rail_carriage_02_02
+  rus_rail_carriage_03
+  rus_rail_carriage_04
+  rus_rail_carriage_05
+  train_carriage_objective - sequoia log
+  rus_rail_carriage_part_a - truck assembly with wheels
+  rus_rail_carriage_part_b - single axle with wheels
+  rail_depot_02 - rolling stock maintenance building (English)
+  rail_station_01 (English)
+
+buoys
+  buyo_01
+  buyo_01_02
+
+cargo (dynamic)
+  cargo_cabin_rus_01 (dynamic)
+  cargo_helper_bridge_01 (dynamic)
+  cargo_helper_concrete (dynamic)
+
+cargo units (dynamic)
+  cargo_unit_ba20
+  cargo_unit_ba20_add
+  cargo_unit_bags_1
+  cargo_unit_bags_2
+  cargo_unit_barrels_1
+  cargo_unit_barrels_2
+  cargo_unit_barrels_oil_1
+  cargo_unit_big_drill_4
+  cargo_unit_boiler_5
+  cargo_unit_bricks
+  cargo_unit_cat_th357
+  cargo_unit_cellulose_1
+  cargo_unit_concrete_blocks_1
+  cargo_unit_concrete_slab_2
+  cargo_unit_container_large
+  cargo_unit_container_large_drilling_4
+  cargo_unit_container_small_2
+  cargo_unit_container_small_special_2
+  cargo_unit_crate_large_1
+  cargo_unit_forcklift_caravan_container
+  cargo_unit_forklift_caravan_container_2
+  cargo_unit_ironroad_1
+  cargo_unit_log_long
+  cargo_unit_log_medium
+  cargo_unit_log_short
+  cargo_unit_metal_1
+  cargo_unit_metal_planks_2
+  cargo_unit_metal_roll
+  cargo_unit_pipe_large_4
+  cargo_unit_pipes_medium_2
+  cargo_unit_pipes_small_2
+  cargo_unit_plane_01
+  cargo_unit_wing_01
+  cargo_unit_wing_02
+  cargo_unit_radioactive_1  
+  cargo_unit_railway_new
+  cargo_unit_rocket_engine
+  cargo_unit_rocket_part1
+  cargo_unit_rocket_part2
+  cargo_unit_sequoia_5
+  cargo_unit_service_spare_parts_1
+  cargo_unit_service_spare_parts_2
+  cargo_unit_service_spare_parts_special_1
+  cargo_unit_vehicles_spare_parts
+  cargo_unit_wooden_planks_1
+
+flag
+  ca_flag (floating) (anim)
+  ca_flagpole (fixed) (anim)
+
+vehicles
+  sedan_01
+  sedan_01_blue
+  sedan_01_coffee
+  sedan_01_purple
+  suv_01
+  suv_01_black
+  suv_01_blue
+  suv_01_red
+  car_crashed_01
+  car_crashed_02
+  old_car_rus
+  tractor - old tractor
+  rus_autojunk_02 - rusted tractor
+  rus_cart_01
+  rus_cart_02
+  caravan_01
+  caravan_02
+  rus_mech_device_01
+  rus_mech_device_02
+  rus_trailer_01
+  rus_trailer_02
+  rus_trailer_03
+  rus_trailer_04
+
+upgrade vehicles
+  upgrade_parts_rus
+  upgrade_parts_us
+
+vehicle parts
+  rus_autojunk_01 - rusted truck fuel tank
+  rus_autojunk_03 - winch accessory
+  rus_autojunk_04 - truck exhaust parts
+  rus_autojunk_05 - rear suspension/diff subassembly
+  rus_autojunk_06 - truck transmission
+  rus_autojunk_07 - truck chassis on blocks
+  rus_autojunk_08 - rusted engine
+
+conveyer structures
+  conveyer_belt_01
+  conveyer_belt_02
+  conveyer_belt_base
+  conveyer_end_01
+  conveyer_objective_01
+
+cross-country oil pipeline
+  pipe_01_crossroad
+  pipe_01_objective
+  pipe_01_rus_objective
+  pipe_oil_straight
+  pipe_oil_straight_clear
+  pipe_angle_45
+  pipe_angle_90
+  pipe_chamfer - crimp between connections
+  pipe_01
+  pipe_oil_us_base
+  pipe_support
+
+other pipe structures
+  pipe_corner_01
+  pipe_straight_01
+
+american residential
+  country_building_01_a - house
+  country_building_01_b - house
+  country_building_01_c - detached garage
+  country_building_01_d - detached garage
+  country_building_02_a - house
+  country_building_02_b - detached garage
+  country_building_02_b_old - old detached garage
+  country_building_03 - old house
+  country_building_04 - house
+  country_building_05 - house
+  country_building_05a - house
+  country_building_05b - house
+  country_building_05_old - old house
+  country_building_06 - house
+
+russian residential
+  rus_city_architecture_03 - old mansion
+  rus_city_building_02
+  rus_city_building_03
+  rus_city_building_13 - bunkhouse
+  rus_city_building_15
+  rus_city_building_15_01
+  rus_city_building_16 - rowhouse
+  rus_city_building_17 - rowhouse
+
+  rus_hut_01_blue
+  rus_hut_02_green
+  rus_hut_04
+  rus_hut_04_yellow
+  rus_hut_04_red
+  rus_hut_05
+  rus_hut_05_blue
+  rus_hut_06
+  rus_hut_09
+  rus_hut_09_yellow
+  rus_hut_09_red
+
+rural residential
+  hermit_house_01
+  procamp
+  procamp_old
+  caravan_01
+  caravan_02
+  rus_hut_01
+  rus_hut_01_trial_0303
+  rus_hut_02
+  rus_hut_03
+  rus_hut_03_gray
+  rus_hut_07
+  rus_hut_08
+  rus_hut_08_inst
+  rus_hut_10
+  rus_hut_11
+  rus_hut_11_inst
+  rus_hut_12
+  rus_hut_12_inst
+  rus_hut_13
+  rus_hut_13_inst
+  rus_monastic_barn_01
+  rus_outhut_01
+  rus_outhut_02
+  rus_outhut_03
+  rus_shed_01
+  rus_shed_01_02
+  service_cabin_rus_05
+
+small generic building
+  rus_garage_06
+  rus_garage_06_nolights
+  rus_garage_07
+  rus_garage_07_nolights
+
+guard shack
+  rus_tunnel_blockpost_01
+  service_blockpost (E)
+  service_blockpost_p2 (E)
+  service_blockpost_rus_02
+  service_blockpost_rus_02_nolights
+  service_cabin_rus_03
+  tunnel_blockpost_01 (E)
+
+multi-unit residences
+  rus_city_build_01 - apartments
+  rus_city_building_01_02 - rowhouse
+  rus_garage_03
+  rus_garage_03_nolights
+  rus_monastic_cell_01
+  service_cabin_rus_06 - stack of small modular units
+
+rural scenery
+  rus_hut_sauna_01
+  rus_hut_wc_01 - outhouse
+  rus_hut_wc_01_02 - outhouse
+  toilet - outhouse
+  rus_celler_01
+  rus_celler_02
+  rus_celler_02_02
+  log_long_a (dynamic)
+  log_long_a_fence (static)
+  log_medium_a (dynamic)
+  log_medium_a_fence (static)
+  log_short_a (dynamic)
+  log_short_a_fence (static)
+  logs_04 - firewood
+  logs_04_trial0303 - firewood
+  rus_firewood_01 - open firewood shed (no landmark)
+  rus_firewood_01_02 - open firewood shed (with landmark)
+  geese_house_01
+  rus_chickenhut_01
+  rus_chickenhut_01_02
+  rus_doghut
+  rus_beehive_01 (destr)
+  rus_beehive_01_02 (destr)
+  rus_rabbit_hut_01
+  rus_rabbit_hut_01_02
+  rus_rabbit_hut_02
+  rus_rabbit_hut_02_02
+  rus_cemetery_01
+  rus_glg_cemetary_01
+  rus_cart_02 - wheelbarrow
+  rus_pail_01
+  rus_cleaver_01 - hatchet in stumb
+  rus_secateur_01 - scythe
+  rus_shovel_01
+  rus_pumphouse_01
+  rus_well_01
+  rus_well_02
+  sign_private_property - (E) "private property - no trespassing"
+
+farm buildings
+  countryside_01 - silo
+  countryside_02 - barn
+  countryside_02_old - old barn
+  countryside_03 - small house
+  countryside_04 - stable
+  countryside_04_old - old stable
+  countryside_05 - shed
+  countryside_05_old - old shed
+  rus_cowhut_01
+  rus_cowshed_02 - old
+  rus_cowshed_01 - industrial scale
+  rus_canopy_02
+
+farm scenery
+  geese_house_01
+  rus_chickenhut_01
+  rus_chickenhut_01_02
+  rus_beehive_01 (destr)
+  rus_beehive_01_02 (destr)
+  rus_cart_02 - wheelbarrow
+  rus_cultivator_01
+  rus_mech_device_01
+  rus_mech_device_02
+  rus_milkcan_01
+  rus_milkcan_02
+  rus_milkcan_03
+  rus_rake_01
+  stack_01 - round hay bale
+
+big dam (English)
+  dam_01_a_1
+  dam_01_a_2
+  dam_01_a_3
+  dam_01_a_4
+  dam_01_a_5
+  dam_01_a_6
+  dam_01_b
+  dam_01_c
+  dam_01_d
+
+fence
+  fence_01 - chain link (destr)
+  fence_01_02 - chain link (destr)
+  fence_01_rus - chain link (destr)
+  rus_fence_05 - chain link (dyn)
+  kpp_gate_rus - (hammer & sickle) (destr)
+  fence_01_rus_blue - chain link (destr)
+  rus_fence_11 - chain link
+  rus_fence_18 - chain link + razor wire
+  rus_fence_18_blue - chain link + razor wire
+  rus_glg_fency_04 - barbed wire
+  rus_glg_fency_04_a - barbed wire
+  rus_glg_fency_04_b - barbed wire (broken)
+  rus_glg_pillar_01 - barbed wire post only
+  rus_fence_yard_01 - metal bars
+  rus_fence_yard_02 - metal bars end pillar only
+  rus_launchpad_fence_01 - fence with 2 metal crossbars
+  rus_launchpad_fence_01_blue - fence with 4 metal crossbars
+  rus_launchpad_fence_01_red - fence with 4 metal crossbars
+  fence_02_rus - corrugated metal
+  rus_fence_16 - patchwork of chain link, slats, corroguated metal
+  fence_concrete_a - concrete
+  fence_concrete_b - concrete
+  fence_concrete_b_antilod - concrete
+  rus_fence_factory_01 - brick
+  rus_fence_pilar_factory_01 - brick fence end pillar only
+  rus_fence_factory_old_01 - old brick
+  rus_fence_01 - picket
+  rus_fence_09 - picket
+  rus_fence_09_02 - picket
+  rus_fence_13 - picket
+  rus_fence_01_broken - picket
+  rus_fence_01_door - picket gate
+  rus_fence_01_gateopen - picket double gate
+  rus_fence_02 - primitive wooden
+  rus_fence_03 - primitive wooden
+  rus_fence_04 - primitive wooden
+  rus_fence_06 - wood slats
+  rus_fence_06_02 - wood slats
+  rus_fence_06_red - wood slats
+  rus_fence_07 - wood slats
+  rus_fence_07_red - wood slats
+  rus_fence_07_blue - wood slats
+  rus_fence_10 - patched wood slats
+  rus_fence_14 - old patched wood slats
+  rus_fence_15 - wood slats
+  rus_fence_15_02 - wood slats
+  rus_fence_17 - old wood slats
+  rus_wood_boards_01
+  rus_wood_boards_02
+  rus_wood_boards_03
+  rus_glg_fency_01
+  rus_glg_fency_02
+  rus_glg_fency_03
+  rus_glg_fency_03_02 (with landmark)
+  rus_glg_fency_04
+
+  rus_village_gate - wood
+  rus_gate_01
+  rus_fence_12 - metal
+  rus_gate_base_01
+  rus_gate_base_01_02 (with landmark)
+  rus_gate_base_02
+  rus_gate_factory_02
+  rus_gate_factory_03
+  rus_gate_factory_04a
+  rus_gate_garage_01
+  rus_gate_garage_01a
+  rus_gate_garage_02
+
+gas station
+  fuel_atm_01 - fuel pump
+
+cable car
+  funicular_cabin_01
+  funicular_support_01
+
+Russian aircraft
+  helicopter_rus_01 - (R) "polar"
+  helicopter_rus_01a - old
+
+aircraft
+  us_airplane_01 - "united states navy"
+
+ice
+  ice_hummock_01 - pile of ice shards
+  ice_hummock_01snow - pile of ice shards
+  ice_patch_01 - solid, lumpy
+  ice_patch_01_big - solid, lumpy
+  ice_patch_02_big - sheet
+  ice_underwater_01 - ice shards
+  ice_underwater_01a - ice shards
+  icicle_01
+  icicle_02
+  icicle_03
+  icicle_04
+  icicle_05
+
+streetlight
+  lamppole_a
+  lamppole_a_yel
+  lamppole_a_disabled
+  pole_a_w_light_01
+  streetlamp_01
+  streetlamp_04
+  streetlamp_05 - sidewalk light
+
+other lights
+  light_sky_spot_01 (buried)
+  rus2_streetlamp_03b (floating)
+  space_hanger_lamp_01 (floating)
+  streetlamp_02 (floating)
+  streetlamp_02a (floating)
+  streetlamp_03 (floating) - security light
+  streetlamp_03a (floating) - security light
+  streetlamp_03a_high (floating) - security light (bigger flare cone?)
+  streetlamp_03b (floating) - security light (bigger flare cone?)
+  streetlamp_04 (floating)
+
+wire poles
+  pole_a
+  pole_a_objective
+  pole_a_w_light_01
+  pole_b
+  pole_empty_01
+  power_lines_01
+  power_lines_01_objective
+  station_02
+  station_03 (E)
+  station_03_rus
+  station_04
+  station_04a
+  station_04b
+  station_05 (E)
+  station_05_02 (E)
+  station_05_rus
+
+vegetables
+  leek
+
+Russian statues
+  lenin_01 - Lenin
+  rus_pedest_lenin_01 - "V.I. Lenin" - pedestal for statue
+  rus_sculpture_01 - woman with oar
+  rus_sculpture_02 - bust - "Yu.A. Gagarin - sorry Yuri we all slept"
+  rus_sculpture_03 - bust - "I.S. Turgeev"
+  rus_sculpture_04 - guard lion
+  rus_sculpture_05 - bust - "Peter the Great"
+
+lumber
+  logs_heap
+  logs_heap_medium
+  logs_heap_small
+  logs_heap_fence
+  logs_heap_medium_fence
+  logs_heap_small_fence
+  rus_logs_01
+  rus_logs_02
+  rus_logs_02_02
+  beams (static)
+  boards_01 (static)
+  boards_04 (static)
+  boards_05 (static)
+  boards_02 (static)
+  boards_03 (static)
+  boards_osb_01 (static)
+  rus_boards_01
+  rus_boards_02
+  rus_boards_03
+  rus_boards_04
+  logs_scavange_02 - log kiosk
+
+  lumber_sign - (English) Bradley Lumber Co.
+
+  rus_lumber_mill
+  rus_lumber_mill_2
+  rus_lumber_mill_2_abandoned
+
+science structures
+  observatory_1
+  observatory_banner - "Driftwood Observatory"
+  meteo_station_us_01
+  meteo_station_device_01
+  meteo_station_device_02
+  meteo_station_device_02_02
+  meteo_station_device_03
+
+lying trees
+  pine_lying_a
+  spruce_lying_02
+  pond_objective
+
+rocks
+  rock_01
+  rock_02
+  rock_02a
+  rock_03
+  rock_03_rus
+  rock_04_rus
+  rock_05
+  rock_06
+  rock_06_ice
+  rock_06_cap
+  rock_07
+  rock_07_02_inst
+  rock_07a
+  rock_07a_inst
+  rock_ancient_rus - with petroglyphs
+  rock_tus_ter_01
+
+  rock_04a_us
+  rock_04a_rus
+  rock_06a
+  rock_06a_rus
+  rock_06a_rus_inst
+  rock_06a_cap
+
+  rock_03_pile
+  rock_03_pile_dlc
+  rock_03_objective
+  rock_03_rus_objective
+  rock_06_objective
+  rock_rus_ter_01_objective
+
+rocketry
+  rocket_broken_01_objective
+  rocket_broken_02_objective
+  rocket_broken_03_objective
+  rocket_broken_04_static
+  rus_launchpad_01 - bare concrete pad
+  rus_launchpad_02_foundation_01
+  rus_launchpad_04 - concrete and steel block
+  rus_launchpad_07 - concrete and steel block
+  rus_launchpad_hannger_01
+  rus_launchpad_hannger_01_doors
+  rus_launchpad_hannger_01_inside
+  rus_launchpad_hoop_01
+  rus_launchpad_house_01
+  rus_launchpad_house_02
+  rus_launchpad_house_03
+  rus_launchpad_house_04
+  rus_launchpad_house_05
+  rus_launchpad_house_06
+  rus_launchpad_house_07
+  rus_launchpad_ladder
+  rus_launchpad_pipes_01
+  rus_launchpad_pipes_02
+  rus_launchpad_pipes_03
+  rus_launchpad_ramp_01
+  rus_launchpad_ramp_02
+  rus_launchpad_vents_01
+  rus_launchpad_vents_02
+  rus_launchpad_vents_03
+  rocket_menu
+  rus2_banner_astronaut_01 - "astronaut" (fixed)
+  rus2_banner_cosm_02 - "northern cosmodrome) (fixed)
+  rus2_banner_cosm_03 - "northern cosmodrome) (one-sided)
+  rus2_banner_cosm_05 - "northern cosmodrome) (floating)
+  rus2_banner_cosm_06 - "filling and neutralizing station" (floating)
+  rus2_banner_cosm_07 - "information calculation center" (floating)
+  rus2_banner_cosm_08 - "fuel and compressed gas storage" (floating)
+  rus2_banner_cosm_09 - "rocket preparation complex" (floating)
+  rus2_banner_cosm_10 - "technical support center" (floating)
+  rus2_banner_cosm_10 - "pre-start preparation system" (floating)
+  rus2_banner_efimovo - "New Efimovo" (fixed)
+  rus2_banner_gar_01 - "Bolt World" (floating)
+  rus2_banner_gar_02 - "tasty like home - banquets - celebrations" (floating)
+  rus2_banner_gar_03 - "towing 957-54" (floating)
+  rus2_banner_gar_10 - "towing 957-54" (floating)
+  rus2_banner_gar_04 - "free oil change" (floating)
+  rus2_banner_gar_05 - "truck tire mounting" (floating)
+  rus2_banner_gar_06 - "Vasya Disya Auto Electrician" (floating)
+  rus2_banner_gar_07 - "chassis repair" (floating)
+  rus2_banner_gar_08 - "secured auto loans" (floating)
+  rus2_banner_gar_09 - "Garcher - 24 hour car wash" (floating)
+  rus2_banner_gar_11 - "Turbo auto parts" (floating)
+  rus2_banner_gar_12 - "Kuku-Ha - fast money for auto repair" (one-sided)
+  rus2_banner_gar_13 - "buy 3 computer disks at the price of 4 - 1 disk free!" (one-sided)
+  rus2_banner_gar_14 - "Fish Hey - cod, haddock, (etc.)" (one-sided)
+  rus2_banner_gar_15 - "Chop - no problem - protection, conflict resolution, debt return" (one-sided)
+  rus2_banner_gar_16 - "Combat Computer Club" (one-sided)
+  rus2_banner_gar_17 - "Tympani Lighting - floor lamps - chandeliers - lamps - sconce - seasonal novelties" (one-sided)
+  rus2_banner_gar_18 - "movies - music - games" (one-sided)
+  rus2_banner_gar_19 - "Blue Screen - video salon" (one-sided)
+  rus2_banner_gar_20 - "Khozmag Luck - everything for a summer residence during a hurricane - everything for collecting cloudberries - everything for the excavation of fox holes - Yeti and Bigfoot bait - bear traps" (one-sided)
+  rus2_banner_gar_21 - "Cafe Curve Cardan - find a bolt in the soup? lunch at half price!" (one-sided)
+  rus2_banner_gar_22 - "be always connected together with a pager from VPO Telecom" (one-sided)
+  rus2_banner_gar_23 - "Planet Plumbers" (one-sided)
+  rus2_banner_gar_24 - "UMKA Technical Literature Shop" (one-sided)
+  rus2_banner_gar_25 - "777 Bigwin - hall of gaming machines - woohoo" (one-sided)
+  rus2_banner_gar_26 - "turn around! - hunting - tourism - fishing" (one-sided)
+  rus2_banner_gar_27 - "Transistor - radio parts shop" (one-sided)
+  rus2_banner_himzavod_01 - "Urcan Chemical Factory" (floating)
+  rus2_banner_himzavod_02 - "Urcan Chemical Factory" (floating)
+  rus2_banner_himzavod_03 - "UCF" (one-sided - curved for ?)
+  rus2_banner_himzavod_04 - "Isolation-product section" (floating)
+  rus2_banner_himzavod_09 - "Administration" (floating)
+  rus2_banner_himzavod_12 - "fuel warehous" (floating)
+  rus2_banner_himzavod_13 - "labratory" (floating)
+  rus2_banner_kb_01 - "(MA) KB Ilya Maskovich State University" (floating)
+  rus2_banner_kb_02 - "(MA) KB Ilya Maskovich State University" (fixed)
+  rus2_banner_kb_03 - "(MA)" (floating)
+  rus2_banner_nii_kago_01 - "Kago Research Institutes" (floating)
+  rus2_banner_nii_kago_02 - "Kago Research Institutes" (fixed)
+  rus2_banner_nii_kago_03 - "Kago Research Institutes" (floating)
+  rus2_banner_sever_01 - "North 1 - mission control center" (fixed)
+  rus2_banner_sever_02 - "MCC North 1" (floating)
+  rus2_banner_sever_03 - "control room" (floating)
+  rus2_banner_sever_04 - "operational management department" (floating)
+  rus2_banner_sever_06 - "security service" (floating)
+  rus2_banner_sever_centr_02 (fixed)
+  rus2_banner_sever_centr_03 - "north center - fuel line" (floating)
+  rus2_banner_udarnik_01 - "Udarnik - polar" (fixed)
+  rus2_banner_udarnik_02 - "Udarnik - polar" (floating)
+  rus_antonovsky_zapovednik - "Antonovsky Reserve" (fixed)
+  rus_banner_arh_01 - "no entry - excavation of ancient labyrinth of hyperborhea" (fixed)
+  rus_banner_base_01 - "stop or be shot - entrance and travel prohibited" (dyn)
+  rus_banner_base_02 - "radioactivity" (dyn)
+  rus_banner_base_03 - "radioactivity" (dyn)
+  rus_banner_base_04 - "stop" (dyn)
+  rus_banner_base_05 - "dangerous" (dyn)
+  rus_banner_base_07 - "restricted area" (dyn)
+  rus_banner_base_08 - "restricted area" (floating)
+  rus_banner_base_decal_01 - "use protective clothing" (one-sided)
+  rus_banner_base_decal_02 - "keep the military's secrets" (one-sided)
+  rus_banner_base_decal_03 - "be vigilant" (decal)
+  rus_banner_base_decal_03 - "military facility - 306" (fixed)
+  rus_banner_city_01 - "general store" (floating)
+  rus_banner_city_02 - "workshop" (floating)
+  rus_banner_city_03 - "canteen" (floating)
+  rus_banner_city_04 - "public bath" (floating)
+  rus_banner_city_05 - "news kiosk" (floating)
+  rus_banner_city_06 - "news kiosk" (floating)
+  rus_banner_city_decal_01 - "work - entertainment will wait" (decal)
+  rus_banner_city_decal_02 - "work - the way to a bright future" (decal)
+  rus_banner_cowhub_gate_01 - "collective farm - Commissioner Kvashnin" (top mount)
+  rus_banner_cowhub_gate_02 - "advanced harvest collective farm" (fixed)
+  rus_banner_decal_06 - "the people and the party are one" (decal)
+  rus_banner_decal_07 - "the communist party - vanguard of the builders of communism" (decal)
+  rus_banner_decal_08 - "house of culture" (decal)
+  rus_banner_decal_09 - "municipal council" (decal)
+  rus_banner_decal_10 - "glory to the soviet people" (decal)
+  rus_banner_decal_11 - "work for the good of the soviet people" (decal)
+  rus_banner_drilling_01 - "drilling derrick - (illegible)" (dyn)
+  rus_banner_drilling_200_01 - "drilling derrick - (illegible) - 200M" (dyn)
+  rus_banner_drilling_left_01 - "drilling" (arrow left) (dyn)
+  rus_banner_drilling_right_01 - "drilling" (arrow right) (dyn)
+  rus_banner_drilling_right_02 - "drilling derrick - (illegible) - (arrow right)" (dyn)
+  rus_banner_factory_01 - "factory" (dyn)
+  rus_banner_factory_02 - "loading area" (board)
+  rus_banner_factory_03 - "checkpoint" (board)
+  rus_banner_factory_05 - "boiler room" (board)
+  rus_banner_factory_06 - "warehouse" (board)
+  rus_banner_factory_07 - "garage" (board)
+  rus_banner_factory_08 - "soviet parts factory" (top mount)
+  rus_banner_factory_09 - "(soviet parts factory logo)" (floating)
+  rus_banner_factory_10 - "soviet parts factory" (floating)
+  rus_gate_factory_01 - "soviet parts factory" (fixed gate)
+  rus_glg_gate_01 - "military facility 42-15 - radioactive materials warehouse No 38-521" (fixed gate)
+  rus_glg_gate_02 - "labor is a business of honor - a business of conscience - a business of valor" (fixed gate)
+  rus_banner_factory_11 - "(Metalloworks logo) (floating)
+  rus_banner_factory_12 - "Metalloworks - Zimnegorsk plant" (top mount)
+  rus_banner_factory_13 - "Metalloworks - Zimnegorsk plant" (top mount)
+  rus_banner_factory_200_01 - "factory - 200M" (dyn)
+  rus_banner_factory_decal_01 - "do not check electricity with finger!" (decal)
+  rus_banner_factory_decal_02 - "observe safety precautions" (decal)
+  rus_banner_factory_decal_03 - "do not be late to work" (decal)
+  rus_banner_factory_decal_04 - "water" (decal)
+  rus_banner_factory_decal_06 - "staff only" (decal)
+  rus_banner_factory_decal_07 - "do not litter" (decal)
+  rus_banner_factory_decal_08 - "no smoking" (decal)
+  rus_banner_factory_decal_09 - "no drinking" (decal)
+  rus_banner_factory_decal_10 - "no spitting" (decal)
+  rus_banner_factory_left_01 - "factory" (arrow left) (dyn)
+  rus_banner_factory_right_01 - "factory" (arrow right) (dyn)
+  rus_banner_garage_01 - "garage" (dyn)
+  rus_banner_garage_02 - "Lochtba Board - glory to you, working man" (fixed)
+  rus_banner_garage_03 - "warehouse (arrow right)" (board)
+  rus_banner_garage_03_left - "warehouse (arrow left)" (board)
+  rus_banner_garage_04 - "warehouse manager" (board)
+  rus_banner_garage_05 - "administration" (board)
+  rus_banner_garage_06 - "gas" (board)
+  rus_banner_garage_07 - "checkpoint" (board)
+  rus_banner_garage_100_01 - "garage - 100M" (dyn)
+  rus_banner_garage_200_01 - "garage - 200M" (dyn)
+  rus_banner_garage_decal_01 - "comrade - look under your feet!" (decal)
+  rus_banner_garage_decal_02 - "observe safety precautions" (decal)
+  rus_banner_garage_decal_03 - "save your head!" (decal)
+  rus_banner_garage_left_01 - "garage" (arrow left) (dyn)
+  rus_banner_garage_left_02 - "garage (arrow left)" (dyn)
+  rus_banner_garage_right_01 - "garage" (arrow right) (dyn)
+  rus_banner_garage_right_02 - "garage (arrow right)" (dyn)
+  rus_banner_gorsovet_01 - "Gorsovet" (top mount)
+  rus_banner_lumber_mill_01 - "sawmill" (board)
+  rus_banner_lumber_mill_03 - "public bath" (board)
+  rus_banner_lumber_mill_04 - "warehouse" (board)
+  rus_banner_lumber_mill_07 - "sawmill" (dyn)
+  rus_banner_lumber_mill_100_01 - "sawmill - 100M" (dyn)
+  rus_banner_lumber_mill_200_01 - "sawmill - 200M" (dyn)
+  rus_banner_lumber_mill_decal_01 - "sawmill" (decal)
+  rus_banner_lumber_mill_decal_02 - "use protective clothing" (poster)
+  rus_banner_lumber_mill_decal_03 - "work - the way to a bright future" (poster)
+  rus_banner_lumber_mill_decal_04 - "the communist party - we are building the future" (poster)
+  rus_banner_lumber_mill_decal_05 - "forward to a bright future" (poster)
+  rus_banner_lumber_mill_decal_06 - "we are comrades from dawn to dusk"
+  rus_banner_lumber_mill_gate_01 - (blank) (fixed)
+  rus_banner_lumber_mill_left_01 - "sawmill" (arrow left) (dyn)
+  rus_banner_lumber_mill_right_01 - "sawmill" (arrow right) (dyn)
+  rus_banner_meteo_station_01 - "weather station" (dyn)
+  rus_banner_meteo_station_100_01 - "weather station - 100M" (dyn)
+  rus_banner_meteo_station_200_01 - "weather station - 200M" (dyn)
+  rus_banner_meteo_station_left_01 - "weather station" (arrow left) (dyn)
+  rus_banner_meteo_station_right_01 - "weather station" (arrow right) (dyn)
+  rus_banner_missile_01 - "(illegible)" - fence (static)
+  rus_banner_quarry_left_01 - "quarry" (arrow left) (dyn)
+  rus_banner_quarry_left_02 - "Henauin quarry (arrow left)" (dyn)
+  rus_banner_quarry_right_01 - "quarry" (arrow right) (dyn)
+  rus_banner_railway_02 - "gas" (board)
+  rus_banner_railway_gate_01 - "sorting" (fixed)
+  rus_banner_settlement_01 - "Lower Shponka" (dyn)
+  rus_banner_settlement_03 - "Topino" (dyn)
+  rus_banner_sign_01 - "forward to a bright future" (poster)
+  rus_city_arch_baner_01 - "14th century architectural monument - guild master Karavayev's mansion - the films "cake" and "called Pitza" were shot here"
+  rus_city_arch_baner_02 - "restoratation in progress - 'Sharash-Montazh' - architect: E. Babelmandepsky" (fixed)
+  rus_city_memorial_01 - "this monument is dedicated to the first astronauts"
+  rus_information_board - "information" (fixed)
+  rus_sign_01 - hammer & sickle (fixed)
+  rus_sign_01_02 - hammer & sickle (fixed)
+  rus_sign_02 - "Zimnegorsk" (fixed)
+  rus_sign_03 - "Zimnegorsk" (fixed)
+
+building foundation
+  rus_base_01
+  rus_base_01_frame
+
+deck flooring
+  rus_flooring_01
+  rus_flooring_02
+  rus_flooring_03
+  rus_flooring_04
+  rus_flooring_05
+  rus_flooring_06
+  rus_launchpad_01 - bare concrete pad
+
+ruins
+  rus_glg_barrack_01
+  rus_glg_barrack_02
+  rus_glg_barrack_03
+  rus_glg_barrack_04
+  rus_glg_hellway_01
+  rus_glg_kpp_01
+  rus_glg_kpp_01_02
+  rus_glg_lodge_01
+  rus_glg_lodge_02
+  rus_glg_logs_01
+
+  rus_hut_aband_02
+  rus_hut_aband_03
+
+  rus_ruins_01
+
+ruined scenery
+  rus_glg_bed_02
+  rus_glg_cart_02
+  rus_glg_cemetary_01
+  rus_cemetery_01
+  rus_glg_gong_01
+  rus_glg_stove_01
+
+mine
+  rus_mine_entrance_01
+  rus_mine_entrance_02
+  rus_mine_entrance_03
+  rus_mine_lift_01
+
+ships
+  rus_pr123_01 - rusted Komsomolets-class torpedo boat
+  rus_pr29_01 - rusted Yastreb-class guard ship
+  rus_pr68_01 - rusted Chapayev/Sverdlov-class cruiser
+  rus_tug_01 - rusted tug
+  ship_01 - cargo ship
+  ship_02_hull - tipped cargo ship
+  ship_02_staff - tipped cargo flotsam
+
+russian road signs
+  rus_road_sign_01 - falling rocks
+  rus_road_sign_03 - level crossing with barriers
+  rus_road_sign_04 - road construction
+  rus_road_sign_05 - 10% grade down
+  rus_road_sign_07 - 12% grade up
+  rus_road_sign_06 - unprotected quayside or riverbank
+  rus_road_sign_09 - other danger
+  rus_road_sign_11 - hotel/motel to right
+  rus_road_sign_12 - auto repair - 500m to right
+  rus_road_sign_13 - auto repair - right
+  rus_road_sign_13 - restaurant
+  rus_road_sign_14 - no entry for animal-drawn vehicles
+  rus_road_sign_15 - no trucks over 4 tonnes
+  rus_road_sign_16 - speed limit 50 km/h
+  rus_road_sign_17 - no entry for trailers
+  rus_road_sign_18 - left arrow
+  rus_road_sign_19 - left/right arrow
+  rus_road_sign_20 - right arrow
+  rus_road_sign_21 - stop here on red
+  rus_road_sign_23 - detour right
+  rus_sign_bus_stop_01 - bus stop
+  sign_rus_danger_01 - (R) "danger" (E) "danger"
+
+US road signs
+  sign_15mph - (advisory) "15 mph"
+  sign_35mph - (advisory) "35 mph"
+  sign_55mph - (advisory) "55 mph"
+  sign_arrow_left - left arrow (in curve)
+  sign_arrow_right - right arrow (in curve)
+  sign_big_caution_long_vehicle_turning - "truck entrance"
+  sign_big_prepar_for_unexpected - "be prepared for the unexpected"
+  sign_block_left - hazardous object on left
+  sign_block_right - hazardous object on right
+  sign_bridge_01 - low clearance
+  sign_ca_deer - deer crossing
+  sign_ca_stop - stop (dirt base)
+  sign_octagon_stop - stop (concrete base)
+  sign_ca_watch_for_fallen_rock - "watch for fallen rock"
+  sign_ca_watch_for_fallen_rock - "water over road"
+  sign_detour_01 - detour right
+  sign_detour_02 - detour left
+  sign_garbage - "$1000 fine for littering enforced"
+  sign_last_chance - "last chance" for gas
+  sign_long_phone_before_crossing - "drivers of long low vehicles phone before crossing"
+  sign_long_unsuitable_for_long_vehicles - "vehicles over 40' prohibited"
+  sign_quad_danger_unstable_cliffs - "danger - do not climb over fence - unstable cliffs"
+  sign_quad_end_county_maintained_road - "end county maintained road"
+  sign_quad_stop_ignore_sat_nav_gps - "no wide vehicles - do not follow sat nav"
+  sign_rect_narrow_road - "no wide vehicles - do not follow sat nav - very narrow road"
+  sign_rect_drive_with_lights_on - "slow ped xing"
+  sign_rect_road_closed - "road closed"
+  sign_rect_trucks_use_lower_gear - "trucks use lower gear"
+  sign_residential_area - "residential quiet zone - please be respectful"
+  sign_rhomb_moose - "moose xing"
+  sign_rhomb_slope - 9% grade down
+  sign_rhomb_winding_road - winding road
+  sign_tunnel - tunnel
+  sign_triangle_unevenness - low ground clearance
+  sign_triangle_yield - "yield"
+  sign_workzone - "water over road"
+
+Canada road signs
+  sign_ca_crossing (Ontario) water over road
+  sign_ca_fall_breed_right - falling rocks on right
+  sign_ca_rockfall_right - falling rocks on right
+  sign_ca_rockfall_left - falling rocks on left
+  sign_rhomb_truck_crossing - falling rocks on left
+  sign_ca_give_way - yield
+  sign_ca_incline_12 - 12% grade down
+  sign_ca_slippery_road - slippery when wet
+  sign_ca_speed_50_km_h - (Ontario) (advisory) 50 km/h (on ramp)
+  sign_ca_speed_60_km_h - (advisory) 60 km/h
+  sign_ca_speed_ahead_40 - (Ontario) (advisory) 40 km/h (ahead on ramp)
+
+other
+  ufo_01
+
+error
+  bridge_and_train_objective - error disappears if shadows are disabled
+  tatra_facility_objective - error disappears if shadows are disabled
+  tatra_warehouse_objective - error disappears if shadows are disabled
+  rus_factory_rocket_06 - error disappears if shadows are disabled
+  ghostcity_fountain - landmark is displayed despite warning

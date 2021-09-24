@@ -89,8 +89,6 @@ troubleshooting:
       invalid zone ID in objective
     but doesn't catch all errors
 
-redocument behavior of slow asset dialogs
-
 in cargo reference, list the number of individual logs per load
 
 figure out what can be changed in a mod that people are already playing
@@ -155,25 +153,10 @@ For every property/bitmap, is it possible to categorize them by when
 
 Bottom panel of ZSE/RSE is for filesystem errors
 
-trucks
-terrain height
-mud
-(Colorization)
-models
-plants
-distributions
-materials
-winter map
-overlays
-ruler
-rivers
-  (Water)
-  (WaterMud)
-  river markup
-(Wetness)
-breakable ice
-sounds & sound domains
-references
+https://drive.google.com/drive/u/1/my-drive
+https://drive.google.com/file/d/1x_CtAODJ8bd9d5wilTKIZIziYaE8C-JM/view?usp=sharing
+
+https://snowrunner.mod.io/guides/big-book-of-snowrunner-map-making
 
 how to publish
   put it in a "conclusion" book part (or "wrap up")
@@ -181,12 +164,20 @@ how to publish
   map's *.pak file includes files that look relevant, but aren't
     e.g. all images in ui/textures
 
+publish:
+  how to publish for game consoles
 
-The map/region name looks retarded when selecting the custom scenario,
-  but it will look better when you publish your mod.
+create a model reference section
+  i.e. categories of models, listed by name pattern and what they broadly represent
+  especially for models that are one sided and facing the wrong direction
+    describe what each model is
+    e.g. a section just for banners, listing each one
+  identify models with winch attachment points
 
+more animals
 
-https://drive.google.com/drive/u/1/my-drive
-https://drive.google.com/file/d/1x_CtAODJ8bd9d5wilTKIZIziYaE8C-JM/view?usp=sharing
+Can a localization text file include an ID in quotes
+  in order to translate English to another language?
 
-https://snowrunner.mod.io/guides/big-book-of-snowrunner-map-making/edit
+some trucks (e.g. azov) have a towing package
+  how effective is it?
