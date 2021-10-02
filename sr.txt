@@ -179,5 +179,19 @@ more animals
 Can a localization text file include an ID in quotes
   in order to translate English to another language?
 
-some trucks (e.g. azov) have a towing package
-  how effective is it?
+foreach f2 (`ls {,_dlc/*/}classes/models/*.xml | egrep '[0-9][^/]*_02'`)
+  set f1 = `echo $f2 | sed -e 's/_02//' -e 's/.*[/]//g'`
+  echo $f1 >> 02.txt
+  diff {,_dlc/*/}classes/models/$f1* $f2 >> 02.txt
+end
+
+foreach f2 (`ls {,_dlc/*/}classes/models/*.xml | grep '_inst'`)
+  set f1 = `echo $f2 | sed -e 's/_inst//' -e 's/.*[/]//g'`
+  echo $f2 >> 02.txt
+  diff {,_dlc/*/}classes/models/$f1* $f2 >> 02.txt
+end
+
+Do the reference maps include assembled factories?
+  yes
+
+I should categorize the reference maps
