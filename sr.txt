@@ -195,3 +195,59 @@ Do the reference maps include assembled factories?
   yes
 
 I should categorize the reference maps
+
+foreach i (`ls {,_dlc/*/}classes/models/*.xml | sed -e s'/^.*[/]\(.*\)[.]xml/\1/'`)
+echo $i >> foo.txt
+grep -L $i /cygdrive/c/Users/Chris/Documents/GitHub/bbsmm/models2.txt >> foo.txt
+end
+
+rus_bridge_broken_02b
+rus_fence_18_blue
+rus_fence_pilor_factory_01
+rus_furniture_table_01
+rus_high_tower_space_hangar_02
+rus_launchpad_hangar_01
+rus_launchpad_hangar_01_doors
+rus_launchpad_hangar_01_inside
+rus_launchpad_ladder_01
+rus2_banner_cosm_11
+service_cabin_rus_nolight_01
+space_hangar_lamp_01
+logs_heap_fence
+logs_heap_mediuml_fence
+logs_heap_small_fence
+rus_fence_08_blue
+rus_road_sign_24
+cargo_unit_metal_1
+us_banner_quadsta_brickworks_04
+ca_rail_carriage_05
+conveyor_belt_01
+conveyor_belt_02
+conveyor_belt_base
+conveyor_end_01
+conveyor_objective_01
+us_banner_Farm_decal
+us_factory_sorting_01_objective
+banner_churh_01
+banner_farm_08
+banner_servicehub_04
+banner_servicehub_07
+banner_warehouse_grean_01
+banner_warehouse_grean_02
+banner_warehouse_grean_03
+banner_warehouse_grean_05
+bridge_road_04_base2
+factory_ventilation_01
+factory_ventilation_02
+factory_ventilation_03
+garage02
+logs_heap_mediuml
+rus_cellar_01
+rus_cellar_02
+rus_cultivator_01
+rus_doghut_01
+rus_glg_cemetery_01
+rus_storehouse_03
+sign_residental_area
+sign_tonnel
+us_city_lamp

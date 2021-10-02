@@ -109,55 +109,8 @@ rail
 buoys
 
 cargo (dynamic)
-cargo_helper_bridge_01 (dynamic)
-cargo_helper_concrete (dynamic)
 
 cargo units (dynamic)
-cargo_unit_ba20
-cargo_unit_ba20_add
-cargo_unit_bags_1
-cargo_unit_bags_2
-cargo_unit_barrels_1
-cargo_unit_barrels_2
-cargo_unit_barrels_oil_1
-cargo_unit_big_drill_4
-cargo_unit_boiler_5
-cargo_unit_bricks
-cargo_unit_cat_th357
-cargo_unit_cellulose_1
-cargo_unit_concrete_blocks_1
-cargo_unit_concrete_slab_2
-cargo_unit_container_large
-cargo_unit_container_large_drilling_4
-cargo_unit_container_small_2
-cargo_unit_container_small_special_2
-cargo_unit_crate_large_1
-cargo_unit_forcklift_caravan_container
-cargo_unit_forklift_caravan_container_2
-cargo_unit_ironroad_1
-cargo_unit_log_long
-cargo_unit_log_medium
-cargo_unit_log_short
-cargo_unit_metal_1
-cargo_unit_metal_planks_2
-cargo_unit_metal_roll
-cargo_unit_pipe_large_4
-cargo_unit_pipes_medium_2
-cargo_unit_pipes_small_2
-cargo_unit_plane_01
-cargo_unit_wing_01
-cargo_unit_wing_02
-cargo_unit_radioactive_1  
-cargo_unit_railway_new
-cargo_unit_rocket_engine
-cargo_unit_rocket_part1
-cargo_unit_rocket_part2
-cargo_unit_sequoia_5
-cargo_unit_service_spare_parts_1
-cargo_unit_service_spare_parts_2
-cargo_unit_service_spare_parts_special_1
-cargo_unit_vehicles_spare_parts
-cargo_unit_wooden_planks_1
 
 flag
 
@@ -208,16 +161,6 @@ ice
 streetlight
 
 other lights
-light_sky_spot_01 (buried)
-rus2_streetlamp_03b (floating)
-space_hanger_lamp_01 (floating)
-streetlamp_02 (floating)
-streetlamp_02a (floating)
-streetlamp_03 (floating) - security light
-streetlamp_03a (floating) - security light
-streetlamp_03a_high (floating) - security light (bigger flare cone?)
-streetlamp_03b (floating) - security light (bigger flare cone?)
-streetlamp_04 (floating)
 
 wire poles
 
@@ -250,80 +193,10 @@ mine
 ships
 
 russian road signs
-road_sign_garbage_stop - "dumping of garbage prohibited"
-rus_road_sign_01 - falling rocks
-rus_road_sign_03 - level crossing with barriers
-rus_road_sign_04 - road construction
-rus_road_sign_05 - 10% grade down
-rus_road_sign_07 - 12% grade up
-rus_road_sign_06 - unprotected quayside or riverbank
-rus_road_sign_09 - other danger
-rus_road_sign_11 - hotel/motel to right
-rus_road_sign_12 - auto repair - 500m to right
-rus_road_sign_13 - auto repair - right
-rus_road_sign_13 - restaurant
-rus_road_sign_14 - no entry for animal-drawn vehicles
-rus_road_sign_15 - no trucks over 4 tonnes
-rus_road_sign_16 - speed limit 50 km/h
-rus_road_sign_17 - no entry for trailers
-rus_road_sign_18 - left arrow
-rus_road_sign_19 - left/right arrow
-rus_road_sign_20 - right arrow
-rus_road_sign_21 - stop here on red
-rus_road_sign_23 - detour right
-rus_sign_bus_stop_01 - bus stop
-sign_rus_danger_01 - (R) "danger" (E) "danger"
 
 US road signs
-sign_15mph - (advisory) "15 mph"
-sign_35mph - (advisory) "35 mph"
-sign_55mph - (advisory) "55 mph"
-sign_arrow_left - left arrow (in curve)
-sign_arrow_right - right arrow (in curve)
-sign_big_caution_long_vehicle_turning - "truck entrance"
-sign_big_prepar_for_unexpected - "be prepared for the unexpected"
-sign_block_left - hazardous object on left
-sign_block_right - hazardous object on right
-sign_bridge_01 - low clearance
-sign_ca_deer - deer crossing
-sign_ca_stop - stop (dirt base)
-sign_octagon_stop - stop (concrete base)
-sign_ca_watch_for_fallen_rock - "watch for fallen rock"
-sign_ca_watch_for_fallen_rock - "water over road"
-sign_detour_01 - detour right
-sign_detour_02 - detour left
-sign_garbage - "$1000 fine for littering enforced"
-sign_last_chance - "last chance" for gas
-sign_long_phone_before_crossing - "drivers of long low vehicles phone before crossing"
-sign_long_unsuitable_for_long_vehicles - "vehicles over 40' prohibited"
-sign_quad_danger_unstable_cliffs - "danger - do not climb over fence - unstable cliffs"
-sign_quad_end_county_maintained_road - "end county maintained road"
-sign_quad_stop_ignore_sat_nav_gps - "no wide vehicles - do not follow sat nav"
-sign_rect_narrow_road - "no wide vehicles - do not follow sat nav - very narrow road"
-sign_rect_drive_with_lights_on - "slow ped xing"
-sign_rect_road_closed - "road closed"
-sign_rect_trucks_use_lower_gear - "trucks use lower gear"
-sign_residential_area - "residential quiet zone - please be respectful"
-sign_rhomb_moose - "moose xing"
-sign_rhomb_slope - 9% grade down
-sign_rhomb_winding_road - winding road
-sign_tunnel - tunnel
-sign_triangle_unevenness - low ground clearance
-sign_triangle_yield - "yield"
-sign_workzone - "water over road"
 
 Canada road signs
-sign_ca_crossing (Ontario) water over road
-sign_ca_fall_breed_right - falling rocks on right
-sign_ca_rockfall_right - falling rocks on right
-sign_ca_rockfall_left - falling rocks on left
-sign_rhomb_truck_crossing - falling rocks on left
-sign_ca_give_way - yield
-sign_ca_incline_12 - 12% grade down
-sign_ca_slippery_road - slippery when wet
-sign_ca_speed_50_km_h - (Ontario) (advisory) 50 km/h (on ramp)
-sign_ca_speed_60_km_h - (advisory) 60 km/h
-sign_ca_speed_ahead_40 - (Ontario) (advisory) 40 km/h (ahead on ramp)
 
 US directional signs
 
