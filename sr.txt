@@ -154,7 +154,7 @@ For every property/bitmap, is it possible to categorize them by when
 Bottom panel of ZSE/RSE is for filesystem errors
 
 https://drive.google.com/drive/u/1/my-drive
-https://drive.google.com/file/d/1x_CtAODJ8bd9d5wilTKIZIziYaE8C-JM/view?usp=sharing
+https://drive.google.com/file/d/1x_CtAODJ8bd9d5wilTKIZIziYaE8C-JM/view
 
 https://snowrunner.mod.io/guides/big-book-of-snowrunner-map-making
 
@@ -166,15 +166,6 @@ how to publish
 
 publish:
   how to publish for game consoles
-
-create a model reference section
-  i.e. categories of models, listed by name pattern and what they broadly represent
-  especially for models that are one sided and facing the wrong direction
-    describe what each model is
-    e.g. a section just for banners, listing each one
-  identify models with winch attachment points
-
-more animals
 
 Can a localization text file include an ID in quotes
   in order to translate English to another language?
