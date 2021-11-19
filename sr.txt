@@ -185,3 +185,111 @@ end
 ls {,_dlc/*/}classes/models/*.xml | sed -e s'/^.*[/]\(.*\)[.]xml/\1/' | sort > real.txt
 cat /cygdrive/c/Users/Chris/Documents/GitHub/bbsmm/models2.txt | sed -e 's/[ :].*$//' | sort -u > mine.txt
 diff mine.txt real.txt  | less
+
+
+
+
+SnowRunner distributions
+
+LinkedGrassBrush associates a grass brush with the plant brush.
+
+PlantsPerBlock is divided by four to get the plants per quarter block
+  divide rounds down, so 1-3 means 0.
+
+FlatThreshold requires the terrain to be as flat as specified in order
+  for a plant to be placed.
+  A value of 1.0 is no restriction.
+  A value of 0.05 prevents plants on a slope over ~30 degrees.
+  Is it based on the *change* in terrain angle nearby?
+
+Perpendicularity ranges from 0 (vertical) to 1 (perpendicular to the slope).
+
+Divergence is the maximum angle in radians that the plant can
+  diverge from its perfect orientation (vertical or perpendicular).
+  The actual divergence of each plant is random from 0 to the Divergence value.
+
+The scale of the plant is randomized between MinSize and MaxSize.
+  A scale of 1.0 is the default for a plant.
+
+A plant is only placed if the scale at that position is in the range of
+  MinMapScale to MaxMapScale.
+
+A plant at MinMapScale is placed with Scale=MinSize.
+A plant at MaxMapScale is placed with Scale=MaxSize.
+
+		<DebrisChunks PlantsPerBlock="1200">
+			<PlantType Brand="debris_chunks" PlaceOnlyOutsideSnow="true" />
+			<PlantType Brand="debris_snow" PlaceOnlyInSnow="true" />
+		</DebrisChunks>
+
+		<LyingSpruces FlatThreshold="0.2" PlantsPerBlock="25">
+			<PlantType
+				Brand="pine_lying_a"
+				MinSize="0.5"
+				MaxSize="0.8"
+				Perpendicularity="1.0"
+				PlaceOnlyOutsideWater="true"
+			/>
+			<PlantType
+				Brand="pine_lying_b"
+				MinSize="0.5"
+				MaxSize="0.8"
+				Perpendicularity="1.0"
+				PlaceOnlyOutsideWater="true"
+			/>			
+			<PlantType
+				Brand="spruce_lying_02"
+				MinSize="0.6"
+				MaxSize="0.8"
+				Perpendicularity="1.0"
+				PlaceOnlyInWater="true"
+			/>
+		</LyingSpruces>
+
+Can weather classes be edited or created?
+
+Should "texture layers" be called "terrain layers"?
+
+Use the term "mask" for painted areas?
+  but is the "masked" region on or off?
+
+material reference
+  allows grass/small plants
+  excludes small debris
+
+grass reference
+  planting group and min distance
+  distributed as non-grass plant (IgnoreNoGrass)
+  excluded by thick grass (NotAtThickGrass) (mutually exclusive w/ above?)
+  excluded by snow depth (IsAboveSnow)
+
+plant & distribution reference
+  behave as grass?
+  any unnatural spacing requirement
+  max water speed (canes only)
+  IsEraseSnow
+  EraseBySnowThreshold (as a percentage of plant height)
+  distribution:
+    snow restrictions
+    water restrictions
+
+overlay brush properties:
+  Brand
+  Interval
+  TangentOffset
+  AlignToTangent
+  AttachPivot
+  DirOffset
+
+PlantBrand properties
+  DeformTerrain - pushing the "plant" deforms the terrain underneath it
+  IsAboveSnow - no obvious effect
+  UseDirtTint - unexplored and probably unimportant
+  AttachToGround (environment.xml) - looks like a physics thing
+  NoTruckCollision - physics thing
+  what causes terrain height adjustment?
+
+duplicate an object by dragging it from the Scene View to the main panel.
+  but a duplicated plant has weird problems
+
+is custom material layer possible?

@@ -1,0 +1,386 @@
+broadleaf trees
+
+aspen_01 - yellow
+aspen_01_rus - green
+
+aspen_02 - yellow, tall
+aspen_02_rus - green, tall
+
+aspen_dry_01 - none
+aspen_dry_02 - none
+
+aspen_lying_01 - none
+aspen_lying_01_trial0302 - identical
+
+birch_01 - orange
+birch_01_rus - green
+
+birch_02 - orange
+
+birch_03 - orange
+birch_03_rus - green
+
+birch_02_tall - orange, tall
+birch_02_tall_rus - green, tall
+
+birch_03_tall - orange, tall
+birch_03_tall_rus - green, tall
+
+birch_01_driedup - orange
+
+birch_02_driedup - orange
+
+birch_dry_01 - sparse tan
+birch_dry_01_rus, green
+
+birch_dry_02 - none
+birch_dry_03 - none (dense branches)
+
+birch_04_01 - orange, short
+birch_04_01rus - green, short
+
+birch_04_02 - orange, short
+birch_04_02rus - green, short
+
+birch_04_03 - orange, short
+birch_04_03rus - green, short
+
+birch_lying_01 - none
+
+oak_02 - orange
+oak_green - green
+
+sugar_maple_01 - red/green
+
+sugar_maple_02 - orange/green
+
+sugar_maple_dry_01 - none
+
+sugar_maple_dry_02 - none
+
+sugar_maple_dry_03 - none
+
+poplar_lying_01 - tan
+
+small_tree_a - green/yellow
+
+small_tree_c - green/yellow
+
+small_tree_d - green/yellow
+
+small_tree_b - none
+
+small_tree_e - none
+
+
+broadleaf bushes
+
+birch_bush_a - orange
+birch_bush_a_rus - green
+
+bush_a - green/tan
+
+bush_b - salmon/yellow
+bush_b_rus - green
+
+bush_c - salmon/yellow
+
+bush_d - orange
+bush_d_rus - green
+
+bush_e - salmon/yellow
+
+dry_bush_a
+
+dry_bush_b
+
+dry_bush_c
+
+dry_bush_d
+
+dry_bush_e
+
+
+broadleaf bush chunks
+
+bush_chunk_a - salmon/yellow
+bush_chunk_a_rus - green
+
+chunk_bush_a - green/tan
+
+chunk_bush_b - salmon/green
+
+chunk_bush_c - salmon/yellow
+
+chunk_bush_d - orange
+
+chunk_bush_e - salmon/yellow
+
+
+conifer trees
+
+conifer_01
+conifer_02 - tall
+conifer_03 - tall
+conifer_04
+conifer_05
+
+larches are increasingly brown and spindly
+
+larch_01 - green
+
+larch_02 - green
+
+larch_03 - green
+
+larch_04 - green/brown
+
+larch_05 - green/brown
+
+larch_dry_01 - dry
+
+larch_dry_02 - dry
+
+larch_dry_03 - dry
+
+pine_01_rus - green
+
+pine_02_rus - green
+
+pine_03_rus - green
+
+pine_04_rus - green, tall
+
+pine_a - green
+
+pine_b - green
+
+pine_c - green
+
+pine_dry_a - dry, snag
+
+pine_small_a
+
+pine_small_b
+
+pine_lying_a - brown, tall
+pine_lying_a_chunks - brown, tall
+
+pine_lying_b - brown, tall
+pine_lying_b_chunks - brown, tall
+
+spruce_01 - green
+
+spruce_02 - none
+
+spruce_03 - green/none
+
+spruce_04 - green
+
+spruce_young - green
+
+spruce_lying_02 - none
+spruce_lying_02_chunks - none
+
+spruce_lying_02_broken - none, top missing
+spruce_lying_02_broken_chunks - none, top missing
+
+us_tsuga_01 - green
+
+us_tsuga_02 - green
+
+us_tsuga_03 - green
+
+us_tsuga_04 - green
+
+us_tsuga_05 - green
+
+us_tsuga_dry_01 - green/gray
+
+us_tsuga_dry_02 - black
+
+us_tsuga_lying_01 - gray
+us_tsuga_lying_01_chunks - gray
+
+
+conifer bushes
+
+herb_a
+
+
+stumps
+
+stump_a
+
+stump_b
+
+stump_c
+
+stump_d
+
+swamp_stub_long_a
+
+swamp_stub_long_b
+
+swamp_stub_long_c
+
+pine_stump_01_rus
+
+pine_stump_02_rus
+
+pine_stump_03_rus
+
+
+ferns
+
+fern_a - green/yellow
+fern_rus_a - green/yellow
+
+fern_b - green/yellow
+fern_rus_b - green/yellow
+
+fern_c - green/yellow
+fern_rus_c - green/yellow
+
+fern_d - salmon/green
+
+fern_e - green/orange
+
+fern_f - orange/green
+
+fern_g - orange/green
+
+fern_chunk_a - green/brown
+fern_chunk_a_rus - green
+
+fern_chunk_b - green/brown
+fern_chunk_b_rus - green
+
+fern_chunk_c - orange/green
+
+fern_chunk_d - bronze
+
+
+other herbage
+
+cane_a - tan
+cane_c - green
+
+cane_b - tan, with lily pads
+cane_d - green, with lily pads
+
+cane_dry - brown
+
+cane_chunk_a - tan
+cane_chunk_b - green
+
+corn_01 - tall
+corn_02 - short
+corn_03 - flat
+
+flower_a - blue
+
+flower_b - violet
+
+chunk_flower_b - violet
+
+flower_papaver - red poppies
+
+pumpkin_a
+
+pumpkin_chunk_a
+
+mushroom_a
+
+
+roots
+
+wood_root_a
+
+wood_root_b
+
+wood_root_c
+
+wood_root_d
+
+
+wood debris
+
+small_twig_a
+
+small_twig_b
+
+small_twig_c
+
+small_twig_d
+
+small_twig_e
+
+small_twig_f
+
+wood_chunk
+
+wood_chunk_a
+
+wood_chunk_b
+
+wood_chunk_c
+
+wood_chunk_d
+
+
+earth debris
+
+mud_chunk_a
+
+mud_chunk_b
+
+small_forest_rock_a - gray, mossy
+
+small_forest_rock_b - gray, mossy
+
+small_forest_rock_c - gray, mossy
+
+small_rock_a - gray
+
+small_rock_b - gray
+
+small_rock_c - gray
+
+small_rock_a_rus - brown
+
+small_rock_b_rus - brown
+
+small_rock_c_rus - brown
+
+
+rock_big_01_rus - brown boulder
+rock_big_01_usa - gray boulder
+a boulder creates a terrain mound like a big tree
+  (triggered by bounding box volume?)
+
+
+surface ice
+
+ice_small_b_sn
+
+ice_small_c_sn
+
+ice_small_d_sn
+
+
+subsurface objects
+
+ice_small_b
+
+ice_small_c
+
+ice_small_d
+
+ice_dirt_a
+
+ice_dirt_b
+
+ice_dirt_c
+
+swamp_grass_01

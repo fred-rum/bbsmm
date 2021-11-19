@@ -1,0 +1,70 @@
+grass (not forked, not leafy):
+grass_flower_can_c - tan, thin
+grass_messy - gold
+grass_road_01 - green/tan
+grass_road_01_rus - green, short, sparse
+grass_short_a - green, short
+grass_short_autumn_a - brown/green, short
+grass_short_can - tan/gray
+grass_short_can_a - green/brown
+grass_short_rus - spring green, sparse
+grass_short_rus_a - green, thick
+grass_simple_a - green/gold, thick
+grass_simple_b - salmon/tan
+grass_tall_autumn_a - brown/gold, tall
+grass_tall_autumn_b - green/brown, tall, thick
+grass_tall_can_a - brown, tall, thick
+grass_tall_can_b - brown
+grass_tall_can_c - gray/olive
+grass_tall_rus_a - green, tall
+grass_tall_rus_b - green, tall
+grass_tall_rus_c - green
+grass_tall_summer_b - green, tall, thick
+grass_winter_a - tan, tall, thick
+grass_winter_b - tan/gray
+
+leafy, may be forked:
+grass_autumn_b - tall green/brown weeds
+grass_autumn_c - tall tan/green weeds
+grass_flower_can_e - tall, brown/green
+grass_weed_rus_e - short vertical dandelion leaves, thin
+
+forked, not leafy:
+grass_dandelions_young - tall green weeds
+
+flowers:
+grass_papaver - red/black poppy flowers, thick
+daisy - white/yellow flowers
+grass_daisy - white/yellow flowers (uses dandelion model), sparse
+grass_dandelion_a - small yellow flowers, sparse
+grass_achillea - white flowers
+grass_flower_can_f - tall, small, cream, sparse
+grass_flower_rus_a - tall, small, yellow, sparse
+grass_flower_rus_b - tall, small, lavender
+grass_flower_rus_c - tall, reddish
+grass_flower_rus_d - tall, yellow
+grass_flower_rus_e - tall, weedy, blue
+grass_flower_rus_f - tall, small, white
+grass_weed_can_a - tall, tan, sparse
+grass_weed_rus_a - tall, tan, sparse
+grass_weed_can_d - tall, tan, sparse
+grass_weed_rus_d - tall, reddish
+
+ground cover:
+grass_ground_plants_a - flat rosette of leaves, sparse
+grass_ground_plants_b - flat clover leaves, thick
+grass_ground_plants_d - flat pinnate leaves, thick
+grass_ground_plants_e - inclined leaves
+grass_ground_plants_f - inclined cardiod leaves, sparse
+grass_ground_plants_g - flat ivy leaves, sparse
+leaves_firs - brown loose needles & cones
+leaves_summer - green loose leaves
+leaves_autumn - orange/etc. loose leaves
+leaves_winter - brown/gray loose leaves
+
+lumps:
+debris_chunks - brown lumps
+debris_snow - white lumps
+debris_stones - gray lumps
+debris_stones_rus - tan lumps
+
