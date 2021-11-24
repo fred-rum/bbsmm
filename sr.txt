@@ -164,9 +164,6 @@ how to publish
   map's *.pak file includes files that look relevant, but aren't
     e.g. all images in ui/textures
 
-publish:
-  how to publish for game consoles
-
 Can a localization text file include an ID in quotes
   in order to translate English to another language?
 
@@ -292,4 +289,14 @@ PlantBrand properties
 duplicate an object by dragging it from the Scene View to the main panel.
   but a duplicated plant has weird problems
 
-is custom material layer possible?
+texture formats:
+__d
+__d_a
+__em_a
+__em_d
+__n_d
+__sh_d
+__sh_s
+__zo_d
+
+missing texture displays error in texture cache, not actual filename
