@@ -288,6 +288,9 @@ PlantBrand properties
 
 duplicate an object by dragging it from the Scene View to the main panel.
   but a duplicated plant has weird problems
+  properties are mostly duplicated,
+    but position is wherever you drag it to,
+    and rotation is reset to 0,0,0 (at least for a landed truck)
 
 texture formats:
 __d
@@ -300,3 +303,35 @@ __sh_s
 __zo_d
 
 missing texture displays error in texture cache, not actual filename
+
+FadeInStart max is 0.5
+
+are texture sounds not allowed to use single items from a set?
+
+Can custom classes reuse built-in meshes?
+  https://file.al/uzrekkb63ujl/CentresNaturistes.rar.html
+  <PhysicsModel Mesh="trucks/cargo/cargo_wooden_planks_1">
+  if so, cargo can be easily customized per Creating_Custom_Cargo.pdf
+  and perhaps others
+
+add descriptions to multi-stage model reference
+  e.g. copy from model reference
+
+Format for cargo zone multi-stage buildings?
+From Nextej#4477 on Discord:
+"modelBuildingSetting": {
+  "$type": "ZoneModelBuildingSettings",
+  "levelName": "~#@%$`*level_custom_mission_test~#@%$`*",
+  "modelTag": "metal_tag",
+  "modelType": "METAL",
+  "stagesProgress": {
+    "state_end": 1,
+    "state_start": 0
+  }
+},
+
+changing an objective sometimes resets it
+  is it based on the objective name?
+
+Mention the Discord
+https://discord.gg/PEPFjBJk
