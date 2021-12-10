@@ -3,7 +3,8 @@ main PDF, with links both near the top and the bottom.
 
 U is E-W, V is N-S.
 
-DiffLockType: None, Uninstalled, Installed, Always
+Country="RU" or "US"
+DiffLockType: None, Uninstalled (upgrade), Installed (yes), Always (always)
 Torque: default (always on), full (when AWD enabled), none, connectable (w/ upgrade)
 DefaultTire
 CompatibleWheels points to an XML file of possible add-on tires
@@ -333,5 +334,26 @@ From Nextej#4477 on Discord:
 changing an objective sometimes resets it
   is it based on the objective name?
 
-Mention the Discord
-https://discord.gg/PEPFjBJk
+useful ways to edit map XML:
+  rename a map
+  rename a model
+  non-uniform scale?
+
+non-uniform scales?
+  requires XML editing
+
+can watchpoints be usefully opened now?
+does grass have shadows now?
+
+in grass reference, include use by material by references?
+  refer to the material that uses the grass?
+  or the reference map that uses the material?
+
+how does highlighting work for a multi-map region?
+
+make a summary of where the properties are defined for things like:
+  the info in the mod browser
+  the map selection screen
+  the map name and background for the loading screen
+  the map and region name on the navigation map
+  the names on the global map

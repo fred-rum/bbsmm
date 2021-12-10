@@ -1,208 +1,2193 @@
-decal = one-sided; static
-board = floating sign; static
-R = Russian writing or iconography
-E = English writing or US/Canadian iconography
-
-
-themed English sign groups:
-
-fixed signs - no text
-
-fixed English signs
-
-dynamic English signs
-
-floating signs - no text
-
-floating English signs
-
-one-sided signs - no text:
-
-one-sided signs English signs (invisible from back):
-
-English graffiti (one-sided)
-
-Russian fixed signs
-
-container
-
-liquid tank
-
-English container and container company decals
-
-fixed Russian signs
-
-oil drilling and derricks
-
-towers
-
-cranes
-  
-commercial structures
-
-small buildings
-
-temporary living quarters (defunct)
-
-temporary office
-
-Russian military structures
-
-military scenery
-
-open structures
-
-loading areas
-
-building accessories
-
-english industrial structures
-
-industrial structures
-
-industrial scenery
-
-english commercial structures
-
-russian commercial structures
-
-russian ghost city structures
-
-buildings under construction
-
-road accessories
-
-dynamic supplies
-
-furniture
-
-commercial scenery
-
-residential scenery
-
-small garage
-
-large garage/warehouse
-
-barrier
-
-pier
-
-sea buildings
-
-animals
-
-road bridge
-
-road bridge/ramp
-
-bridge and other support (for extra height)
-
-other road structures
-
-primitive bridge
-
-broken bridge
-
-rail
-
-buoys
-
-cargo (dynamic)
-
-cargo units (dynamic)
-
-flag
-
-vehicles
-
-upgrade vehicles
-
-vehicle parts
-
-conveyer structures
-
-cross-country oil pipeline
-
-other pipe structures
-
-american residential
-
-russian residential
-
-rural residential
-
-small generic building
-
-guard shack
-
-multi-unit residences
-
-rural scenery
-
-farm buildings
-
-farm scenery
-
-big dam (English)
-
-fence
-
-gas station
-
-cable car
-
-Russian aircraft
-
-aircraft
-
-ice
-
-streetlight
-
-other lights
-
-wire poles
-
-vegetables
-
-Russian statues
-
-lumber
-
-science structures
-
-lying trees
-
-rocks
-
-russian sign boards
-
-foundation/slab
-
-deck flooring
-
-ruins
-
-ruined scenery
-
-debris pile
-
-mine
-
-ships
-
-russian road signs
-
-US road signs
-
-Canada road signs
-
-US directional signs
-
-farplane
-
-error
-bridge_and_train_objective - error disappears if shadows are disabled
-rus_factory_rocket_06 - error disappears if shadows are disabled
-ghostcity_fountain - landmark is displayed despite warning
+Multi-Purpose Signs
+banner_farm_01 – vehicle gate arch: blank	winch
+rus_banner_lumber_mill_gate_01 – vehicle gate arch: blank	~1.75, rus4/ref_lumber_mill_rus_abandoned_03_rus4_sn
+banner_factory_01 – sign: blank	usa/ref_factory_usa_01
+ca_banner_radge_mix_cement_06 – sign board: blank
+banner_city_12 – sign board: blank	inst, usa/ref_town_usa_01
+ca_banner_yukon_iron_works_02 – V-curve decal: stripes
+banner_lumber_08 – decal: no smoking	inst, usa3/ref_factory_paper_usa3
+English Multi-purpose Signs
+banner_city_17 – sign board: [E] "main entrance"	usa/ref_town_usa_01
+banner_servicehub_05 – decal: [E] "entry"	usa3/ref_factory_paper_usa3
+banner_servicehub_06 – decal: [E] "do not enter"	usa3/ref_factory_paper_usa3
+banner_warehouse_05 – decal: [E] "parking for employees only"	inst, usa/ref_port_usa_01
+banner_warehouse_06 – decal: [E] "strictly no parking in this area"	usa/ref_airport_usa_01
+banner_lumber_03 – sign board: [E] "storage"	usa/ref_airport_usa_01
+banner_servicehub_04 – sign board: [E] "loading area"	usa3/ref_railroad_03_usa3
+banner_factory_06 – sign board: [E] "loading area"
+banner_lumber_05 – decal: [E] "loading"	usa3/ref_railroad_03_usa3
+banner_lumber_06 – decal: [E] "office"	inst, usa3/ref_railroad_03_usa3
+banner_lumber_07 – decal: [E] "FLKS"	usa3/ref_railroad_03_usa3
+banner_dam_03 – sign board: [E] "no pedestrians beyond this point"	inst, usa3/ref_railroad_03_usa3
+banner_dam_04 – decal: [E] "personnel only"	usa3/ref_railroad_03_usa3
+banner_city_kenvolt_05 – decal: [E] "no trucks allowed"	usa/ref_town_usa_01
+banner_city_kenvolt_06 – decal: [E] "open 24 hours"	usa/ref_town_usa_01
+banner_city_warehouse_02 – sign: [E] "city central"	~0.62, inst, usa/ref_town_usa_01
+banner_city_warehouse_03 – sign: [E] "welcome/goodbye – have a nice day"	inst
+Russian Multi-purpose Signs
+rus_information_board – broken old sign: [R] "information"	inst, rus4/ref_ghosttown_03_rus4_sn
+rus_banner_city_02 – sign board: [R] "workshop"	inst, rus/ref_factory_rus_02
+rus_banner_city_03 – sign board: [R] "canteen"	rus/ref_factory_rus_02
+rus_banner_city_04 – sign board: [R] "public bath"	rus4/ref_town_rus_03_sn
+rus_banner_lumber_mill_03 – sign board: [R] "public bath"	rus4/ref_town_rus_02_sn
+rus_banner_garage_05 – sign board: [R] "administration"	rus4/ref_town_rus_02_sn
+rus2_banner_himzavod_09 – sign board: [R] "administration"
+rus_banner_garage_07 – sign board: [R] "checkpoint"	rus4/ref_garage_rus_02_sn
+rus_banner_factory_03 – sign board: [R] "checkpoint"	inst, rus/ref_factory_rus_02
+rus_banner_factory_02 – sign board: [R] "loading area"	inst, rus/ref_factory_rus_02
+rus_banner_railway_gate_01 – sign: [R] "sorting"
+rus_banner_factory_decal_04 – decal: [R] "water"	rus4/ref_factory_rocket_rus_01_sn
+rus_banner_factory_decal_06 – decal: [R] "staff only"	rus4/ref_factory_rocket_rus_01_sn
+rus_banner_factory_decal_07 – decal: [R] "do not litter"	inst, rus/ref_factory_rus_02
+rus_banner_factory_decal_08 – decal: [R] "no smoking"	inst, rus/ref_factory_rus_02
+rus_banner_factory_decal_09 – decal: [R] "no drinking"	rus4/ref_factory_rocket_rus_01_sn
+rus2_banner_udarnik_01 – sign: [R] "Udarnik – polar"
+rus2_banner_udarnik_02 – top-mount sign: [R] "Udarnik – polar"
+rus_banner_gorsovet_01 – top-mount sign: [R] "Gorsovet"
+Generic Building Accessories
+rus_balcony_ru04_01 – old, rusty balcony	rus4/ref_town_rus_03_sn
+rus_balcony_ru04_02 – old, rusty balcony	rus4/ref_town_rus_03_sn
+caravan_01a_short – wall-mount awning	inst, usa/ref_drilling_site_usa_02_objetcive
+air_conditioner_01 – window air conditioner	~1.00 (1.00-2.00), inst, rus4/ref_factory_rocket_rus_01_sn
+air_conditioner_02 – wall-mount air conditioner	~1.00 (0.57-1.07), inst, rus4/ref_factory_rocket_rus_01_sn
+air_conditioner_03 – stand-alone air conditioner	~1.00 (0.49-1.00), inst, rus4/ref_launchpad_rus_01_sn
+antenna_01 – small satellite dish	~1.00 (0.70-7.50), inst, rus4/ref_town_rus_02_sn
+rus_antenna_01 – yagi antenna	~1.00 (0.66-1.00), inst, rus4/ref_town_rus_02_sn
+camera_01 – CCTV security camera	~0.81 (0.46-1.00), inst, rus4/ref_garage_rus_02_sn
+surveillance_camera_01 – CCTV security camera	rus4/ref_launchpad_rus_01_sn
+extinguisher_pbr_test – fire extinguisher: [E]	inst, rus/ref_factory_rus_02
+fire_stand_rus_01 – fire-fighting equipment: [R] "fire shield – sand"	rus/ref_factory_rus_02
+fusebox_01_02	rus4/ref_factory_rocket_rus_01_sn
+fusebox_02	inst, rus/ref_factory_rus_01
+fusebox_03: [E]	rus/ref_factory_rus_01
+fusebox_04	rus/ref_factory_rus_01
+fusebox_05: [E]	inst, rus/ref_factory_rus_01
+fusebox_06	~1.00 (1.00-1.53), inst, rus4/ref_missile_fuel_factory_02_rus4_sn
+fusebox_07	inst, rus4/ref_missile_fuel_factory_02_rus4_sn
+fusebox_08	inst, rus4/ref_missile_fuel_factory_02_rus4_sn
+fusebox_09: [E]	~1.00 (0.53-1.00), inst, rus4/ref_town_rus_01_sn
+ca_flag – building-mounted Canadian flag	usa4/ref_garage_02_usa4
+us_flag – building-mounted US flag	~1.14 (1.00-2.00), usa/ref_port_usa_01
+ca_flagpole – Canadian flag on pole	usa4/ref_us_mine_01_sn
+us_flagpole – US flag on pole	~1.00 (1.00-1.55), winch, usa/ref_town_usa_01
+us_king_balls_us06 – bundle of helium balloons on strings
+Backcountry Living
+Ruined Primitive Houses
+rus_hut_aband_02 – abandoned log house	inst, rus3/ref_countryside_rus_02_ex_sn
+rus_hut_aband_03 – abandoned log house	inst, rus05/ref_country_town_rus_02_B
+Old Primitive Houses
+While these may have a boarded up windows and a few holes, they're not yet falling-apart ruins.
+rus_hut_11+_inst – old log house	rus05/ref_country_town_rus_02_B
+rus_hut_12+_inst – old log house	rus05/ref_country_town_rus_02_B
+rus_hut_13+_inst – old log house	rus05/ref_country_town_rus_01_sloped
+rus_hut_10 – old large log house	inst, rus05/ref_factory_settlement_semi_abandoned_rus
+rus_hut_06 – old large house with siding	inst, rus05/ref_factory_settlement_semi_abandoned_rus
+Primitive Houses
+rus_monastic_barn_01 – very small log house with Russian orthodox cross	rus4/ref_monastery_03_rus4_sn
+hermit_house_01 – log cabin with fur-trapping decor	inst, rus05/ref_country_town_rus_02_B
+rus_outhut_03 – small log house	inst, rus05/ref_countryside_rus05
+rus_hut_01 – log house	rus05/ref_countryside_rus05
+rus_hut_01_trial_0303 – log house
+rus_hut_01_blue – log house	rus05/ref_country_town_rus_02_B
+rus_hut_02 – log house	inst, rus05/ref_country_town_rus_02_B
+rus_hut_02_green – log house	inst
+rus_hut_03 – log house	inst, rus4/ref_town_rus_02_sn
+rus_hut_03_gray – log house	inst, rus05/ref_factory_settlement_semi_abandoned_rus
+rus_hut_07 – log house	rus05/ref_countryside_rus05
+rus_hut_08+_inst – log house	rus05/ref_countryside_rus05
+Tiny Houses
+rus_outhut_02 – very small wooden house	inst, rus05/ref_countryside_rus05
+rus_outhut_01 – small wooden house	~1.14 (0.80-1.37), inst, rus4/ref_town_rus_01_sn
+service_cabin_rus_05 – tiny house with siding	rus4/ref_town_rus_01_sn
+observatory_2 – small house with siding	inst, us3/ref_observatory_02_usa
+caravan_01 – modular building with 2 units	inst, usa/ref_drilling_site_usa_02_objetcive
+caravan_01_short – retired long RV trailer	inst, usa/ref_drilling_site_usa_02_objetcive
+caravan_01a_short – awning for caravan_01_short	inst, usa/ref_drilling_site_usa_02_objetcive
+caravan_01_small_us07 – retired short RV trailer	inst, usa_6/ref_us6_city_01
+service_cabin_rus_01 – retired house trailer with lights in some windows at night	inst, rus/ref_drilling_site_rus_02
+service_cabin_rus_nolight_01 – retired house trailer with no lights	inst, rus4/ref_ghosttown_03_rus4_sn
+service_cabin_rus_04 – house trailer	inst, rus4/ref_town_rus_01_sn
+Primitive Furniture
+rus_bench_01 – rough-hewn bench	rus4/ref_town_rus_01_sn
+us_king_stool_us06 – old electrocution chair on concrete pad	~1.44, usa_6/ref_us6_big_house_01
+Backcountry Outbuildings
+rus_hut_wc_01+_02 – outhouse	rus05/ref_country_town_rus_02_B
+toilet – outhouse	inst, rus05/ref_countryside_rus05
+rus_shed_02 – large wooden shed	inst, rus05/ref_countryside_rus05
+rus_cellar_02+_02 – cellar	rus3/ref_flooded_village
+rus_hut_sauna_01 – sauna	inst, rus05/ref_countryside_rus05
+rus_well_01 – well with log-framed windlass	inst, rus05/ref_countryside_rus05
+rus_well_02 – well in log-framed enclosure	~1.00 (1.00-1.52), inst, rus05/ref_countryside_rus05
+rus_pumphouse_01 – wood pumphouse with small cistern	~1.00 (0.69-1.00), inst, rus05/ref_countryside_rus05
+Small Animal Enclosures
+rus_doghut_01 – doghouse	inst, rus05/ref_countryside_rus05
+rus_chickenhut_01+_02 – chicken coop	inst, rus05/ref_countryside_rus05
+geese_house_01 – goose coop	inst
+rus_rabbit_hut_01+_02 – rabbit hutch	inst, rus05/ref_countryside_rus05
+rus_rabbit_hut_02+_02 – rabbit hutch	rus05/ref_countryside_rus05
+rus_beehive_01+_02 – hive box	rus05/ref_countryside_rus05
+Firewood
+logs_04 – firewood	~1.36 (1.00-2.31), inst, rus05/ref_countryside_rus05
+logs_04_trial0303 – firewood	~1.00 (1.00-1.88), inst, rus05/ref_countryside_rus05
+rus_firewood_01+_02 – firewood in covered enclosure	~1.00 (0.86-1.53), inst, rus05/ref_countryside_rus05
+rus_cleaver_01 – hatchet in stump	~1.00 (0.54-1.00), rus05/ref_countryside_rus05
+Other Backcountry House Scenery
+rus_cemetery_01 – small cemetery	rus05/ref_church_01_rus05
+rus_glg_cemetery_01 – small cemetery
+sign_private property: [E] "private property – no trespassing"	usa3/ref_countryside_01_abandoned_usa3
+See also garden stuff (page 438).
+Neighborhood Living
+Old Modern Houses
+country_building_03 – old house – matches country_building_01b	inst, usa3/ref_countryside_01_abandoned_usa3
+rus_city_architecture_03 – old mansion	rus4/ref_town_rus_01_sn
+rus_hut_06 – old house – matches rus_city_building_02	inst, rus05/ref_factory_settlement_semi_abandoned_rus
+procamp_old – ruined house with siding	usa3/ref_small_house_usa_09_old
+ghostcity_building – ruined house	rus4/ref_ghosttown_03_rus4_sn
+ghostcity_building_07 – ruined house	rus4/ref_ghosttown_03_rus4_sn
+ghostcity_building_09 – ruined house	rus4/ref_ghosttown_03_rus4_sn
+Modern Houses
+procamp	~0.74 (0.74-1.00), inst, usa/ref_town_usa_01
+country_building_01_a	inst, usa/ref_town_usa_01
+country_building_01_b	inst, usa/ref_town_usa_01
+country_building_02_a	inst, usa/ref_town_usa_01
+country_building_04	inst, usa/ref_town_usa_01
+country_building_05	light, usa/ref_town_usa_01
+country_building_05_instanced	inst
+country_building_05a	usa/ref_small_house_usa_06a_sn
+country_building_05b	usa/ref_small_house_usa_06b_sn
+country_building_05_old	usa3/ref_small_house_usa_06_old
+country_building_06	inst, usa/ref_town_usa_01
+us_building_01_us06	inst, usa_6/ref_us6_city_01
+us_building_04_us06	inst, usa_6/ref_us6_city_01
+us_building_02_us06	inst, usa_6/ref_us6_city_01
+us_building_06_us06	inst, usa_6/ref_us6_city_01
+us_building_07_us06	inst, usa_6/ref_us6_city_01
+us_building_27_us06	inst, usa_6/ref_us6_big_house_01
+us_building_28_us06	inst, usa_6/ref_us6_city_01
+us_lighthouse_01_us06_single_house_menu	inst
+rus_city_building_02	rus4/ref_town_rus_03_sn
+rus_city_building_03	rus4/ref_town_rus_03_sn
+rus_city_building_13	rus4/ref_town_rus_03_sn
+rus_city_building_15	rus4/ref_town_rus_03_sn
+rus_city_building_15_01	rus4/ref_town_rus_02_sn
+rus_hut_04	inst, rus05/ref_countryside_rus05
+rus_hut_04_yellow	inst, rus05/ref_country_town_rus_01_sloped
+rus_hut_04_red	inst, rus05/ref_country_town_rus_01_sloped
+rus_hut_05	rus4/ref_town_rus_03_sn
+rus_hut_05_blue	rus05/ref_countryside_rus05
+rus_hut_05_red	inst, rus05/ref_country_town_rus_01_sloped
+rus_hut_09	inst, rus4/ref_countryside_rus_03_ex_sn
+rus_hut_09_yellow	~0.90, inst, rus05/ref_country_town_rus_02_B
+rus_hut_09_red	inst, rus05/ref_countryside_rus05
+garage_rus_03	rus4/ref_town_rus_03_sn
+city_building_rus_05	rus4/ref_meteostation_in_mountain_03_rus4_sn
+Modern Outbuildings
+countryside_03 – auxiliary house	inst, usa/ref_town_usa_01
+country_building_01_c – detached garage	inst, usa/ref_town_usa_01
+country_building_01_d – detached garage	inst, usa/ref_town_usa_01
+country_building_02_b – detached garage	inst, usa/ref_small_house_usa_04
+country_building_02_b_old – old detached garage	usa3/ref_countryside_01_abandoned_usa3
+us_building_10_us06 – detached garage: [backwards Dutch]	inst, usa_6/ref_us6_city_01
+us_building_12_us06 – detached garage: [backwards Dutch]	inst, usa_6/ref_us6_city_01
+us_building_13_us06 – detached garage: [backwards Dutch]	inst, usa_6/ref_us6_city_01
+
+rus_garage_metall_01+_02 – detached garage	inst, rus4/ref_ghosttown_03_rus4_sn
+rus_garage_metall_02 – detached garage	inst, rus4/ref_town_rus_03_sn
+rus_garage_metall_04+_02 – detached garage	rus4/ref_town_rus_03_sn
+rus_garage_metall_05+_inst – detached garage	inst, rus4/ref_town_rus_02_sn
+rus_garage_metall_06+_inst – detached garage	inst, rus4/ref_town_rus_02_sn
+rus_garage_metall_07 – detached garage	rus4/ref_town_rus_02_sn
+barn_03 – shed	~0.81 (0.74-1.00), inst, usa_6/ref_us6_city_01
+barn_03_old – old shed	~0.93 (0.56-1.00), usa_6/ref_us6_city_01
+barn_03_a – shed	~0.80 (0.56-1.00), inst, usa_6/ref_us6_city_01
+countryside_05 – shed	inst, usa_6/ref_us6_city_01
+countryside_05_old – old shed	~0.71, usa3/ref_countryside_01_abandoned_usa3
+tent_01 – closed large tent	rus3/ref_camp_rus_02_sn
+tent_02 – open large tent	rus3/ref_camp_rus_02_sn
+rus_cellar_01 – cellar entrance	rus/ref_countryside_rus_01_extra
+Small Open-Sided Storage Shelters
+barn_01 – carport and shelves	inst, rus05/ref_country_town_rus_02_B
+barn_02 – carport and shelves with fuel tank and barrels	~1.53 (1.00-1.80), inst, rus05/ref_country_town_rus_02_B
+rus_barn_01+_02 – carport and shelves	~1.00 (1.00-1.46), inst, rus05/ref_country_town_rus_02_B
+rus_busstop_01+_02 – concrete bus stop shelter with benches	inst, rus05/ref_country_town_rus_02_B
+rus_canopy_01+_inst – small fenced enclosure with canopy	inst, rus05/ref_country_town_rus_02_B
+rus_city_building_10 – shelter with shelves	
+rus_city_building_10_02+_inst – shelter with shelves	inst, rus05/ref_country_town_rus_02_B
+rus_city_building_10_01 – shelves without roof	rus4/ref_town_rus_02_sn
+rus_shelter_01 - shelter	inst, rus05/ref_port_rus_01
+rus_shelter_02 – double carport	inst, rus05/ref_port_rus_01
+rus_shelter_03 – tall shelter	~1.00 (0.63-1.00), inst, rus05/ref_port_rus_01
+tent_02 – open tent	rus3/ref_camp_rus_02_sn
+us_barn_01 – shelter and shelves	~1.36 (1.22-1.50), usa3/ref_countryside_01_abandoned_usa3
+Furniture
+bench_01 – park bench	~2.00 (1.28-2.49), usa_6/ref_us6_city_01
+chair_01 – porch chair	usa_6/ref_us6_city_01
+rus_furniture_armchair_01 – armchair	inst, rus4/ref_ghosttown_03_rus4_sn
+rus_furniture_armchair_02 – broken dirty armchair	inst, rus4/ref_ghosttown_03_rus4_sn
+rus_furniture_cupboard_01 – cupboard	inst, rus4/ref_ghosttown_03_rus4_sn
+rus_furniture_cupboard_02 – broken cupboard	inst, rus4/ref_ghosttown_03_rus4_sn
+rus_furniture_fridge_01 – old refrigerator	inst, rus4/ref_ghosttown_03_rus4_sn
+rus_furniture_fridge_02 – broken refrigerator	inst, rus4/ref_ghosttown_03_rus4_sn
+rus_furniture_piano_01 – piano	inst, rus4/ref_ghosttown_03_rus4_sn
+rus_furniture_piano_02 – dirty piano	inst, rus4/ref_ghosttown_03_rus4_sn
+rus_furniture_sofa_01 – couch	inst, rus4/ref_ghosttown_03_rus4_sn
+rus_furniture_sofa_02 – moldy couch	inst, rus4/ref_ghosttown_03_rus4_sn
+table_01 – small table	~0.75, usa/ref_small_house_usa_02
+rus_furniture_table_01 – small table	inst, rus4/ref_ghosttown_03_rus4_sn
+table_benches_01 – picnic table	rus4/ref_town_rus_02_sn
+rus_table_01 – picnic table	rus4/ref_ghosttown_03_rus4_sn
+parasol_01 – cafe umbrella	rus05/ref_country_town_rus_02_B
+rus_glg_bed_02 – broken old bunk bed frame	rus3/ref_countryside_rus_02_ex_sn
+rus_glg_stove_01 – rusted stove with intact vent pipe	rus3/ref_flooded_village
+Yard Stuff
+us_building_porch_us06 – stone steps with railings	inst, usa_6/ref_us6_city_01
+us_building_porch_2_us06 – concrete steps without railings	inst, usa_6/ref_us6_church_01
+us_mailbox – mailbox	~0.53 (0.50-0.70), usa/ref_town_usa_01
+bbq_01 – barbecue grill	usa/ref_countryside_usa_01
+bbq_02 – barbecue grill	usa/ref_town_usa_01
+parasol_01 – yard umbrella	usa/ref_town_usa_01
+rus_rags_01 – clothesline with clothes	rus4/ref_town_rus_02_sn
+rus_rags_02 – clothesline without clothes	rus05/ref_countryside_rus05
+rus_hose_01 – garden hose	~1.00 (0.65-1.20), inst, rus05/ref_countryside_rus05
+rus_hose_01_no_snow – garden hose	~1.42, inst, rus4/ref_launchpad_rus_01_sn
+us_trash_small – waste bin (oversized; a scale of 0.70 – 0.78 seems best)	~1.00 (0.64-1.03), usa/ref_town_usa_01
+trampoline_01 – trampoline	~0.50 (0.50-0.62), usa/ref_town_usa_01
+Playground Equipment
+ghostcity_playground – playground equipment	rus4/ref_ghosttown_03_rus4_sn
+basketball_hoop_01 – basketball hoop on pole	usa/ref_town_usa_01
+slide_01 – slide	inst, rus4/ref_ghosttown_03_rus4_sn
+ghostcity_playground_01 – rusted merry-go-round	~1.12 (1.00-2.03), rus4/ref_ghosttown_03_rus4_sn
+ghostcity_playground_02 – rusted swing	~1.57 (1.00-2.39), rus4/ref_ghosttown_03_rus4_sn
+ghostcity_playground_03 – rusted seesaw	~1.36 (1.00-2.38), rus4/ref_ghosttown_03_rus4_sn
+ghostcity_playground_04 – rusted monkey bars	~1.28 (1.00-4.49), rus4/ref_ghosttown_03_rus4_sn
+ghostcity_playground_05 – rusted pull-up bars	~1.06 (1.00-2.02), rus4/ref_ghosttown_03_rus4_sn
+ghostcity_playground_06 – rusted shelter	rus4/ref_town_rus_03_sn
+ghostcity_playground_07 – rusted rocket slide	~1.84 (1.66-2.01), rus4/ref_town_rus_03_sn
+Garden Stuff
+flowerbed_01 – flowerbed	inst, rus4/ref_missile_defense_center_03_rus4_sn_01
+flowerbed_02 – planter	~1.00 (0.63-1.80), inst, rus4/ref_ghosttown_03_rus4_sn
+rus_seedbed_01+_02 – vegetable bed	~1.00 (0.44-1.47), rus05/ref_country_town_rus_01_sloped
+garden_bucket_01 – bucket	~1.00 (0.78-1.83), rus05/ref_country_town_rus_02_B
+rus_pail_01 – bucket	~0.70 (0.41-1.00), rus05/ref_country_town_rus_02_B
+us_wheelbarrow – wheelbarrow	rus05/ref_country_town_rus_02_B
+rus_cart_02 – wheelbarrow	rus3/ref_flooded_village
+rus_glg_cart_02 – broken old wheelbarrow	rus05/ref_country_town_rus_01_sloped
+rus_shovel_01 – shovel	rus05/ref_country_town_rus_01_sloped
+rus_rake_01 – rake	rus05/ref_country_town_rus_01_sloped
+leek – leek	~1.39, rus05/ref_country_town_rus_02_B
+Residential Signs
+sign_for_sale: [E] "home for sale"	~0.91, usa/ref_town_usa_01
+sign_residental_area: [E] "residential quiet zone – please be respectful"	usa/ref_town_usa_01
+us_banner_lowlandale: [E] "Welcome to Lowlandale"	inst
+road_sign_ru_05_antonovka – sign: [R] (entering) "Antonovka Village"	inst
+road_sign_ru_05_antonovka_off – sign: [R] (leaving) "Antonovka Village"	inst
+road_sign_ru_05_poddonskoe – sign: [R] (entering) "Poddonskoe Village"	inst
+road_sign_ru_05_poddonskoe_off – sign: [R] (leaving) "Poddonskoe Village"	inst
+rus2_banner_efimovo – sign: [R] "New Efimovo"
+rus_banner_settlement_01 – sign: [R] "Lower Shponka"
+rus_banner_settlement_03 – sign: [R] "Topino"
+rus_sign_02 – sign: [R] "Zimnegorsk"
+rus_sign_03 – sign: [R] "Zimnegorsk"
+Multi-Unit Housing
+rus_city_building_16 – rowhouse	rus4/ref_town_rus_01_sn
+rus_city_building_17 – rowhouse	rus4/ref_town_rus_02_sn
+rus_city_building_01_02 – rowhouse	rus4/ref_town_rus_02_sn
+rus_city_building_01 – apartments	rus4/ref_town_rus_02_sn
+city_building_rus_02 – old apartments	~0.93, inst, rus05/ref_factory_settlement_semi_abandoned_rus
+city_building_rus_03 – old apartments	inst, rus05/ref_factory_settlement_semi_abandoned_rus
+rus_monastic_cell_01 – religious dormitory with Russian orthodox cross	~1.11, rus4/ref_monastery_03_rus4_sn
+rus_city_building_13 – bunkhouse	rus4/ref_town_rus_02_sn
+caravan_01 – modular building with 2 units	inst, usa/ref_meteostation_usa_01
+service_cabin_rus_06 – stack of 8 small modular units	inst, rus/ref_factory_rus_01
+ghostcity_building_02 – apartment ruins	rus4/ref_ghosttown_03_rus4_sn
+ghostcity_building_03 – apartment ruins	rus4/ref_ghosttown_03_rus4_sn
+Farming
+This does not include the residential structures that were already covered.
+Farm Structures
+countryside_01 – silo	~0.77, inst, usa/ref_countryside_usa_01
+countryside_02 – classic barn	usa/ref_countryside_usa_01
+countryside_02_old – old classic barn	~0.85, usa3/ref_countryside_01_abandoned_usa3
+countryside_04 – stable	inst, usa/ref_countryside_usa_01
+countryside_04_old – old stable	usa3/ref_countryside_01_abandoned_usa3
+rus_cowhut_01 – small cow barn	inst, rus05/ref_country_town_rus_02_B
+rus_cowshed_01 – large dairy barn	rus3/ref_farm_rus_sn
+water_tower_01_no_banner+_02 – water tower
+wind_mill_01 – farm windmill	winch, us3/ref_observatory_02_usa
+wind_mill_01_new – farm windmill	winch, usa3/ref_countryside_01_abandoned_usa3
+rus_canopy_01+_inst – empty haystack enclosure	inst, rus/ref_countryside_rus_01_extra
+rus_canopy_02 – haystack enclosure with haystack	inst, rus/ref_countryside_rus_01_extra
+stack_01 – round hay bale	rus/ref_countryside_rus_01_extra
+See also the small animal enclosures (page 434) and fences (page 480).
+Farm Tools
+tractor - abandoned tractor	rus/ref_factory_rus_02
+rus_autojunk_02 - abandoned tractor	inst, rus/ref_countryside_rus_01_extra
+rus_cart_01 – primitive farm cart	rus/ref_countryside_rus_01_extra
+rus_cultivator_01 – rusted cultivator	rus3/ref_abandoned_lumber_mill_rus_sn
+rus_mech_device_01 – rusted mower	rus/ref_countryside_rus_01_extra
+rus_mech_device_02 – rusted hay rake	rus/ref_countryside_rus_01_extra
+garden_bucket_01 – bucket	~1.00 (0.78-1.83), rus05/ref_country_town_rus_02_B
+rus_pail_01 – bucket	~0.70 (0.41-1.00), rus05/ref_country_town_rus_02_B
+us_wheelbarrow – wheelbarrow	rus05/ref_country_town_rus_02_B
+rus_cart_02 – wheelbarrow	rus3/ref_flooded_village
+rus_shovel_01 – shovel	rus3/ref_flooded_village
+rus_rake_01 – rake	rus3/ref_flooded_village
+rus_secateur_01 – scythe	~0.90 (0.79-1.00), rus3/ref_flooded_village
+Other Farm Stuff
+rus_milkcan_01 – 5 milk churns	rus/ref_countryside_rus_01_extra
+rus_milkcan_02 – 3 milk churns	rus/ref_countryside_rus_01_extra
+rus_milkcan_03 – 1 milk churn	rus05/ref_church_01_rus05
+rus_tank_06 – liquid tank on trailer: [R] "milk"	rus/ref_countryside_rus_01_extra
+Farm Signs
+banner_farm_03 – V-curve decal: [E] "USA"	~0.83, usa/ref_countryside_usa_01
+banner_farm_04 – decal: [E] "farm store"	usa/ref_countryside_usa_01
+banner_farm_09 – decal: [E] "milk"	usa/ref_countryside_usa_01
+banner_farm_11 – H-curve decal: US flag	usa/ref_countryside_usa_01
+banner_farm_12 – decal: bull head	usa4/ref_farm_01_usa4
+banner_farm_02 – fixed sign: [E] "Mathew (sic) and Sons – american farm – since 1978"	winch
+banner_farm_06 - decal: [E] "Matthew's Farm"	usa/ref_countryside_usa_01
+banner_farm_14 – decal: [E] "Matthew & Sons"	usa/ref_countryside_usa_01
+us_banner_Farm_arch – open vehicle gate: [E] "Off-Pitch Forks Farm"
+us_banner_Farm_decal – decal: [E] "Off-Pitch Forks Farm"
+rus_banner_cowhub_gate_01 – open vehicle gate: [R] "collective farm – Commissioner Kvashnin"
+	~1.20, rus/ref_countryside_rus_01_extra
+rus_banner_cowhub_gate_02 – sign: [R] "advanced harvest collective farm"
+Commercial Services
+Hotels
+city_building_04 – building: [E] "Welcome to Grand Hotel"	inst, usa/ref_town_usa_01
+city_building_06 – building	inst, usa/ref_town_usa_01
+city_building_07 – building	inst, usa/ref_town_usa_01
+us_building_20_us06 – building: [E] "Grand Hotel – Bakery Wild Boar"	inst, usa_6/ref_us6_city_01
+us_building_31_us06 – building: [E] "Hotel"	inst
+us_building_33_us06 – building: [E] "sailors club hotel"	inst, usa_6/ref_us6_big_house_02
+ad_parking – sign: [E] "hotel parking only"	usa_6/ref_us6_big_house_02
+banner_city_hotel_01 – sign board: [E] "P.B. Grand Hotel – since 1875"	usa/ref_town_usa_01
+banner_city_hotel_02 – side-mount sign: [E] "Grand Hotel 24 Hours"	~0.68, usa/ref_town_usa_01
+banner_city_hotel_03 – decal: [E] "since 1875"	usa/ref_town_usa_01
+Motels
+motels_05 – lobby and office	inst, usa/ref_motel_usa_02
+motels_03 – motel units	inst, usa/ref_motel_usa_02
+motels_04 – motel units	inst, usa/ref_motel_usa_02
+motels_06 – motel units	inst, usa/ref_trailer_garage_usa_01_sn
+us_banner_overlook_hotel_02_us06 – motel units: [E]	usa_6/ref_motel_us6_01
+us_banner_overlook_hotel_03_us06 – motel units: [E] "Overlook Hotel"	usa_6/ref_motel_us6_01
+us_banner_overlook_hotel_04_us06 – lobby and services: [E] "Reception – Administration – Bar – Restaurant"	usa_6/ref_motel_us6_01
+us_banner_overlook_hotel_05_us06 – sign: [E] "Overlook Hotel – Closed until May – See you again soon!"
+water_mill_01 – mill building: [E] "Holtlen Motel"
+banner_motel_01 – sign: [E] "Holtlen Motel – vacancy"	winch
+Office/School Buildings
+airfield_building_rus_01	rus3/ref_airport_rus_01_sn
+garage_mill_red	inst, usa/ref_town_usa_01
+garage_mill_white	inst, usa/ref_town_usa_01
+garage_mill_white_a	inst, usa/ref_town_usa_01
+rus_exfactory_rocket_07	rus4/ref_factory_rocket_rus_02_sn
+city_building_06	inst, usa/ref_town_usa_01
+city_building_07	inst, usa/ref_town_usa_01
+city_building_12	inst, usa/ref_town_usa_01
+city_building_13	inst, usa/ref_town_usa_01
+us_building_14_us06 – [E]: "Police Department – Federal Building"	~0.91, inst, usa_6/ref_us6_city_01
+us_building_19_us06	inst, usa_6/ref_us6_city_01
+rus_garage_03 – office/light industrial with lights in some windows at night	inst, rus/ref_factory_rus_02
+rus_garage_03_nolights – office/light industrial with no lights	inst, rus05/ref_railway_station_rus05
+city_building_rus_06 – old office block: hammer and sickle	inst, rus4/ref_missile_defense_center_03_rus4_sn_01
+port_us_01 – office and maintenance shop: [Dutch]	inst, usa/ref_port_usa_01
+us_port_building_02_us06 – dilapidated office and maintenance shop: [Dutch]	inst, usa_6/ref_us6_port_01
+city_building_3f_01 – office and warehouse: [E] "warehouse"	inst, usa/ref_town_usa_01
+rus_launchpad_house_01 – office building with windowless annex	rus4/ref_launchpad_rus_01_sn
+garage_rus_02 – rail station?	rus4/ref_factory_rocket_rus_01_sn
+garage_rus_02a – rail station?	rus4/ref_garage_rus_02_sn
+ghostcity_building_04 – office ruins	rus4/ref_ghosttown_03_rus4_sn
+ghostcity_building_06 – office ruins	~0.91 (0.91-0.92), rus4/ref_ghosttown_03_rus4_sn
+English Office/School Signs
+banner_city_20 – sign: [E] "Washington High School"	inst, usa/ref_town_usa_01
+banner_city_10 – sign board: [E] "Invers Bank"	usa/ref_town_usa_01
+us_banner_city_01_us06 – sign: [E] "Federal building of the Main Office of the State of Maine"
+	~1.12, inst, usa_6/ref_us6_city_01
+ad_recycled – sign: [E] "recycled water – do not drink"	winch, usa_6/ref_us6_city_01
+Russian Office/School Signs
+rus2_banner_kb_02 – sign : [R] MA logo - "KB Ilya Maskovich State University"
+rus2_banner_kb_01 – sign board: [R] MA logo - "KB Ilya Maskovich State University"	rus4/ref_factory_rocket_rus_02_sn
+rus2_banner_kb_03 – sign board: [R] MA logo	rus4/ref_factory_rocket_rus_02_sn
+rus2_banner_nii_kago_02 – sign: [R] Kago Research Institutes"
+rus2_banner_nii_kago_01 – sign board: [R] "Kago Research Institutes"	rus4/ref_factory_rocket_rus_01_sn
+rus2_banner_nii_kago_03 – sign board: [R] Kago Research Institutes"	rus4/ref_factory_rocket_rus_01_sn
+Temporary Offices
+E.g. at a construction site.
+us_caravan_container_01+_02	rus05/ref_car_factory_rus_01
+service_cabin_rus_02: [R] "cashier"	inst, rus4/ref_garage_rus_02_sn
+service_cabin_rus_02a – no text	rus4/ref_garage_rus_02_sn
+cargo_cabin_rus_01	winch, rus4/ref_climbing_shelter_03_rus4_sn
+Shops
+city_building_08: [E]	inst, usa/ref_town_usa_01
+city_building_09: [E]	inst, usa/ref_town_usa_01
+city_building_10: [E]	inst, usa/ref_town_usa_01
+city_building_11: [E]	inst, usa/ref_town_usa_01
+us_building_15_us06: [E] "grocery stores – office – emissions inspection station [for Virginia]"
+	inst, usa_6/ref_us6_city_01
+us_building_17_us06: [E] "farm store – shop goods buns – Arctic Fox – Irish Pub – warehouse sale – bar inn – high-speed food"	inst, usa_6/ref_us6_city_01
+us_building_18_us06: [E] "food cord line drivers – roadside tavern ferret – since 1870 – 50% off"
+	inst, usa_6/ref_us6_city_01
+us_building_21_us06: [E] "RD bar restaurant diner"	inst, usa_6/ref_us6_city_01
+us_building_23_us06: large house: [E] "fishing shop"	inst, usa_6/ref_us6_city_01
+us_building_24_us06: [E] "Grand Hotel – bowling club – NERBs – since 1690"	inst, usa_6/ref_us6_city_01
+us_building_26_us06: [E] - "The Irish Pub – Doner Kebab"	inst, usa_6/ref_us6_city_01
+us_building_29_us06: [E] - "The Irish Pub"	inst
+us_building_30_us06: [E] "Ancla Vieja – Hotel – Grany Pony – Bar Rest – 50% off"	inst
+us_building_32_us06: [E] "souvenir hall"	inst
+shop_rus_01: [R] "shop"
+cafe_rus_01 – old house: [R] "cafe"	inst, rus05/ref_factory_settlement_semi_abandoned_rus
+city_building_rus_04 – small building: [R] "shop"	~0.91, inst, rus05/ref_factory_settlement_semi_abandoned_rus
+rus_city_building_04: [R] "Beans Minimarket – fruits / vegetables"	rus4/ref_town_rus_03_sn
+rus_city_building_05: [R] "grocery store"	rus4/ref_town_rus_03_sn
+rus_city_building_06: [R] "pharmacy 24"	rus4/ref_town_rus_03_sn
+rus_city_building_07 – secure kiosk	rus4/ref_town_rus_02_sn
+rus_city_building_08 – secure kiosk: [R] "beer – water"	rus4/ref_town_rus_02_sn
+rus_city_building_09 – open kiosks	rus4/ref_town_rus_02_sn
+rus_city_building_12 – open kiosks: [R] "news – repair – co-op"	~0.88 (0.85-1.00), rus4/ref_town_rus_03_sn
+rus_city_building_11 – secure kiosk: [R] "products for astronauts"	rus4/ref_town_rus_03_sn
+rus_city_building_14 – closed kiosk: [R] "instruments – rocket parts"	rus4/ref_town_rus_03_sn
+rus_city_cafe_01 – house: [R] "snack bar"	rus4/ref_town_rus_03_sn
+rus_city_cafe_02: [R] "barbecue"	rus4/ref_town_rus_02_sn
+ghostcity_DK – ruined museum: [R] "house of culture"	rus4/ref_ghosttown_03_rus4_sn
+ghostcity_stall – boarded-up kiosk: [R] "newspapers – magazines – books"	rus4/ref_ghosttown_03_rus4_sn
+ghostcity_univermag – old store: [R] "department store"	rus4/ref_ghosttown_03_rus4_sn
+parasol_01 – cafe umbrella	usa/ref_town_usa_01
+English Shop Signs
+banner_city_06 – sign board: [E] "books store"	usa/ref_town_usa_01
+banner_city_07 – decal: [E] "sale"	inst, usa/ref_town_usa_01
+banner_city_08 – decal: [E] "50%"	usa/ref_town_usa_01
+banner_city_16 – sidewalk sign: [E] "50% off – super price"	usa/ref_town_usa_01
+banner_city_hotel_04 – sign board: [E] "coffee – cafe & shop"	usa/ref_town_usa_01
+banner_city_hotel_06 – sign board: [E] "Kanford Bakery"	usa/ref_town_usa_01
+banner_city_hotel_07 – sign board: [E] "bowling & bar"	usa/ref_town_usa_01
+banner_city_09 – decal: [E] "since 1870"	usa/ref_town_usa_01
+banner_city_21 – decal: [E] "24H hamburgers & hot dogs"	usa/ref_town_usa_01
+banner_city_23 – decal: [E] "open"	usa/ref_town_usa_01
+banner_city_hotel_03 – decal: [E] "since 1875"	usa/ref_town_usa_01
+banner_city_hotel_05 – decal: [E] "coffee shop"	usa/ref_town_usa_01
+banner_city_15 – side-mount sign: [E] "cold beer – always fresh"	~0.67 (0.67-0.77), usa/ref_town_usa_01
+banner_city_hotel_08 – decal: [E] "Killdanny American Cream Ale"	usa/ref_town_usa_01
+banner_city_pub_04 – decal: [E] "Parp Premium Lager"	usa/ref_town_usa_01
+banner_dam_05 – decal: [E] "cash only"
+banner_dam_07 – decal: US flag	inst, usa/ref_airport_usa_01
+banner_farm_08 – decal: US flag	inst, usa/ref_countryside_usa_01
+banner_farm_13 – decal: [E] "best in USA"	usa/ref_countryside_usa_01
+banner_city_jimmy_04 – decal: [E] "warehouse sale"	usa/ref_town_usa_01
+banner_farm_05 – decal: [E] "Green Valley – founded in 1800"	usa/ref_countryside_usa_01
+banner_farm_07 – decal: [E] "ECO Purified Water"	~4.92, inst, usa/ref_countryside_usa_01
+banner_city_pub_01 – sign board: [E] "The Irish Pub – established 1824"	usa/ref_town_usa_01
+banner_city_pub_02 – sign board: [E] "The Irish Pub – established 1824"	usa/ref_town_usa_01
+banner_city_pub_05 – sidewalk sign: [E] irish flag – US flag – shamrock – food prices	usa/ref_town_usa_01
+banner_city_pub_03 – decal: irish flag – US flag – shamrock	usa/ref_town_usa_01
+banner_city_11 – sign board: [E] "Uncle Andrio Pizza"	usa/ref_town_usa_01
+banner_city_12 – sign board: blank	inst, usa/ref_town_usa_01
+banner_city_19 – decal: [E] "Uncle Andrio Pizza"	usa/ref_town_usa_01
+banner_city_13 – sign board: [E] "Country Store - Saber"	usa/ref_town_usa_01
+banner_city_14 – sign board: [E] "best price - best quality"	usa/ref_town_usa_01
+us_banner_port_01 – multi-angled signs for use with us_port_building_02_us06: [E] "Lookout Point Pier – Diving Center"	inst, usa_6/ref_us6_port_01
+us_banner_port_02 – multi-angled signs for use with us_port_building_01_us06: [E] "Multipurpose Terminal – Warehouse – Fish Market – Boat Rental – Repair"	inst, usa_6/ref_us6_port_01
+us_banner_port_04 – multi-angled signs for use with rus_garage_06_nolights: [E] "Sea Food Cafe"
+	inst, usa_6/ref_us6_port_01
+Russian Shop Signs
+rus2_banner_gar_01 – sign board: [R] "Bolt World"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_02 – sign board: [R] "tasty like home - banquets - celebrations"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_13 – decal: [R] "buy 3 computer disks at the price of 4 - 1 disk free!"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_14 – decal: [R] "Fish Hey - cod, haddock, (etc.)"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_15 – decal: [R] "Chop - no problem - protection, conflict resolution, debt return"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_16 – decal: [R] "Combat Computer Club"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_17 – decal: [R] "Tympani Lighting - floor lamps - chandeliers - lamps - sconce - seasonal novelties"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_18 – decal: [R] "movies – music – games"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_19 – decal: [R] "Blue Screen – video salon"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_20 – decal: [R] "Khozmag Luck – everything for a summer residence during a hurricane – everything for collecting cloudberries – everything for the excavation of fox holes – Yeti and Bigfoot bait – bear traps"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_21 – decal: [R] "Cafe Curve Cardan – find a bolt in the soup? lunch at half price!"	rus4/ref_town_rus_02_sn
+rus2_banner_gar_22 – decal: [R] "be always connected together with a pager from VPO Telecom"	rus4/ref_town_rus_02_sn
+rus2_banner_gar_23 – decal: [R] "Planet Plumbers"	rus4/ref_town_rus_02_sn
+rus2_banner_gar_24 – decal: [R] "UMKA Technical Literature Shop"	rus4/ref_town_rus_02_sn
+rus2_banner_gar_25 – decal: [R] "777 Bigwin - hall of gaming machines – woohoo"	rus4/ref_town_rus_01_sn
+rus2_banner_gar_26 – decal: [R] "turn around! – hunting – tourism – fishing"	rus4/ref_town_rus_01_sn
+rus2_banner_gar_27 – decal: [R] "Transistor – radio parts shop"	rus4/ref_town_rus_01_sn
+rus_banner_city_01 – sign board: [R] "general store"
+rus_banner_city_05 – sign board: [R] "news kiosk"	rus4/ref_town_rus_01_sn
+rus_banner_city_06 – sign board: [R] "news kiosk"	inst, rus4/ref_town_rus_01_sn
+rus_banner_decal_08 – decal: [R] "house of culture"	rus/ref_countryside_rus_01_extra
+rus_banner_decal_09 – decal: [R] "municipal council"	rus4/ref_ghosttown_03_rus4_sn
+Commercial Garages & Gas Stations
+garage01 – garage: [E] "24H Garage"	inst, usa/ref_garage_usa_01
+garage_p2 – shop and truck wash [E] "Truck Services" "truck wash" "24H"	inst, usa/ref_garage_usa_01
+us_garage_02_us06_objective – garage: [E] "Evans Garage – my trailers are solid"
+us_garage_03_us06_objective – garage: [E] "truck service center"
+us_garage_05_us06_objective – [E] "Reload cargo trailer shop – sales office"
+us_garage_06_us06_objective – showroom: [E] "truck shop"
+us_garage_07_us06_objective – garage: [E] "Hard Custom Studio"
+us_garage_08_us06_objective – covered spaces with trailers: [E] "Reload cargo trailers shop"
+us_garage_09_us06_objective – office with service bays: [E] "Hard Custom Studios – tuning – truck service"
+garage02 – garage interior only – used for player's garage
+ref_upgradable_garage_int_stage_1 – garage interior only
+ref_upgradable_garage_int_stage_2 – garage interior only
+ref_upgradable_garage_int_stage_3 – garage interior only
+gas_stations_building_rus_02 – shop: [R] "gas" "cashier" "air"	rus/ref_gas_station_rus_01
+gas_stations_building_rus_abandoned_02 – shop: [R] "gas" "cashier" "air"	rus4/ref_gas_station_03_rus4_01_sn
+us_gas_stations_02_us06 – shop: [E] "food mart – refuel – tires"	~1.12, inst, usa_6/ref_gas_station_us6_01
+gas_stations_rus_03 – fuel storage tank & gas pump: [R] "fire danger"	inst, rus/ref_gas_station_rus_02
+us_gas_stations_03_us06 – awning for gas pumps: [E]	inst, usa_6/ref_gas_station_us6_01
+gas_stations_awning_rus_01 – awning for gas pumps
+gas_stations_awning_rus_02 – gas pumps and awning	rus/ref_gas_station_rus_01
+gas_stations_awning_rus_abandoned_02 – old gas pumps and awning	~0.75, rus4/ref_gas_station_03_rus4_01_sn
+rus_estocada_01+_inst – car lift ramp	inst, rus4/ref_factory_craft_02_rus4_sn
+rus_estocada_02 – car lift ramp	rus/ref_service_hub_rus_02
+Fuel Pumps & Tanks
+fuel_atm_01 – fuel pump: [R]	~1.08, inst, usa/ref_gas_station_usa_01
+container_03 – tank in frame with gas pump: [R] "fire danger"	rus4/ref_oil_storage_rus_01_sn
+container_03_objective – tank in frame with gas pump: [R] "fire danger"
+fuel_tank – two tanks on concrete blocks with oil barrels and primitive gas pump: [R] "fire danger"	light
+gas_stations_rus_03 – tank in container with pipes and open doors with gas pump: [R] "fire danger"
+	inst, rus/ref_gas_station_rus_02
+tank_01 – tank on concrete pad	~4.08 (0.91-6.00), inst, usa/ref_town_usa_01
+tank_02 – tank on concrete pad	~3.02 (1.75-4.92), inst, usa/ref_service_hub_usa_01
+usa3_tank_01 – tank on makeshift frame	usa3/ref_oil_storage_01_usa3
+rus_tank_01 – tank on makeshift frame: [R] "fire danger"	~1.00 (0.79-1.66), inst, rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_tank_02 – tank on makeshift frame: [R] "fire danger"	inst, rus4/ref_missile_fuel_factory_02_rus4_sn
+gas_stations_rus_04 – tank on concrete pad with accessory equipment: [R] "fire danger"	inst, rus/ref_gas_station_rus_01
+oil_tank_rus_01 – elevated tank with catwalk	rus4/ref_missile_fuel_factory_02_rus4_sn
+oil_tank_rus_01_no_snow – elevated tank with catwalk	rus4/ref_launchpad_rus_01_sn
+container_04+_instanced – tank in frame: [E] "trailers only"	rus4/ref_missile_fuel_factory_02_rus4_sn
+container_05 – tank in frame: [E] "trailers only"	rus4/ref_oil_storage_rus_01_sn
+container_06 – tank in frame: [E] "trailers only"	rus4/ref_missile_fuel_factory_02_rus4_sn
+us_rail_staff_02 – tank on concrete pad with equipment and high swing arm: [E]	usa3/ref_railroad_02_usa3
+rus_tank_03 – small tank on makeshift frame: [R] "fire danger"	~1.00 (0.50-1.20), inst, rus/ref_countryside_rus_01_extra
+rus_tank_04 – rusted small tank on old trailer	rus/ref_countryside_rus_01_extra
+Truck Repair Parts
+rus_autojunk_03 – winch accessory	~1.00 (0.58-1.20), inst, rus/ref_service_hub_rus_02
+rus_autojunk_04 – truck exhaust parts	~1.00 (0.60-1.00), inst, rus/ref_service_hub_rus_02
+us_spare_parts_01_us06 – pair of truck fuel tanks on pallet	inst, usa_6/ref_us6_garage_02
+There are also some junk truck parts on page 476.
+English Garage/Gas Signs
+banner_garage_logo_01 – sign: [E] "truck services"	winch
+gas_stations_02 – shop & garage – Greshell logo [E] "Greshell Gas Company – car service – foot mart"
+	~1.12, inst, usa/ref_gas_station_usa_01
+gas_stations_03 – awning for gas pumps: [E] Greshell logo – "Steel River – gas"	usa/ref_gas_station_usa_01
+gas_stations_04 – shop: [E] Greshell logo – "Greshell Gas Company – food mart"	inst, usa/ref_gas_station_usa_02
+banner_gas_station_01 – street sign with gas prices: [E] Greshell logo – "food mart – car service"	winch
+banner_city_21 – decal: [E] "24H hamburgers & hot dogs"	usa/ref_town_usa_01
+banner_city_22 – board: [E] "foot mart"	~0.75, usa/ref_town_usa_01
+banner_city_23 – decal: [E] "open"	usa/ref_town_usa_01
+banner_city_jimmy_04 – decal: [E] "warehouse sale"	usa/ref_town_usa_01
+banner_servicehub_07 – decal: [E] "work hours – 6 am–10 pm"	inst, usa/ref_service_hub_usa_01
+banner_warehouse_07 – decal: [E] "work hours – 6 am–10 pm"	inst, usa/ref_airport_usa_01
+banner_servicehub_08 – decal: [E] "storage 2 – 8'-3""	usa/ref_service_hub_usa_01
+banner_servicehub_09 – decal: [E] "storage 3 – 8'-3""	usa/ref_service_hub_usa_01
+banner_garage_01 – decal: [E] "16'6""	inst, usa/ref_garage_usa_01
+banner_garage_02 – decal: [E] "G1"	usa/ref_garage_usa_01
+banner_garage_03 – decal: [E] "G2"	usa/ref_garage_usa_01
+banner_garage_04 – decal: [E] "G3"	usa/ref_garage_usa_01
+banner_garage_05 – decal: [E] "G4"	usa/ref_garage_usa_01
+banner_garage_06 – decal: [E] "G5"	usa/ref_garage_usa_01
+banner_warehouse_blue_01 – decal: [E] "1"	rus05/ref_car_factory_rus_01
+banner_warehouse_blue_02 – decal: [E] "2"	rus05/ref_car_factory_rus_01
+banner_warehouse_blue_03 – decal: [E] "3"	rus05/ref_car_factory_rus_01
+banner_warehouse_grean_01 – decal: [E] "1"	rus/ref_factory_rus_04
+banner_warehouse_grean_02 – decal: [E] "2"	rus/ref_factory_rus_04
+banner_warehouse_grean_03 – decal: [E] "3"	rus/ref_factory_rus_04
+banner_warehouse_grean_05 – decal: [E] "5"	rus05/ref_country_town_rus_02_B
+banner_garage_07 – V-curve decal: [E] "oil"	inst, usa/ref_garage_usa_01
+banner_garage_08 – two-sided H-curve decal: [E] "oil"	~3.98, inst, usa/ref_garage_usa_01
+banner_city_01 – sign board: [E] "Voltov Motor – 1967"	usa/ref_town_usa_01
+banner_city_03 – sign board: [E] "auto parts – tires – tuning"	usa/ref_town_usa_01
+banner_city_04 – sign board: [E] "office"	usa/ref_town_usa_01
+banner_city_02 – sign board: [E] "Saberola"	inst, usa/ref_town_usa_01
+banner_city_05 – sign board: [E] "Saberola"	usa/ref_town_usa_01
+banner_city_kenvolt_01 – sign board: [E] "Kenvolt Service"	usa/ref_town_usa_01
+banner_city_kenvolt_02 – sign board: [E] "free brake check up"	usa/ref_town_usa_01
+banner_city_kenvolt_03 – sign board: [E] "office"	usa/ref_town_usa_01
+banner_city_kenvolt_04 – sign board: [E] "car wash"	usa/ref_town_usa_01
+us_banner_Garage – top-mount sign: [E] "Trans-Canadian Truck Stop"
+us_banner_Garage_decal_03 – four-sided decal: [E] "Trans-Canadian Truck Stop"
+us_banner_Garage_decal_04 – H-curve decal: [E] "Trans-Canadian Truck Stop"
+us_banner_Gas_Station_01 – top-mount sign: [E] "Lewis Fuel"
+us_banner_Gas_Station_02 – post-mount sign: [E] "Lewis Fuel"
+us_banner_Gas_Station_forward – post-mount sign: [E] "Lewis Fuel" (ahead)
+us_banner_Gas_Station_left – post-mount sign: [E] "Lewis Fuel" (left)
+us_banner_tomalvas_03 – sign: [E] "Tom Alva's Automated Workshop"
+us_banner_tomalvas_01 – top-mount sign: [E] "Tom Alva's Automated Workshop"
+us_banner_gas_stations_01_us06 – multi-angled collection of signs for use with us_gas_stations_02_us06: [E] "Dixie Boyz Truck Stop", etc.	~1.12, inst, usa_6/ref_gas_station_us6_01
+us_banner_gas_stations_02_us06 – multi-angled collection of signs for use with us_gas_stations_03_us06: [E] "gas – service – garage"	inst, usa_6/ref_gas_station_us6_01
+us_banner_gas_stations_04_us06 – 3‑D curved decal for use with tank_01 or similar: [E] "DB TS"
+	~4.08, inst, usa_6/ref_gas_station_us6_01
+Russian Garage/Gas Signs
+rus_banner_garage_06 – sign board: [R] "gas"
+rus_banner_railway_02 – old sign board: [R] "gas"
+rus_banner_garage_01 – sign: [R] "garage"	rus4/ref_ghosttown_03_rus4_sn
+rus_banner_garage_left_02 – sign: [R] "garage (arrow left)"
+rus_banner_garage_right_02 – sign: [R] "garage (arrow right)"
+rus_banner_garage_100_01 – sign: [R] "garage – 100M"
+rus_banner_garage_200_01 – sign: [R] "garage – 200M"
+rus_banner_factory_07 – sign board: [R] "garage"	rus/ref_factory_rus_02
+rus2_banner_gar_03 – sign board: [R] "towing 957-54"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_10 – sign board: [R] "towing 957-54"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_04 – sign board: [R] "free oil change"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_05 – sign board: [R] "truck tire mounting"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_06 – sign board: [R] "Vasya Disya Auto Electrician"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_07 – sign board: [R] "chassis repair"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_08 – sign board: [R] "secured auto loans"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_09 – sign board: [R] "Garcher – 24 hour car wash"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_11 – sign board: [R] "Turbo auto parts"	rus4/ref_garage_rus_02_sn
+rus2_banner_gar_12 – decal: [R] "Kuku-Ha – fast money for auto repair"	rus4/ref_garage_rus_02_sn
+Warehouses & Storage Structures
+city_building_3f_01 – office and warehouse: [E] "warehouse"	inst, usa/ref_town_usa_01
+rus_launchpad_house_04 – small shed	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_house_05 – small storage building	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_house_06 – small storage building with observation deck	rus4/ref_launchpad_rus_01_sn
+rus_shed_01+_02 – medium storage shed	inst, rus/ref_countryside_rus_01
+rus_storehouse_03 – medium storage shed	inst, rus/ref_countryside_rus_01
+barn_round_01 – large storage shed	inst, usa/ref_countryside_usa_01
+rus_storehouse_01 – large storage shed	inst, rus/ref_railroad_station_rus_01
+barn_round_rus_01 – large storage shed	inst, usa4/ref_railroad_01_usa4
+barn_round_rus_02 – large storage shed	inst, usa4/ref_railroad_01_usa4
+warehouse01 – large storage shed: [E]	inst, usa4/ref_railroad_01_usa4
+rus_storehouse_02 – larger storage shed	inst, rus/ref_countryside_rus_01
+trailer_storage – one-bay long garage	inst, usa/ref_garage_usa_01
+usa3_oil_storage_garage_01 – two-bay garage/warehouse	usa3/ref_oil_storage_01_usa3
+rus_garage_01+_02 – three-bay garage/office	inst, rus4/ref_ghosttown_03_rus4_sn
+rus_garage_metall_03 – four-bay garage	inst, rus/ref_service_hub_rus_02
+warehouse_02_rus – four-bay garage/factory	inst, rus4/ref_ghosttown_03_rus4_sn
+port_us_02 – four-bay garage/warehouse: [E]	inst, usa/ref_port_usa_01
+rus_garage_05 – five-bay garage	~1.00 (0.59-1.00), inst, rus4/ref_ghosttown_03_rus4_sn
+rus_garage_05a – five-bay garage	~0.86 (0.51-1.00), rus4/ref_town_rus_01_sn
+rus_garage_08 – five-bay garage	~1.00 (0.51-1.00), rus4/ref_ghosttown_03_rus4_sn
+rus_garage_04 – six-bay garage/factory	inst, rus/ref_garage_rus_01
+rus_garage_04a – six-bay garage/factory	rus4/ref_garage_rus_02_sn
+tatra_utility_01 – six-bay garage/factory	inst, rus05/ref_car_factory_rus_01
+tatra_utility_02 – six-bay garage/factory	inst, rus05/ref_car_factory_rus_01
+tatra_utility_03 – six-bay garage/factory	inst, rus05/ref_car_factory_rus_01
+rail_station_01 – warehouse	usa3/ref_railroad_02_usa3
+rus_base_01_building_objective – warehouse
+rus_base_02_building_objective – warehouse with loading dock
+warehouse_01 – warehouse with loading dock: [E]	inst, usa/ref_warehouse_usa_01
+tatra_warehouse_objective – warehouse: [Dutch] (triggers warnings unless the default shadows are disabled)	light
+us_port_building_01_us06 – five-bay garage/storage	inst, usa_6/ref_us6_port_01
+Commercial Storage Units
+service_cabin_rus_03 – storage unit	inst, rus4/ref_constr_brick_01_rus4_sn
+service_cabin_rus_06 – bank of storage units	inst, rus/ref_factory_rus_01
+Large Open-Sided Storage Shelters
+barn_open_01 – two-bay carport	~0.64 (0.52-1.00), inst, usa/ref_garage_usa_01_sn
+barn_open_01_old – two-bay carport with displaced roof panels
+	~1.00 (0.44‑1.04), rus4/ref_lumber_mill_rus_abandoned_03_rus4_sn
+cargo_platform_wide – concrete pad with roof	rus05/ref_railway_station_rus05_B
+warehouse02_empty – concrete pad with roof	~0.80, inst, usa_6/ref_factory_craft_concrete_us6_01
+warehouse02 – concrete pad with roof; ramp; pile of pipes	~0.74 (0.56-1.00), inst, rus05/ref_port_rus_01
+rus_factory_storage_02 – 3½-sided masonry storage	~1.00 (0.64-1.00), inst, rus/ref_factory_rus_02
+rus_factory_storage_03+_inst – three-sided three-bay shallow masonry carport	inst, rus05/ref_port_rus_01
+storage_rus_02_02 – three-sided four-bay masonry carport	rus05/ref_port_rus_01
+English Warehouse Signs
+banner_city_warehouse_01 – sign: [E] "municipal warehouse"	inst
+banner_warehouse_01 – sign: [E] "MH Warehouse"	winch
+banner_warehouse_04 – decal: [E] "MH Warehouse"	usa3/ref_railroad_02_usa3
+banner_warehouse_02 – sign: [E] "Sheldbox Warehouse"	winch
+banner_warehouse_03 – decal: [E] "Sheldbox Warehouse"
+us_banner_Change_Houses_02 – sign: [E] "Whitemane Logistics Solutions"
+us_banner_Change_Houses_01 – V-curve decal: [E] "Whitemane Logistics"
+Russian Warehouse Signs
+rus_banner_garage_03 – sign board: [R] "warehouse (arrow right)"	rus4/ref_ghosttown_03_rus4_sn
+rus_banner_garage_03_left – sign board: [R] "warehouse (arrow left)"	rus05/ref_car_factory_rus_01
+rus_banner_garage_04 – sign board: [R] "warehouse manager"	rus/ref_factory_rus_02
+rus_banner_lumber_mill_04 – sign board: [R] "warehouse"	rus4/ref_warehouse_rus_02_sn
+rus_banner_factory_06 – sign board: [R] "warehouse"	inst, rus3/ref_port_rus_01_sn
+Containers
+A standard intermodal container is 40'×8'×8½' or ×9½', although other lengths are also available. The models below match available container lengths, but the width and height of these models do not fit any container standard.
+container – 30'×10'×10' container	inst, rus05/ref_car_factory_rus_01
+container_01 – 20'×8'×8' container	inst, rus05/ref_car_factory_rus_01
+container_20ft_01 – 20'×10'×10' container	inst, rus05/ref_car_factory_rus_01
+container_8ft_01 – 10'×10'×10' container	inst, rus05/ref_car_factory_rus_01
+Container Labels
+banner_conteyners_01 – decal: [E] "Bergin Inc."	inst, usa/ref_service_hub_usa_01
+banner_conteyners_06 – four-sided decal: [E] "Bergin Inc. – very heavy"	usa/ref_service_hub_usa_01
+banner_conteyners_02 – decal: [E] "DS Trans Corp."	usa/ref_service_hub_usa_01
+banner_conteyners_03 – decal: [E] "DS Trans Corp."	usa/ref_port_usa_01
+banner_conteyners_04 – four-sided decal: [E] "DS Trans Corp. – very heavy"	inst, usa/ref_service_hub_usa_01
+banner_conteyners_05 – four-sided decal: [E] "DS Trans Corp. – very heavy"	~1.18, usa/ref_service_hub_usa_01
+Religious Buildings
+churh_01 – church with Latin cross	inst, usa/ref_town_usa_01
+churh_01_menu – church with Latin cross (identical)	inst
+banner_churh_01 – sign: [E] "Baptist Church – God has answers" – includes URL for Saber	usa/ref_town_usa_01
+church_rus_01 – log church with Russian Orthodox cross	rus4/ref_monastery_03_rus4_sn
+church_rus_02 – small log church with Russian Orthodox cross	rus4/ref_monastery_03_rus4_sn
+rus_bell_tower_01 – log bell tower with Russian Orthodox cross	rus4/ref_monastery_03_rus4_sn
+rus_monastic_cell_01 – religious dormitory with Russian orthodox cross	~1.11, rus4/ref_monastery_03_rus4_sn
+rus_monastic_barn_01 – very small log house with Russian orthodox cross	rus4/ref_monastery_03_rus4_sn
+Cargo Platforms
+cargo_platform_us_01 – cargo platform	inst, usa4/ref_factory_craft_02_rail_sn_usa4
+cargo_platform_us_01_b – double-length cargo platform	usa4/ref_factory_craft_02_rail_sn_usa4
+cargo_platform_us_01a – triple-length cargo platform	usa3/ref_railroad_03_usa3
+cargo_platform_us_02 – cargo platform	inst, usa/ref_countryside_usa_01
+rus_cargo_platform_01 – primitive wooden cargo platform	~1.00 (0.61-1.00), inst, rus05/ref_railway_station_rus05
+rus_cargo_platform_02 – worn concrete platform	~1.00 (0.66-1.72), inst, rus4/ref_ghosttown_03_rus4_sn
+rus_platform_01 – worn concrete platform with fence	~1.27, rus4/ref_ghosttown_03_rus4_sn
+Commercial Scenery
+firehydrant_01_usa – fire hydrant: [E]	winch, inst, usa/ref_town_usa_01
+us_dumpster – dumpster	~1.00 (1.00-1.63), usa/ref_town_usa_01
+garbage_box_big_01 – big dumpster	inst, usa/ref_town_usa_01
+trash_can_rus_01 – big dumpster	inst, rus/ref_lumber_mill_rus_01
+us_rubbish_01 – outdoor commercial trash can	~1.00 (0.62-1.07), usa/ref_town_usa_01
+us_rubbish_02_us06 – outdoor commercial decorative trash can	inst, usa_6/ref_us6_big_house_02
+rus_trash_can_01 – outdoor trash can	~1.00 (0.38-1.16), rus4/ref_town_rus_02_sn
+rus_trash_can_02 – outdoor trash can	rus4/ref_town_rus_02_sn
+parasol_01 – cafe umbrella	rus05/ref_country_town_rus_02_B
+rus_hose_01 – hose	~1.00 (0.65-1.20), inst, rus05/ref_countryside_rus05
+rus_hose_01_no_snow – hose	~1.42, inst, rus4/ref_launchpad_rus_01_sn
+ladder_construction_01 – blue ladder	inst, usa_6/ref_us6_city_01
+us_scaffold_01_us06 – small modern scaffold	inst, usa_6/ref_us6_garage_02
+us_scaffold_02_us06 – small modern scaffold	inst, usa_6/ref_us6_garage_02
+rus_scaffold_01 – old small scaffold	~1.00 (1.00-1.51), rus4/ref_town_rus_01_sn
+portable_toilet_01_lr – portapotty	inst, rus4/ref_town_rus_01_sn
+rus_biowc_01 – portapotty	inst, rus05/ref_car_factory_rus_01
+rus_fence_08+_02 – information board / outdoor bulletin board	rus4/ref_town_rus_01_sn
+rus_fence_08_red – information board / outdoor bulletin board	rus05/ref_country_town_rus_01_sloped
+rus_fence_08_blue – information board / outdoor bulletin board	rus05/ref_country_town_rus_02_B
+vending_01 – newspaper box: [E] "The National Newspaper" (scale = 0.92 for a standard US newspaper)
+	~0.85 (0.71-1.00), usa/ref_town_usa_01
+vending_02 – newspaper box: [E] "Free Press" (scale = 0.89 for a standard US weekly)
+	~0.63 (0.63-1.00), usa/ref_town_usa_01
+rus_tank_05 – small liquid tank on trailer: [R] "kvass" (a low-alcohol drink)	rus4/ref_town_rus_03_sn
+ghostcity_fountain – dry fountain	~1.58, winch, rus4/ref_ghosttown_03_rus4_sn
+Cargo and Supplies
+bag_cement_01: [E] "plaster"	~1.00 (0.70-1.00), rus/ref_railroad_station_rus_01
+barrel_01 – 5 barrels (½ scale; use Scale = 2.0 for a 55-gallon drum)	~1.81 (1.00-2.87), inst, rus/ref_railroad_station_rus_01
+barrel_02 – barrel (½ scale; use Scale = 2.0 for a 55-gallon drum)	~1.94 (1.00-2.50), rus/ref_garage_rus_01
+barrel_03 – barrel (full scale)	rus/ref_garage_rus_01
+barrel_04 – barrel (full scale)	~1.00 (0.93-1.76), rus4/ref_factory_rus_05_sn
+barrel_05 – barrel (full scale)	rus4/ref_factory_rus_05_sn
+barrel_06 – barrel (full scale)	rus4/ref_factory_rus_05_sn
+box_01 – crate [E]	~1.00 (0.78-1.97), usa_6/ref_us6_garage_02
+box_01_us07 – paper-wrapped box: [E] "NEDM Energy Systems"	~0.52, inst, usa_6/ref_us6_big_house_02
+box_02_us07 – long paper-wrapped box	~0.71, inst, usa_6/ref_us6_big_house_02
+rus_box_02 – crate [R]	~1.22 (0.70-1.31), inst, rus/ref_factory_rus_01
+rus_box_02_02 – crate [R]	inst, rus/ref_factory_rus_01
+rus_box_02_03 – crate [R]	inst, rus/ref_factory_rus_01
+rus_box_02_04 – crate [R]	~1.00 (0.51-1.00), inst, rus/ref_factory_rus_01
+rus_box_03 – crate	~1.00 (0.66-1.00), inst, rus4/ref_factory_craft_02_rus4_sn
+rus_box_04 – crate: [R] "Radium 226 – dangerous cargo" - includes floating decals for 2nd box "Strontium"	rus4/ref_factory_craft_02_rus4_sn
+rus_box_05 – crate: [R] "Strontium – dangerous cargo"	rus4/ref_factory_craft_02_rus4_sn
+cargo_unit_cat_th357 – solid wood block on pallet, both painted concrete white
+cargo_unit_metal_1 – concrete doughnut on frame
+rus_box_01 – open-top crate	~1.00 (0.58-1.25), rus/ref_factory_rus_02
+rus_woodenbox_01 – small pile of open-top crates	~1.00 (0.67-1.15), rus4/ref_ghosttown_03_rus4_sn
+rus_woodenbox_02 – bigger pile of open-top crates	~1.00 (0.56-1.08), rus/ref_countryside_rus_01_extra
+rus_woodenbox_03 – biggest pile of open-top crates	~1.00 (0.62-1.00), rus/ref_countryside_rus_01_extra
+rus_woodenbox_04 – neatly stacked open-top crates	rus05/ref_car_factory_rus_01
+rus_woodenbox_05 – sloppily stacked open-top crates	~1.00 (0.50-1.00), rus05/ref_car_factory_rus_01
+rus_woodenbox_06 – haphazardly stacked open-top crates	~1.00 (0.53-1.16), rus05/ref_car_factory_rus_01
+tentbox_01 – unidentified crates covered by tarp	~1.00 (0.81-1.95), inst, rus/ref_service_hub_rus_02
+us_pallet_03 – pallet (standard European size, slightly underwidth for US)	~1.00 (0.98-2.53), rus/ref_service_hub_rus_02
+blockbrick_01 – block of bricks	inst, usa3/ref_factory_craft_02_usa3
+cellulose_pallet_01 – pallets of cellulose bricks	usa3/ref_factory_paper_usa3
+cellulose_pallet_02 – pallet of cellulose bricks	usa3/ref_factory_paper_usa3
+concrete_blocks – pallet of concrete blocks	usa3/ref_factory_paper_usa3
+us_block_concrete_01_us06 – pallet of cinder blocks	inst, usa_6/ref_factory_craft_concrete_us6_01
+pallet_01 – pallets of bagged plaster: [E]	inst, rus05/ref_car_factory_rus_01
+metal_cargo_01 – roll of sheet metal on stabilizing frame	usa3/ref_factory_craft_01_usa3
+metal_cargo_01_no_snow – roll of sheet metal on stabilizing frame	rus4/ref_launchpad_rus_01_sn
+metal_cargo_02 – roll of sheet metal, no frame	usa3/ref_factory_craft_01_usa3
+metals_01a – pile of square-section steel beams on pallets	~1.00 (1.00-1.53), rus4/ref_missile_fuel_factory_02_rus4_sn
+metals_02 – corrugated sheets on pallets	~1.00 (0.27-1.00), rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_packed_cargo_01 – stack of rusted steel C beams	~1.00 (1.00-1.51), inst, rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_packed_cargo_02 – stack of steel C beams	inst, rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_packed_cargo_03 – stack of air vent sections	inst, rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_spool – large spool of steel cable	~1.00 (0.48-1.00), inst, rus4/ref_missile_fuel_factory_02_rus4_sn
+spool – large spool of steel cable	~0.93 (0.43-1.00), inst, usa/ref_service_hub_usa_01
+us_spool – large spool of steel cable	~1.00 (0.60-1.00), inst, rus4/ref_factory_craft_02_rus4_sn
+rus_concrete_beam_01 – concrete beam: [R]	~1.23 (1.23-1.33), rus4/ref_factory_craft_02_rus4_sn
+rus_concrete_tube_01 – old concrete pipe	~1.11 (1.11-1.13), inst, rus05/ref_car_factory_rus_01
+big_pipes – stack of large-diameter PVC/concrete pipes	~1.00 (0.66-1.00), inst, usa/ref_service_hub_usa_01
+pipe_02 – single small-diameter PVC/concrete pipe	inst, usa/ref_service_hub_usa_01
+small_pipes – pile of small-diameter PVC/concrete pipes	~1.00 (0.50-1.34), inst, usa/ref_service_hub_usa_01
+pipe_01 – trans-Alaska pipe with capped ends	~0.32 (0.28-1.00), inst, usa/ref_service_hub_usa_01
+pipe_03 – trans-Alaska pipe core without protective cover (only insulation & inner pipe)
+	inst, usa/ref_service_hub_usa_01
+pipe_03_set – pile of trans-Alaska pipe cores	~1.00 (0.63-1.28), inst, rus/ref_factory_rus_02
+pipe_01_set – stack of rusted steel pipes (inner pipe of trans-Alaska pipeline)
+	~0.33 (0.19-0.58), inst, rus4/ref_missile_fuel_factory_02_rus4_sn
+tank_lr_01 – tank of fertilizer	rus4/ref_missile_fuel_factory_02_rus4_sn
+tank_lr_01_no_snow – tank of fertilizer	usa_6/ref_us6_garage_02
+wheel – tractor wheel with tire	~1.00 (0.55-1.06), rus05/ref_car_factory_rus_01
+wheels_01 – pile of tractor wheels with tires	~1.00 (0.44-1.00), inst, rus05/ref_car_factory_rus_01
+coal_01 – pile of coal	~0.69 (0.65-0.77), inst, rus05/ref_car_factory_rus_01
+can_01 – fuel can	rus4/ref_garage_rus_02_sn
+can_02 – propane tank	rus/ref_garage_rus_01
+can_03 – welding tank	rus/ref_garage_rus_01
+Cargo Models
+These cargo models provide the shapes used for deliverable cargo, but they don't have all of the game logic needed to act as true cargo. The preferred way to spawn cargo on the map is via an objective, as described on page 354.
+As of season 5, Saber has removed cargo models from the list of model assets in the Editor. You can hand edit the map XML file to put them on your map, but as of season 6, the Editor also suppresses these models from the packed file.
+
+Saber has added _static versions of some of the cargo models. These behave like regular models and not at all like cargo, so they can safely be used as scenery. These are marked below with +_static.
+    Bug: The Editor hides the _static versions from the list of model assets as well, so you'll have to hand edit the map XML file to create them (page 535).
+cargo_unit_log_short+_static – short log	rus4/ref_camping_03_rus4_sn
+cargo_unit_log_medium+_static – medium log	rus4/ref_ghosttown_03_rus4_sn
+cargo_unit_log_long+_static – long log
+cargo_unit_bags_1 – cement
+cargo_unit_bags_2 – packaged sand
+cargo_unit_barrels_1+_static – fuel
+cargo_unit_barrels_2 – fuel – disappears when packed
+cargo_unit_barrels_oil_1 – oil barrels
+cargo_unit_bricks – bricks
+cargo_unit_cellulose_1 – cellulose bricks
+cargo_unit_crate_large_1+_static – consumables
+cargo_unit_vehicles_spare_parts – vehicle spare parts
+cargo_unit_service_spare_parts_1 – service spare parts
+cargo_unit_service_spare_parts_2 – service spare parts – disappears when packed
+cargo_unit_service_spare_parts_special_1 – drilling spare parts
+cargo_unit_radioactive_1 – secure radioactive container
+cargo_unit_container_small_2+_static – cargo container
+cargo_unit_container_small_special_2 – special cargo
+cargo_unit_container_large+_static – oversized cargo container
+cargo_unit_container_large_drilling_4 – drilling equipment
+cargo_unit_wooden_planks_1+_static – wooden planks	usa4/ref_constr_wood_02_sp_usa4
+cargo_unit_wooden_planks_2 – medium planks (cargo model)
+cargo_unit_wooden_planks_02+_static – medium planks (identical static models)
+cargo_unit_wooden_planks_4 – long planks (cargo model)
+cargo_unit_wooden_planks_04+_static – long planks (identical static models)
+cargo_unit_concrete_blocks_1+_static – concrete blocks
+cargo_unit_concrete_slab_2 – concrete slab
+cargo_unit_metal_planks_2+_static – metal beams	~1.35 (1.00-1.35), rus4/ref_factory_craft_01_rus4_sn
+cargo_unit_metal_roll – metal rolls
+cargo_unit_pipes_small_2 – small pipes
+cargo_unit_pipes_medium_2 – medium pipes
+cargo_unit_pipe_large_4+_static – large pipe
+cargo_unit_forklift_caravan_container_2+_static – small cabin
+cargo_unit_forcklift_caravan_container – large cabin
+cargo_unit_ironroad_1 – rails
+cargo_unit_boiler_5 – industrial boiler
+cargo_unit_big_drill_4 – oil rig drill
+cargo_unit_sequoia_5 – sequoia trunk
+cargo_unit_ba20 – BA-20 armored car (rusted)
+cargo_unit_ba20_add – BA-20 armored car (wrecked)
+cargo_unit_railway_new – rail section
+cargo_unit_rocket_engine – rocket engine assembly
+cargo_unit_rocket_part1 – stage 2 rocket fuel tank
+cargo_unit_rocket_part2 – stage 3 rocket fuel tank
+cargo_unit_plane_01 – airplane fuselage part
+cargo_unit_wing_01 – wing wreckage with engine
+cargo_unit_wing_02 – wing wreckage
+cargo_helper_concrete – dynamic lightweight rectangular concrete slab with rebar reinforcement; packs as metal beams (cargo_helper_concrete_copy is the fixed version)	~1.18 (0.46-1.18), rus4/ref_missile_fuel_factory_02_rus4_sn
+cargo_unit_solarpanel_1 – pallet of solar panels and crated accessories (no equivalent cargo yet)
+Lumber Mills and Yards
+us_lumber_mill – lumber mill: [E]	light, usa/ref_lumber_mill_usa_01
+us_lumber_mill_02 – lumber mill: [E]	usa3/ref_lumber_mill_usa_02
+us_lumber_mill_abandoned_01 – rusting and flaking lumber mill: [E]	inst, usa_6/ref_us6_lumber_mill_02
+rus_lumber_mill – lumber mill with attached office	inst, rus/ref_lumber_mill_rus_01
+rus_lumber_mill_2 – lumber mill	inst, rus/ref_lumber_mill_rus_02
+rus_lumber_mill_2_abandoned – old lumber mill	inst, rus4/ref_lumber_mill_rus_abandoned_03_rus4_sn
+us_lumbermill_02_us06_building_01_objective - sawmill: [E] "Dusty Wood Work"
+us_lumbermill_02_us06_building_02_objective – enclosed lumber storage building
+us_lumbermill_02_us06_pipes_01_objective – overhead pipes
+us_lumbermill_02_warehouse_01_objective – enclosed lumber storage building
+us_lumbermill_02_us06_building_03 – guard shack: [E] "guard"	inst, usa_6/ref_us6_lumber_mill_02
+Logs and Lumber
+logs_scavange_02 – log kiosk	~1.00 (0.42-1.00), inst, rus4/ref_town_rus_02_sn
+us_log_dispenser_01_objective – open-frame log ramp & platform
+None of the following logs have the same bark or are quite the same length as cargo_unit_log_*:
+log_long_a – one dynamic long log
+log_long_a_fence – one static long log
+log_medium_a – one dynamic medium log	~0.97 (0.97-1.54), rus/ref_lumber_mill_rus_02
+log_medium_a_fence – one static medium log
+log_short_a – one dynamic short log	~0.78 (0.78-1.00), usa/ref_parking_usa_01
+log_short_a_fence – one static short log
+logs_heap_fence – row of large logs	inst
+logs_heap_mediuml_fence – row of medium logs	inst
+logs_heap_small_fence – same row of medium logs	inst, rus05/ref_log_station_rus_02
+logs_heap – large stack of logs	~1.20 (0.88-1.29), inst, usa3/ref_lumber_mill_usa_02
+logs_heap_mediuml – medium stack of logs	~1.00 (0.46-1.00), inst, rus/ref_lumber_mill_rus_02
+logs_heap_small – another medium stack of logs	inst, rus/ref_lumber_mill_rus_02
+rus_logs_02+_02 – stack of separated logs	~1.00 (0.87-1.51), inst, rus3/ref_abandoned_lumber_mill_rus_sn
+rus_logs_01 – used logs with rusted rebar	inst, rus3/ref_abandoned_lumber_mill_rus_sn
+us_lumbermill_stuff_03_objective – spread-out log stacks
+us_lumbermill_stuff_01_objective – cluster of lumber stacks
+us_lumbermill_stuff_02_objective – spread-out lumber stacks at different heights
+beams – neat, dense stack of lumber	~1.33 (1.00-1.79), inst, rus/ref_lumber_mill_rus_01
+rus_boards_01 – dense stack of lumber	inst, rus/ref_lumber_mill_rus_01
+rus_boards_02 – dense stack of planks	inst, rus/ref_lumber_mill_rus_02
+boards_01 – stack of separated lumber	~1.12 (1.00-1.94), inst, rus/ref_lumber_mill_rus_02
+rus_boards_04 – stack of separatedl lumber	~1.00 (0.49-1.00), inst, rus/ref_lumber_mill_rus_02
+boards_02 – small stack of separated lumber	~1.00 (1.00-1.72), inst, usa3/ref_constr_wood_01_usa3_gr_sand
+rus_boards_03 – stack of separated planks	inst, usa3/ref_constr_wood_01_usa3_gr_sand
+boards_03 – small pile of planks	~1.00 (0.86-4.00), usa3/ref_constr_wood_01_usa3_gr_sand
+boards_osb_01+_instanced – stack of plywood sheets	rus05/ref_countryside_rus05
+boards_04 – old stack of separated lumber	~1.00 (0.61-1.72), inst, rus4/ref_ghosttown_03_rus4_sn
+boards_05 – old stack of separated lumber	~1.00 (0.32-1.45), inst, rus4/ref_ghosttown_03_rus4_sn
+English Lumber Signs
+banner_lumber_04 – decal: [E] "wood waste"
+banner_city_jimmy_01 – sign board: [E] "Jimmy LK – lumber seller"	usa/ref_town_usa_01
+banner_city_jimmy_02 – sign board: [E] "Jimmy LK – 24open"	usa/ref_town_usa_01
+banner_city_jimmy_03 – sign board: [E] "office"	usa/ref_town_usa_01
+banner_lumber_01 – sign board: [E] "lumber mill – Bushstog"
+banner_lumber_02 – sign: [E] "Bushstog Lumber Mill – since 1875"	winch, inst
+banner_city_hotel_03 – decal: [E] "since 1875"	usa/ref_town_usa_01
+lumber_sign – sign: [E] "Bradley Lumber Co."	winch, inst, usa/ref_lumber_mill_usa_01_sn
+us_banner_stonecreek_03 – sign: [E] "Stonecreek Lumber"
+us_banner_stonecreek_01 – decal: [E] "Stonecreek Lumber"
+us_banner_stonecreek_02 – decal: [E] "Stonecreek Lumber"
+us_banner__lumbermill_02_us06 – sign: [E] "Dusty Wood Work"	inst
+Russian Lumber Signs
+rus_banner_lumber_mill_01 – sign board: [R] "sawmill"	inst, rus05/ref_lumber_mill_rus_03
+rus_banner_lumber_mill_07 – sign: [R] "sawmill"
+rus_banner_lumber_mill_100_01 – sign: [R] "sawmill – 100M"
+rus_banner_lumber_mill_200_01 – sign: [R] "sawmill – 200M"
+rus_banner_lumber_mill_decal_01 – decal: [R] "sawmill"	inst, rus/ref_lumber_mill_rus_02
+Factories
+Working Factories
+generation_point_01: [E]	~0.74 (0.74-1.00), usa3/ref_generation_point_01_usa3
+factory_bricks_01: [E]	usa3/ref_factory_craft_02_usa3
+factory_main_01: [E]	~1.27, inst, usa/ref_factory_usa_01
+us_funicular_house_01
+us_crusher_01
+us_oil_refinery_part_03_no_snow	~1.15 (1.15-1.40), rus4/ref_launchpad_rus_01_sn
+rus_steamshop_01	rus/ref_factory_rus_02
+rus_steamshop_02	rus/ref_factory_rus_02
+rus_factory_01	rus/ref_factory_rus_02
+rus_factory_02	rus/ref_factory_rus_02
+rus_factory_03	rus/ref_factory_rus_02
+rus_factory_04	rus/ref_factory_rus_02
+rus_factory_04_02	rus/ref_factory_rus_01
+rus_factory_05	rus/ref_factory_rus_01
+rus_factory_06	rus/ref_factory_rus_01
+rus_factory_07	rus/ref_factory_rus_01
+rus_factory_08	rus/ref_factory_rus_01
+rus_factory_10	rus/ref_factory_rus_04
+rus_factory_05_chimney	rus/ref_factory_rus_02
+rus_factory_06_chimney	~1.00 (1.00-1.48), rus/ref_factory_rus_02
+rus_factory_07_chimney	rus/ref_factory_rus_01
+rus_factory_storage_01	rus/ref_factory_rus_02
+rus_factory_storage_02_02	inst, rus/ref_factory_rus_02
+rus_factory_craft_01	rus4/ref_factory_craft_01_rus4_sn
+rus_factory_craft_02	rus4/ref_factory_craft_01_rus4_sn
+rus_factory_craft_03	rus4/ref_factory_craft_02_rus4_sn
+rus_factory_craft_04	rus4/ref_factory_craft_02_rus4_sn
+rus_factory_rocket_01	rus4/ref_factory_rocket_rus_01_sn
+rus_factory_rocket_01_01_objective
+rus_factory_rocket_02	rus4/ref_factory_rocket_rus_01_sn
+rus_factory_rocket_03	rus4/ref_factory_rocket_rus_01_sn
+rus_factory_rocket_04	rus4/ref_factory_rocket_rus_01_sn
+rus_factory_rocket_05	rus4/ref_factory_rocket_rus_01_sn
+rus_factory_rocket_06	rus4/ref_factory_rocket_rus_01_sn
+rus_fuel_factory_03_01	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fuel_factory_03_objective
+rus_fuel_factory_04_objective
+rus_fuel_factory_05_stage_0	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fuel_factory_05_objective
+rus_fuel_factory_06	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fuel_factory_07	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fuel_factory_09: [R] "Urcan Chemical Plant"	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fuel_factory_pipe_07	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fuel_storage_can_01	rus4/ref_oil_storage_rus_01_sn
+silo_strc – bank of large fuel tanks connected by overhead pipes	usa/ref_service_hub_usa_01
+oil_tank_01: [E] "crude oil"	inst, usa/ref_drilling_site_usa_02_objetcive
+us_lumbermill_02_us06_tanks_01 – large liquid tanks with pipes	inst, usa_6/ref_us6_lumber_mill_02
+factory01: [E] "Wolfgrip – USA"	usa/ref_service_hub_usa_01
+factory02: [E] "Wolfgrip"	inst, usa/ref_service_hub_usa_01
+factory03: [E] "Wolfgrip"	usa/ref_service_hub_usa_01
+banner_servicehub_02 – sign: [E] "Wolfgrip"	winch, light
+banner_servicehub_03 – sign board: [E] "Wolfgrip"	usa/ref_service_hub_usa_01
+us_3part_factory_1_part_objective – Goldhorse logo
+us_3part_factory_2_part_objective: [E] "Goldhorse Mining"
+us_3part_factory_3_part_objective: [E] "Goldhorse Mining" "Gold Horse Mining"
+us_factory_sorting_01_objective: [E] "Goldhorse Mining"
+us_banner_Gold_Sorting_01 – sign: [E] "Gold Horse Mining"
+us_banner_Gold_Sorting_decal_06 – V-curve decal: [E] "Gold Horse Mining"
+paper_factory01_stage_0	usa3/ref_factory_paper_usa3
+paper_factory01_objective: [E] "Greenlake Paper & Packaging"
+paper_factory02_stage_0	usa3/ref_factory_paper_usa3
+paper_factory02_objective: [E] "Paper & Packaging"
+paper_factory03_stage_0: [E]	usa3/ref_factory_paper_usa3
+paper_factory03_objective: [E] "Greenlake Paper & Packaging"
+paper_factory04_stage_0: [E]	usa3/ref_factory_paper_usa3
+paper_factory04_objective: [E] "Greenlake Paper & Packaging"
+paper_factory05_stage_0	usa3/ref_factory_paper_usa3
+paper_factory05_objective: [E] "Greenlake Paper & Packaging"
+paper_factory06_stage_0	usa3/ref_factory_paper_usa3
+paper_factory06_objective
+us_lightbox_greenlake – sign: [E] "Greenlake Paper & Packaging"	usa3/ref_factory_paper_usa3
+decal_greenlake_01 – decal: [E] "Greenlake Paper & Packaging"	usa3/ref_factory_paper_usa3
+decal_greenlake_02 – decal: [E] "Greenlake Paper & Packaging"	usa3/ref_factory_paper_usa3
+us_mine_01_objective: [E] "Coldcreek Gold Mine"
+us_banner_Gold_mine_01 – three-sided decal: [E] "Coldcreek Gold Mine"
+us_banner_Gold_mine_02 – three-sided decal: [E] "Coldcreek Gold Mines"
+us_banner_Gold_mine_03 – directional sign: [E] "Coldcreek Gold Mines – more cold – more gold"
+tatra_facility_objective: [R] "assembly shop" – triggers warnings unless the default shadows are disabled	light
+tatra_steamshop	light
+tatra_warehouse_objective: [Dutch] – triggers warnings unless the default shadows are disabled	light
+tatra_station	light, inst, rus05/ref_car_factory_rus_01
+tatra_admin: [R] "administration"	rus05/ref_car_factory_rus_01
+tatra_checkpoint: [R] "tatra"	light, inst, rus05/ref_car_factory_rus_01
+tatra_znak – sign: [R] "tatra"
+Old Factories
+rus_exfactory_rocket_01	rus4/ref_factory_rocket_rus_02_sn
+rus_exfactory_rocket_02	rus4/ref_factory_rocket_rus_02_sn
+rus_exfactory_rocket_03	rus4/ref_factory_rocket_rus_02_sn
+rus_exfactory_rocket_04	rus4/ref_factory_rocket_rus_02_sn
+rus_exfactory_rocket_05	rus4/ref_factory_rocket_rus_02_sn
+rus_exfactory_rocket_06	rus4/ref_factory_rocket_rus_02_sn
+rus_exfactory_rocket_08	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fuel_factory_08	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fuel_factory_10	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fuel_factory_11	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fuel_factory_12	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fuel_factory_13	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fuel_factory_pipe_08	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fuel_storage_pipe_01	rus4/ref_oil_storage_rus_01_sn
+Conveyer Structures
+conveyor_belt_01 – conveyer hole through small building
+conveyor_belt_02 – conveyer hold with 90° bend through small building
+conveyor_end_01 – end of conveyer
+conveyor_objective_01 – conveyer under construction through two small buildings
+conveyor_belt_base – supporting structure for conveyer
+pipe_support – concrete and steel block the right dimensions to support conveyor_belt_base	inst
+The conveyor_belt_base model is intended to be instantiated as part of an associated elevated overlay (page 188). It therefore has an unusual appearance on the navigation map (page 209) that likely makes it unsuitable as a stand-alone model.
+Pipe Structures
+Trans-Alaska Pipeline
+pipe_01_crossroad – raised section of pipe, e.g. over a road	inst, rus05/ref_car_factory_rus_01
+pipe_01_objective – collapsed raised section of pipe, with road blockage
+pipe_01_rus_objective – collapsed longer raised section of pipe, without blockage
+pipe_oil_straight – pipe with crimps at both ends	inst
+pipe_oil_straight_clear – pipe with no crimps	inst
+pipe_angle_45 – pipe with 45° bend with crimps at both ends	inst
+pipe_angle_90 – pipe with 90° bend with crimps at both ends	inst, rus05/ref_car_factory_rus_01
+pipe_chamfer – crimp between pipe connections	inst
+pipe_oil_us_base – supporting structure for pipe	winch, inst, rus05/ref_car_factory_rus_01
+pipe_support – concrete and steel block the right dimensions to support pipe_oil_us_base	inst
+The pipe_oil_us_base model is intended to be instantiated as part of an associated elevated overlay (page 188). It therefore has an unusual appearance on the navigation map (page 209) that likely makes it unsuitable as a stand-alone model.
+Other Pipes
+pipe_corner_01 – concrete pipe with 90° bend	usa3/ref_oil_storage_01_usa3
+pipe_straight_01 – straight concrete pipe	~3.12 (1.00-3.12), usa3/ref_oil_storage_01_usa3
+Factory Scenery
+us_port_pomp – pump	~1.00 (0.57-1.00), inst, usa/ref_airport_usa_01
+rus_firesand_01 – closed angled box	inst, usa/ref_airport_usa_01
+rus_fireshield_01 – firefighting equipment: [E]	inst, rus05/ref_car_factory_rus_01
+factory_ventilation_01 – rooftop air intake	~0.64 (0.50-1.00), rus4/ref_launchpad_rus_01_sn
+factory_ventilation_02 – rooftop air intake	~0.75, rus4/ref_launchpad_rus_01_sn
+factory_ventilation_03 – rooftop air intake	rus4/ref_launchpad_rus_01_sn
+English Factory Signs
+banner_factory_08a – sign: [E] "danger – hard hat area"	~0.75 (0.45-1.00), usa4/ref_us_mine_01_sn
+banner_factory_08 – decal: [E] "danger – hard hat area"	usa3/ref_railroad_02_usa3
+banner_factory_03 – sign: [E] "Stoltman"
+banner_factory_04 – sign board: [E] "Stoltman"
+banner_factory_05 – V-curve decal: [E] "Stoltman"
+banner_factory_06 – sign board: [E] "loading area"
+banner_factory_07 – sign board: [E] "storage"
+us_banner_Roller_Metals_01 – sign: [E] "High Roller Metals"
+us_banner_Roller_Metals_03 – sign board: [E] "High Roller Metals"
+us_banner_Roller_Metals_04 – sign board: [E] "High Roller Metals"
+us_banner_Roller_Metals_05 – sign: [E] "High Roller Metals – you are on the right way" (points left)
+us_banner_Roller_Metals_02 – V-curve decal: High Roller logo
+us_banner_Roller_Metals_decal_01 – V-curve decal: High Roller logo
+us_banner_bayline_05 – sign: [E] "Bayline Steel Mill"
+us_banner_bayline_06 – decal: [E] "Bayline Steel Mill"
+us_banner_bayline_04 – decal: [E] "Bayline Steel Mill"
+us_banner_bayline_01 – V-curve decal: Bayline logo
+us_banner_bayline_02 – V-curve decal: Bayline logo
+us_banner_bayline_03 – V-curve decal: Bayline logo
+ca_banner_machine_yard_01 – V-curve decal: [E] "Clarke's Machine Yard"
+ca_banner_machine_yard_02 – decal: [E] "Clarke's Machine Yard"
+ca_banner_machine_yard_03 – sign board: [E] "Clarke's Machine Yard"
+ca_banner_machine_yard_06 – sign board: [E] "Clarke's"
+ca_banner_machine_yard_04 – sign board: [E] "Machine Yard"
+ca_banner_machine_yard_05 – sign: [E] "Clarke's Machine Yard" – arrow pointing left
+ca_banner_machine_yard_07 – sign board: [E] "1 – 2 – 3"
+ca_banner_machine_yard_08a – top-mount sign: [E] "MA"
+ca_banner_machine_yard_08b – top-mount sign: [E] "CHI"
+ca_banner_machine_yard_08c – top-mount sign: [E] "NE"
+ca_banner_machine_yard_08d – top-mount sign: [E] "YA"
+ca_banner_machine_yard_08e – top-mount sign: [E] "RD"
+ca_banner_radge_mix_cement_01 – two-sided H-curve decal: [E] "Ridge Mix Cement"
+ca_banner_radge_mix_cement_02 – V-curve decal: [E] "Ridge Mix Cement"
+ca_banner_radge_mix_cement_03 – sign board: [E] "Ridge Mix Cement"
+ca_banner_radge_mix_cement_04 – smokestack-mount sign: [E] "Ridge Mix Cement"
+ca_banner_radge_mix_cement_05 – sign board: [E] "Ridge Mix Cement"
+ca_banner_radge_mix_cement_06 – sign board: [E] blank
+ca_banner_radge_mix_cement_07 – sign board: [E] "Ridge Mix Cement"
+ca_banner_radge_mix_cement_08 – sign: [E] "Ridge Mix Cement" – arrow pointing left
+us_banner_Concrete_Plant_02 – V-curve decal: [E] "Dawson Concrete Plant"
+us_banner_Concrete_Plant_01 – V-curve decal: Dawson logo
+us_banner_Concrete_Plant_03 – sign: [E] "Dawson Concrete Plant – drive to the left"
+us_banner_quadsta_brickworks_04 – sign: [E] "Quad Star Brickworks"
+us_banner_quadsta_brickworks_01 – sign board: [E] "Quad Star Brickworks"
+us_banner_quadsta_brickworks_02 – sign board: Quad Star logo
+ca_banner_yukon_iron_works_01 – two-sided V-curve decal: [E] "YK"
+ca_banner_yukon_iron_works_04: - two-sided V-curve decal: [E] "Yukon Ironworks"
+ca_banner_yukon_iron_works_05 – sign: [E] "Yukon Ironworks"
+ca_banner_yukon_iron_works_03 – sign: [E] "Yukon Ironworks"
+us_banner_lakedalewood_02 – sign: [E] "Lake Dalewood – Branch of the National Electricity Company"
+us_banner_lakedalewood_01 – sign board: [E] "Lake Dalewood – Branch of the National Electricity Company"
+us_banner_dustyconcretework_04 – sign: [E] "Dusty Concrete Work"	inst
+us_banner_dustyconcretework_01 – multi-angled collection of signs for use with factory_bricks_01: [E] "Dusty Concrete Work", etc.	inst, usa_6/ref_factory_craft_concrete_us6_01
+us_banner_dustyconcretework_02 – decal: [E] "guard"	inst, usa_6/ref_factory_craft_concrete_us6_01
+us_banner_dustyconcretework_03 – decal: [E] "warehouse"	inst, usa_6/ref_factory_craft_concrete_us6_01
+us_banner_dustymetalwork_02_us06 – sign: [E] "Dusty Metal Work"	inst
+us_banner_dustymetalwork_01_us06 – multi-angled collection of signs for use with generation_point_01: [E] "Dusty Metal Work", etc.	~0.74, inst, usa_6/ref_factory_craft_metal_us6_01
+Russian Factory Signs
+rus2_banner_himzavod_01 – sign board: [R] "Urcan Chemical Factory"
+rus2_banner_himzavod_02 – sign board: [R] "Urcan Chemical Factory"
+rus2_banner_himzavod_03 – V-curve decal: [R] "UCF"
+rus2_banner_himzavod_04 – sign board: [R] "Isolation-product section"
+rus2_banner_himzavod_12 – sign board: [R] "fuel warehouse"
+rus2_banner_himzavod_13 – sign board: [R] "labratory"
+rus_banner_factory_11 – sign board: [R] Metalloworks logo	rus/ref_factory_rus_04
+rus_banner_factory_12 – top-mount sign: [R] "Metalloworks - Zimnegorsk plant"
+	~1.29 (1.06‑1.51), rus/ref_factory_rus_04
+rus_banner_factory_13 – top-mount sign: [R] "Metalloworks - Zimnegorsk plant"	~1.77, rus/ref_factory_rus_04
+rus_banner_factory_01 – sign: [R] "factory"
+rus_banner_factory_200_01 – sign: [R] "factory – 200M"
+rus_banner_factory_05 – sign board: [R] "boiler room"	rus/ref_factory_rus_02
+rus_gate_factory_01 – vehicle gate arch: [R] "soviet parts factory"	rus/ref_factory_rus_02
+rus_banner_factory_08 – top-mount sign: [R] "soviet parts factory"	~1.35, rus/ref_factory_rus_01
+rus_banner_factory_09 – sign board: [R] soviet parts factory logo	rus/ref_factory_rus_01
+rus_banner_factory_10 – sign board: [R] "soviet parts factory"	rus/ref_factory_rus_01
+Mines
+rus_mine_entrance_01 – old, blocked mine entrance
+rus_mine_entrance_02 – old, blocked mine entrance
+rus_mine_entrance_03 – old, blocked mine entrance with rails
+rus_mine_lift_01 – rusted mining elevator lift tower
+Quarries
+rus_banner_quarry_left_02 – sign: [R] "Henauin quarry (arrow left)"
+Military Facilities
+Working Military Structures
+rus_controlbunker_01 – concrete bunker: [R] "guard post"	rus4/ref_controltower_01_rus_sn
+rus_radiolocator_02 – concreate bunker: [R] "guard post" – "military station"	rus4/ref_controltower_01_rus_sn
+rus_controlbunker_02_1_part_objectives – office building with power lines everywhere
+rus_controlbunker_02_2_part_objectives – helicopter pad with helicopter
+rus_controlbunker_02_3_part_objectives – office building
+rus_controlbunker_02_4_part_objectives – large rotating radar dish
+rus_radar_01_anim – large radar
+radiolocator_01 – small radar	rus3/ref_airport_rus_01_sn
+
+rus_missile_system_building_01 – large mostly windowless building with radome on top	rus4/ref_missile_defense_big_03_rus4_sn_01
+rus_missile_system_building_02 – smaller mostly windowless building with radome on top	rus4/ref_missile_defense_little_03_rus4_sn_01
+rus_missile_system_building_03 – mostly windowless building: [R] "the people and army are one"
+rus_missile_system_rocket_2 – missile on turret	rus4/ref_missile_defense_big_03_rus4_sn_01
+rus_controlbunker_tower_01 – guard tower	rus4/ref_controltower_01_rus_sn
+Old Military Structures
+us_fort_01_us06 – large old stone fort (tourist attraction)	inst
+bunker_01 – concrete bunker
+bunker_03 – concrete bunker	rus3/ref_bunker_rus_02_sn
+bunker_04 – concrete bunker	rus3/ref_bunker_rus_02_sn
+bunker_09 – concrete bunker	rus3/ref_bunker_rus_sn
+bunker_06 – steel bunker
+bunker_05 – pillbox without gun
+bunker_08 – concrete pad with artillery gun
+bunker_07 – heavy foundation without emplacements
+rus_gun_01 – rusted artillery gun
+Guard Shacks
+rus_exfactory_rocket_07 – guard shack	rus4/ref_factory_rocket_rus_02_sn
+service_blockpost – guard shack: [E]	inst, usa/ref_garage_usa_01
+service_blockpost_p2 – guard shack: [E & Dutch]	inst, usa/ref_garage_usa_01
+rus_garage_07 – guard shack with lights in some windows at night	inst, rus/ref_factory_rus_01
+rus_garage_07_nolights – guard shack with no lights	~0.79 (0.77-1.00), inst, rus4/ref_ghosttown_03_rus4_sn
+anim_rus_garage_07 – guard shack with guard in window	rus05/ref_port_rus_01
+rus_garage_06 – guard shack with lights in some windows at night	inst, rus/ref_factory_rus_02
+rus_garage_06_nolights – guard shack with no lights	inst, rus4/ref_ghosttown_03_rus4_sn
+service_blockpost_rus_02 – guard shack with lights in some windows at night
+	~1.00 (0.54‑1.00), rus4/ref_ghosttown_03_rus4_sn
+service_blockpost_rus_02_nolights – guard shack with no lights	rus4/ref_ghosttown_03_rus4_sn
+rus_tunnel_blockpost_01 – tiny guard shack	rus05/ref_car_factory_rus_01
+tunnel_blockpost_01 – tiny guard shack: [E & Dutch]	inst, usa/ref_tunnel_usa_01
+blockpost_abandoned_rus_02 – old guard shack	rus4/ref_missile_defense_little_03_rus4_sn_01
+ghostcity_building_05 – guard shack ruin	rus4/ref_ghosttown_03_rus4_sn
+Military Scenery
+tank_barrier_01 – hedgehog vehicle barrier	rus05/ref_country_town_rus_02_B
+tank_barrier_02 – dragon's tooth vehicle barrier	~0.35, rus05/ref_car_factory_rus_01
+rus_glg_gong_01 – platform with rusted chime	rus/ref_prison_rus_03
+Military Signs
+rus_banner_base_decal_01 – decal: [R] "use protective clothing"	rus3/ref_bunker_rus_sn
+rus_banner_base_decal_02 – decal: [R] "keep the military's secrets"	rus3/ref_bunker_rus_sn
+rus_banner_base_decal_03 – decal: [R] "be vigilant"	rus4/ref_missile_defense_big_03_rus4_sn_01
+rus_banner_base_gate_01 – sign: [R] "military facility – 306"	rus4/ref_missile_defense_big_03_rus4_sn_01
+rus_banner_base_01 – sign: [R] "stop or be shot – entrance and travel prohibited"
+	~1.00 (1.00-1.79), rus3/ref_bunker_rus_sn
+rus_banner_base_02 – sign: [R] "radioactivity"	rus3/ref_bunker_rus_sn
+rus_banner_base_03 – sign: [R] "radioactivity"
+rus_banner_base_04 – sign: [R] "stop"	~1.00 (1.00-1.93), rus3/ref_bunker_rus_sn
+rus_banner_base_05 – sign: [R] "dangerous"	rus3/ref_power_plant_01_rus3
+rus_banner_base_07 – sign: [R] "restricted area"	rus4/ref_missile_defense_little_03_rus4_sn_03
+rus_banner_base_08 – sign board: [R] "restricted area"	rus4/ref_missile_defense_little_03_rus4_sn_03
+rus_glg_gate_01 – vehicle gate arch: [R] "military facility 42-15 – radioactive materials warehouse No 38-521 – stop – restricted area"
+Rocketry
+Rockets
+rocket_menu – rocket in gantry
+rocket_broken_01_objective – crashed rocket fore section
+rocket_broken_02_objective – crashed rocket overlapping mid section
+rocket_broken_03_objective – crashed rocket overlapping aft section
+rocket_broken_04_static – pile of rocket pieces	rus4/ref_ravine_03_sn
+Launchpad Structures
+rus_launchpad_01 – bare concrete pad
+rus_launchpad_02_foundation_01 – specialized launchpad foundation and exhaust gas baffles	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_04 – concrete and steel block
+rus_launchpad_07 – concrete and steel block
+rus_launchpad_hangar_01 – rocket hangar; exterior only	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_hangar_01_inside – rocket hangar; interior only	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_hangar_01_doors – rocket hangar doors
+rus_launchpad_hoop_01 – launchpad inner frame	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_house_01 – office building with windowless annex	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_house_02 – windowless building	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_house_03 – windowless building	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_house_04 – small shed	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_house_05 – small storage building	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_house_06 – small storage building with observation deck	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_house_07 – windowless building	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_ladder_01 – exterior ladder for previous buildings	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_pipes_01 – pipes	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_pipes_02 – pipes	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_pipes_03 – pipes	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_pool_01 – lower launchpad foundation	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_ramp_01 – foundation	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_ramp_02 – foundation with liquid tanks	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_vents_01 – vents	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_vents_02 – vents	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_vents_03 – vents	~1.00 (0.63-1.21), rus4/ref_launchpad_rus_01_sn
+Rocketry Signs
+rus2_banner_astronaut_01 – sign: [R] "astronaut"
+rus2_banner_cosm_02 – sign: [R] "northern cosmodrome"	rus4/ref_launchpad_rus_01_sn
+rus2_banner_cosm_03 – decal: [R] "northern cosmodrome"	rus4/ref_launchpad_rus_01_sn
+rus2_banner_cosm_05 – sign board: [R] "northern cosmodrome"
+rus2_banner_cosm_06 – sign board: [R] "filling and neutralizing station"	rus4/ref_launchpad_rus_01_sn
+rus2_banner_cosm_07 – sign board: [R] "information calculation center"	rus4/ref_launchpad_rus_01_sn
+rus2_banner_cosm_08 – sign board: [R] "fuel and compressed gas storage"	rus4/ref_launchpad_rus_01_sn
+rus2_banner_cosm_09 – sign board: [R] "rocket preparation complex"	rus4/ref_launchpad_rus_01_sn
+rus2_banner_cosm_10 – sign board: [R] "technical support center"	rus4/ref_launchpad_rus_01_sn
+rus2_banner_cosm_11 – sign board: [R] "pre-start preparation system"	rus4/ref_launchpad_rus_01_sn
+rus2_banner_sever_01 – sign: [R] "North 1 – mission control center"
+rus2_banner_sever_02 – sign board: [R] "MCC North 1"
+rus2_banner_sever_03 – sign board: [R] "control room"
+rus2_banner_sever_04 – sign board: [R] "operational management department"
+rus2_banner_sever_06 – sign board: [R] "security service"
+rus2_banner_sever_centr_02 – sign: [R] atomic symbol
+rus2_banner_sever_centr_03 – sign board: [R] "north center – fuel line"
+Science Structures
+observatory_1 – telescope dome	inst, us3/ref_observatory_02_usa
+observatory_banner – sign: [E] "Driftwood Observatory"	inst
+us_radar_station_01_us06 – science building with roof domes: [E] "Big Bang Observatory"	inst
+us_banner_big_bang_observatory_01 – sign: [E] "Big Bang Observatory"	inst
+meteo_station_us_01 – weather monitoring equipment and broadcast tower	usa/ref_meteostation_usa_01
+meteo_station_device_01 – weather monitoring equipment	rus4/ref_meteostation_in_mountain_03_rus4_sn
+meteo_station_device_02+_02 – weather monitoring equipment	rus4/ref_meteostation_in_mountain_03_rus4_sn
+meteo_station_device_03 – weather monitoring equipment	inst, rus4/ref_meteostation_in_mountain_03_rus4_sn
+windsock_01 – wind sock
+rus_banner_meteo_station_01 – sign: [R] "weather station"
+rus_banner_meteo_station_100_01 – sign: [R] "weather station – 100M"
+rus_banner_meteo_station_200_01 – sign: [R] "weather station – 200M"
+Towers
+antena – cell-phone tower	~0.74 (0.35-1.00), winch, inst, rus4/ref_factory_craft_01_rus4_sn
+antena_broken – collapsed cell-phone tower
+meteo_station_us_01 – weather monitoring equipment and broadcast tower	usa/ref_meteostation_usa_01
+radio_station_rus_objective – radio broadcast tower	rus3/ref_bunker_rus_sn
+rus_high_tower_01+_02 – radio broadcast tower	~1.00 (0.69-1.00), winch, inst, rus4/ref_factory_rocket_rus_01_sn
+rus_high_tower_01_objective – collapsed radio broadcast tower	rus3/ref_bunker_rus_sn
+rus_antena_07+_inst – radio broadcast tower	inst, rus05/ref_car_factory_rus_01
+rus_antena_07_blue – radio broadcast tower	rus4/ref_launchpad_rus_01_sn
+water_tower_01_no_banner+_02 – water tower
+water_tower_01 – water tower: [E] "Matthew & Sons"	~1.00 (1.00-1.74), winch, inst, usa3/ref_railroad_03_usa3
+water_tower_01_instanced – water tower: [E] "Matthew & Sons"	inst, usa_6/ref_us6_cargo_generation_point
+rus_pumptower_01 – water tower	inst, rus/ref_railroad_station_rus_01
+rus_broken_pumptower_01_objective – collapsed water tower
+rus_broken_pumptower_02_objective – collapsed water tower
+rus_high_tower_space_hangar_02 – tower for lights/equipment	light, rus4/ref_launchpad_rus_01_sn
+rus_mine_lift_01 – rusted mining elevator lift tower
+wind_devices_02 – utility windmill
+rus_windmill – classic wooden windmill	~1.40, rus05/ref_mill_rus05
+us_tower – tall steel enclosed watch tower	winch, light
+rus_watchtower_01 – tall wooden open watch tower	winch, inst, rus4/ref_forester_house_rus_01
+big_watchtower_01 – short, wide enclosed watch tower with broken stairs
+rus_controlbunker_tower_01 – guard tower	rus4/ref_controltower_01_rus_sn
+rus_watchtower – old guard tower	winch
+rus_jail_tower – old guard tower	winch
+rus_jail_tower_02 – old guard tower	winch, inst, rus3/ref_prison_rus_01_sn
+rus_jail_tower_01 – old guard tower	winch, inst, rus3/ref_prison_rus_01_sn
+rus_pandus_01+_02 – low observation post with ramp	rus/ref_countryside_rus_01_extra
+red_nav_light_01 – navigation light for towers	rus4/ref_launchpad_rus_01_sn
+us_banner_yellowrock_watchpoint_01 – sign: [E] "Yellowrock Watchpoint"	inst
+Cranes
+crane_01 – container crane on rails	usa/ref_lumber_mill_usa_01
+rus_crane_01+_inst – container crane on rails	inst, rus05/ref_port_rus_01
+crane_seaport_usa_01 – large container crane on rails	inst, usa/ref_port_usa_01
+crane_big_01 – hook crane on rails	rus05/ref_port_rus_01
+Oil Drilling and Derricks
+oil_pump_01 – pumpjack	~1.20, inst, usa/ref_drilling_site_usa_01_sn
+oil_pump_02 – pumpjack folded for storage	inst, usa/ref_factory_usa_01
+us_drilling_water_rig_01 – offshore derrick
+oil_derrek_01_objective – derrick
+rus_drilling_rig_01_objective – derrick: [R] "built 3/16/2016"
+rus_drilling_rig_02_objective – equipment building
+rus_drilling_rig_03_objective – equipment building
+abadonned_oil_derrek_01 – rusty derrick	usa4/ref_us_mine_01_sn
+abadonned_oil_derrek_01_objective – rusty derrick
+Oil Drilling and Derrick Signs
+banner_felton_01 – sign: [E] "Folton Drilling Company"
+rus_banner_drilling_01 – sign: [R] "drilling derrick – (illegible)"
+rus_banner_drilling_200_01 - "drilling derrick – (illegible) – 200M"
+rus_banner_drilling_right_02 - "drilling derrick – (illegible) – (arrow right)"
+Graffiti
+graffiti_01 – decal
+graffiti_01_02 – decal
+graffiti_01_05 – decal
+graffiti_01_06 – decal
+graffiti_02_02 – decal
+graffiti_02_03 – decal
+graffiti_02_05 – decal
+graffiti_03_01 – decal
+graffiti_03_02 – decal
+graffiti_r_01_03 – V-curve decal
+graffiti_r_01_04 – H-curve decal
+graffiti_r_02 – V-curve decal
+graffiti_r_02_04 – H-curve decal
+usa_graffiti_02_01 – decal	usa3/ref_depot_03_usa3
+usa_graffiti_02_02 – decal	usa3/ref_depot_03_usa3
+usa_graffiti_02_03 – decal	usa3/ref_depot_03_usa3
+usa_graffiti_02_04 – decal	usa3/ref_depot_03_usa3
+usa_graffiti_02_05 – decal	usa3/ref_depot_03_usa3
+usa_graffiti_02_06 – decal	usa3/ref_depot_03_usa3
+usa_graffiti_02_07 – decal	usa3/ref_depot_03_usa3
+usa_graffiti_02_09 – decal	usa3/ref_depot_03_usa3
+Soviet Propaganda
+rus_banner_city_decal_01 – decal: [R] "work – entertainment will wait"	rus4/ref_ghosttown_03_rus4_sn
+rus_banner_city_decal_02 – decal: [R] "work – the way to a bright future"	rus4/ref_ghosttown_03_rus4_sn
+rus_banner_decal_06 – decal: [R] "the people and the party are one"	rus/ref_factory_rus_02
+rus_banner_decal_07 – decal: [R] "the communist party – vanguard of the builders of communism"	rus/ref_countryside_rus_01_extra
+rus_banner_decal_10 – decal: [R] "glory to the soviet people"	rus/ref_countryside_rus_01_extra
+rus_banner_decal_11 – decal: [R] "work for the good of the soviet people"	inst, rus/ref_countryside_rus_01_extra
+rus_glg_gate_02 – vehicle gate arch: [R] "labor is a business of honor – a business of conscience – a business of valor"	rus3/ref_abandoned_lumber_mill_rus_sn
+rus_banner_garage_02 – sign: [R] "Lochtba Board – glory to you, working man"
+	~1.00 (1.00-1.41), inst, rus4/ref_missile_defense_big_03_rus4_sn_01
+rus_banner_lumber_mill_decal_03 – decal: [R] "work – the way to a bright future"	rus4/ref_missile_defense_big_03_rus4_sn_01
+rus_banner_lumber_mill_decal_04 – decal: [R] "the communist party – we are building the future"	rus4/ref_missile_defense_big_03_rus4_sn_01
+rus_banner_lumber_mill_decal_05 – decal: [R] "forward to a bright future"	rus4/ref_missile_defense_big_03_rus4_sn_01
+rus_banner_lumber_mill_decal_06 – decal: [R] "we are comrades from dawn to dusk"	inst
+rus_banner_sign_01 – decal: [R] "forward to a bright future"	rus4/ref_ghosttown_03_rus4_sn
+rus_sign_01+_02 – sign: [R] "hammer & sickle"
+rus_banner_garage_decal_01 – decal: [R] "comrade – look under your feet!"	rus4/ref_ghosttown_03_rus4_sn
+rus_banner_garage_decal_02 – decal: [R] "observe safety precautions"	rus4/ref_ghosttown_03_rus4_sn
+rus_banner_garage_decal_03 – decal: [R] "save your head!"	rus/ref_factory_rus_01
+rus_banner_lumber_mill_decal_02 – decal: [R] "use protective clothing"	rus/ref_factory_rus_01
+rus_banner_factory_decal_01 – decal: [R] "do not check electricity with finger"	rus/ref_factory_rus_02
+rus_banner_factory_decal_02 – decal: [R] "observe safety precautions"	rus/ref_factory_rus_02
+rus_banner_factory_decal_03 – decal: [R] "do not be late to work"	rus/ref_factory_rus_02
+Historical Structures
+Historical Signs
+rus_antonovsky_zapovednik – sign: [R] "Antonovsky Reserve"	inst
+antonovskie_petroglif – sign: [R] "Antonovsky Petroglyphs" – interpretive sign	~1.11, rus05/ref_sacred_stones_rus
+rus_banner_arh_01 – sign: [R] "no entry – excavation of ancient labyrinth of hyperborhea"
+rus_city_arch_baner_01 – sign: [R] "14th century architectural monument – guild master Karavayev's mansion – the films 'Cake' and 'Called Pitza' were shot here"	~1.10 (0.90-1.30), rus4/ref_town_rus_01_sn
+rus_city_arch_baner_02 – sign: [R] "restoratation in progress – 'Sharash-Montazh' – architect: E. Babelmandepsky"	rus4/ref_town_rus_01_sn
+rus_city_memorial_01 – sign: [R] "this monument is dedicated to the first astronauts"
+Statues
+paul_bunyan_01 – statue of Paul Bunyan
+paul_bunyan_01_snowed – statue of Paul Bunyan with snow on it	inst
+lenin_01 – statue of Vladimir Lenin	~0.43 (0.43-0.47), winch, rus4/ref_ghosttown_03_rus4_sn
+rus_pedest_lenin_01 – pedestal for statue: [R] "V.I. Lenin"	~1.00 (1.00-1.97), rus4/ref_ghosttown_03_rus4_sn
+rus_sculpture_01 – statue of girl with an oar	~0.45, rus4/ref_town_rus_02_sn
+rus_sculpture_02 – bust: [R] "Yu.A. Gagarin – sorry Yuri we all slept"	~1.34, rus4/ref_town_rus_03_sn
+rus_sculpture_03 – bust: [R] "I.S. Turgeev"	~0.57 (0.45-0.68), rus4/ref_town_rus_03_sn
+rus_sculpture_04 – guard lion	rus4/ref_town_rus_01_sn
+rus_sculpture_05 – bust: [R] "Peter the Great"	~0.41, rus4/ref_town_rus_03_sn
+Buildings Under Construction
+constr_metal_01_objective – partially complete metal building
+us_constr_metall_01_old_objective – partially complete metal building
+constr_brick_01_objective – partially complete brick building with new, primitive scaffolding
+us_constr_brick_01_old_objective – partially complete brick building with old, primitive scaffolding
+rus_constr_bricks_01_objective – partially complete brick building with old, primitive scaffolding
+constr_wood_01_objective – partially complete wooden building
+us_log_cabin_01_objective – log cabin under construction
+rus_base_01 – foundation	rus/ref_gate_rus_01
+rus_base_01_frame – foundation with metal framing and partial wood floor	~0.80, usa4/ref_constr_wood_02_sp_usa4
+Ruined Buildings
+rus_glg_barrack_01 – ruined shell of a large log building	rus3/ref_prison_rus_01_sn
+rus_glg_barrack_02 – ruined shell of a large log building with partial steel roof	inst, rus3/ref_prison_rus_01_sn
+rus_glg_barrack_03 – ruined shell of a large log building	rus3/ref_prison_rus_01_sn
+rus_glg_barrack_04 – ruined shell of a large log building	rus3/ref_prison_rus_01_sn
+rus_glg_hellway_01 – ruined shell of a hallway	rus3/ref_prison_rus_01_sn
+rus_glg_kpp_01+_02 – guard shack ruins: [R] "KPP post – stop"	inst, rus3/ref_prison_rus_01_sn
+rus_glg_lodge_01 – ruined shell of a log building	inst, rus3/ref_prison_rus_01_sn
+rus_glg_lodge_02 – ruined shell of a log building	rus3/ref_prison_rus_01_sn
+rus_glg_lodge_03 – ruined shell of a log building	inst, rus3/ref_prison_rus_01_sn
+rus_ruins_01 – ruined shell of a brick building	~0.94 (0.41-1.00), inst, rus3/ref_countryside_rus_02_ex_sn
+rus_cowshed_02 – ruined cow shed	inst, rus4/ref_ghosttown_03_rus4_sn
+Junk
+debris_01 – pile of rubble	~1.13 (1.00-1.25), rus4/ref_ghosttown_03_rus4_sn
+debris_02+_inst – pile of rubble	~1.00 (0.68-1.63), inst, rus4/ref_ghosttown_03_rus4_sn
+ghostcity_debris_01_objective – pile of rubble
+ruins_01+_inst – pile of rubble with beams	~1.00 (0.50-1.23), inst, rus4/ref_ghosttown_03_rus4_sn
+ruins_objective – pile of rubble with beams
+rus_dump_junk_01 – pile of rusted vehicle parts	~1.13 (1.13-1.30), inst, rus05/ref_dump_rus_01
+rus_dump_junk_02 – pile of rusted vehicle parts	inst, rus05/ref_dump_rus_01
+rus_dump_junk_03 – pile of rusted vehicle parts: [E]	~1.07 (0.58-1.30), inst, rus05/ref_dump_rus_01
+rus_metaljunk_01 – pile of tractor parts and beams	~1.00 (0.43-1.22), inst, rus05/ref_dump_rus_01
+rus_metaljunk_02 – pile of tractor parts and beams	~1.00 (0.33-1.56), inst, rus05/ref_dump_rus_01
+rus_metaljunk_03 – pile of tractor parts and beams	~1.00 (0.52-1.33), inst, rus05/ref_dump_rus_01
+rus_metaljunk_04 – pile of beams and rusted pipes	~1.00 (0.44-1.54), inst, rus05/ref_dump_rus_01
+garbage_heap_01 – big pile of bagged garbage	~1.00 (0.41-1.00), inst, rus05/ref_dump_rus_01
+us_slate – corrugated metal piece	~1.77 (1.00-3.29), usa3/ref_small_house_usa_04_old
+rus_glg_logs_01 – pile of beams and logs	~1.00 (0.44-1.23), rus4/ref_ghosttown_03_rus4_sn
+ghostcity_junk_01 – collapsed log and metal fence or building debris	~0.75 (0.23-1.00), inst, rus4/ref_ghosttown_03_rus4_sn
+ghostcity_junk_02 – building debris	~1.00 (0.44-1.40), inst, rus4/ref_ghosttown_03_rus4_sn
+rus_autojunk_01 – rusted truck fuel tank	~1.00 (0.76-3.00), inst, rus4/ref_ghosttown_03_rus4_sn
+rus_autojunk_05 – rusted rear suspension and diff subassembly	~1.00 (1.00-1.48), inst, rus4/ref_ghosttown_03_rus4_sn
+rus_autojunk_06 – rusted truck transmission	inst, rus/ref_service_hub_rus_02
+rus_autojunk_07 – rusted truck chassis on blocks	~1.00 (0.59-1.00), inst, rus/ref_service_hub_rus_02
+rus_autojunk_08 – rusted abstract sculpture of an engine	inst, rus/ref_service_hub_rus_02
+us_spare_parts_07_us06 – rusted truck frame on pallets	inst, usa_6/ref_us6_garage_02
+us_spare_parts_02_us06 – rusted truck chassis on pallets	inst, usa_6/ref_us6_garage_02
+us_spare_parts_03_us06 – rusted engine on pallet	inst, usa_6/ref_us6_garage_02
+us_spare_parts_04_us06 – rusted rear wheels subassembly on pallet	inst, usa_6/ref_us6_garage_02
+us_spare_parts_05_us06 – rusted wheel pair and associated parts on pallet	inst, usa_6/ref_us6_garage_02
+us_spare_parts_06_us06 – rusted wheel pair and associated parts on pallet	inst, usa_6/ref_us6_garage_02
+Dams
+dam_01_a_1
+dam_01_a_2
+dam_01_a_3
+dam_01_a_4
+dam_01_a_5
+dam_01_a_6
+dam_01_b	inst
+dam_01_c	inst
+dam_01_d
+Dam Signs
+banner_dam_01 – sign: [E] "Elizabeth Dam"	winch, inst
+banner_dam_02 – sign: [E] "Danger – water subject to sudden rise – Elizabeth Dam"	winch, inst
+banner_dam_06 – decal: [E] "Elizabeth Dam"	inst
+Lake Stuff
+Boats
+boat_01 – rowboat	usa/ref_town_usa_01
+rus_boat_01 – rowboat	rus05/ref_small_port_rus_01
+rus_boat_01_01 – rowboat	~0.93, rus05/ref_small_port_rus_01
+rus_boat_01_02 – rowboat
+rus_boat_01_04 – rowboat
+rus_boat_01_06 – fat sailboat
+rus_boat_01_03 – sailboat
+rus_boat_01_05 – sailboat in storage
+us_boat_11_us06 – speedboat: [E] "Saber 77"	inst, usa_6/ref_us6_city_01
+boat_transport_01 – boat trailer	usa_6/ref_us6_city_01
+fish_man1 – fisherman in rowboat – see page 498 for more information
+fish_man_notshy – fisherman in rowboat – see page 498 for more information
+Small Piers
+See also the pedestrian bridges on page 484.
+pirs_small_01 – personal wooden pier	~1.62 (1.00-1.62), inst, rus05/ref_small_port_rus_01
+us_moorage_02_us06 – short section of wooden pier	inst
+us_moorage_04_us06 – floating dock for small boats	inst
+us_moorage_07_us06 – floating dock for small boats	inst
+Boathouses
+rus_boat_garage_01+_inst – boathouse	~1.00 (1.00-1.70), inst, rus4/ref_town_rus_02_sn
+rus_boat_garage_02 – long boathouse	~1.62, rus4/ref_town_rus_02_sn
+rus_boat_garage_03+_inst – old boathouse	~1.35 (1.25-1.78), inst, rus4/ref_town_rus_02_sn
+Buildings Built on Piers
+us_building_29_us06: [E] - "The Irish Pub"	inst
+us_building_30_us06: [E] "Ancla Vieja – Hotel – Grany Pony – Bar Rest – 50% off"	inst
+us_building_31_us06 – building: [E] "Hotel"	inst
+us_building_32_us06: [E] "souvenir hall"	inst
+Sea Stuff
+Ships
+ship_01 – cargo ship
+us_boat_04_us06 – cargo ship	inst
+ship_02_hull – tipped cargo ship
+ship_02_staff – tipped cargo flotsam	inst
+rus_pr123_01 – rusted Komsomolets-class torpedo boat
+rus_pr29_01 – rusted Yastreb-class guard ship
+rus_pr68_01 – rusted Chapayev/Sverdlov-class cruiser
+rus_tug_01 – rusted tug
+us_boat_02_us06 – fishing boat	inst
+us_boat_07_us06 – fishing boat: [E] "Corrida"	inst
+us_boat_08_us06 – fishing boat: [E] "Amargon"	inst
+us_boat_03_us06 – boat: [E] "Snail – Supplier 13"	inst
+us_boat_05_us06 – boat: [E] "Prawn"	inst
+us_boat_09_01_us06 – speedboat	inst
+us_boat_09_02_us06 – speedboat	inst
+us_boat_09_us06 – speedboat	inst
+us_boat_09_us06_animated – gently rocking speedboat
+us_boat_10_us06 – sailboat	inst
+Large Piers
+port_pirs_01 – large concrete pier
+concrete_block_05 – concrete footing and mooring block	inst
+knecht – mooring block	~1.77, rus05/ref_dump_rus_01
+bunker_02 – large concrete slab with pier accoutrements	~0.62 (0.19-1.05), rus3/ref_bunker_rus_02_sn
+rus_pier – large concrete pier
+rus_pier_01_objective – large concrete pier
+rus_pier_02_objective – larger concrete pier
+us_banner_port_03 – arch sign: [E] "Lookout Point Pier – Entrance"	inst
+us_moorage_01_us06 – large concrete mooring pier	inst
+us_moorage_03_us06 – large concrete mooring pier	inst
+us_moorage_05_us06 – large wooden mooring pier	inst
+us_moorage_05_us06_menu – large wooden mooring pier section	inst
+us_moorage_06_us06 – large wooden mooring pier section	inst
+us_moorage_08_us06 – wooden viewing platform at end of concrete pier	inst
+Other Sea Stuff
+lighthouse_01 – wood and concrete lighthouse	inst
+lighthouse_02 – wooden lighthouse
+us_lighthouse_01_us06 – lighthouse: [E] "Shutter Lighthouse – constructed 1856"	inst
+us_lighthouse_01_us06_single_menu – light tower without house	inst
+us_banner_lighthouse_01_us06 – sign: [E] "Shutter Lighthouse – constructed 1856 – state's oldest lighthouse"	inst
+buyo_01+_02 – static buoy	inst
+buyo_01_animated – animated buoy
+us_anchor_01_us06 – two anchors (no chain)	inst
+piling_01 – metal support column
+piling_03 – metal support column	inst
+piling_02 – crude support column made of lashed-together logs	winch, inst
+us_moorage_pillars_us06 –  crude support column made of lashed-together logs	inst
+Fences
+wooden_fence_a – picket fence	rus/ref_small_house_rus_03
+wooden_fence_a_02 – picket fence	rus4/ref_missile_defense_center_03_rus4_sn_01
+wooden_fence_b – broken picket fence	rus05/ref_country_town_rus_02_B
+wooden_fence_c – short picket fence	rus05/ref_country_town_rus_02_B
+rus_fence_01 – picket fence	~1.00 (0.44-1.13), rus4/ref_ghosttown_03_rus4_sn
+rus_fence_01_broken – broken picket fence	~1.00 (0.44-1.14), rus4/ref_ghosttown_03_rus4_sn
+rus_fence_01_door – picket fence pedestrian gate	rus05/ref_countryside_rus05
+rus_fence_01_gateopen – picket fence double pedestrian gate	~1.00 (0.51-1.00), rus05/ref_country_town_rus_02_B
+rus_fence_09+_02 – picket fence	rus05/ref_country_town_rus_02_B
+rus_fence_13 – picket fence	~1.00 (0.62-1.00), rus/ref_small_house_rus_02
+us_fence_01 – picket fence	~1.00 (0.54-1.00), usa/ref_town_usa_01
+us_fence_end_01 – picket fence	usa/ref_town_usa_01
+us_fence_02 – old picket fence	usa/ref_small_house_usa_03
+us_fence_03_a – old, broken picket fence	~1.00 (1.00-1.42), usa3/ref_countryside_01_abandoned_usa3
+us_fence_03_b – old, broken picket fence	~1.00 (1.00-1.42), usa3/ref_countryside_01_abandoned_usa3
+us_fence_06_us06 – wooden beam fence	~0.77 (0.77-1.00), inst, usa_6/ref_us6_city_01
+us_farm_fence – wooden farm fence	usa/ref_countryside_usa_01
+us_farm_fence_broken – broken wooden farm fence	~1.09, usa/ref_countryside_usa_01
+us_farm_fence_end – wooden farm fence	usa/ref_countryside_usa_01
+rus_fence_02 – primitive wooden farm fence	~1.00 (0.61-1.02), rus/ref_countryside_rus_01_extra
+rus_fence_03 – primitive wooden farm fence	~1.00 (0.64-1.00), rus/ref_countryside_rus_01_extra
+rus_fence_04 – primitive wooden fence	~1.00 (0.51-1.20), rus4/ref_countryside_rus_03_ex_sn
+rus_fence_06+_02 – wood-slat fence	rus4/ref_town_rus_02_sn
+rus_fence_06_red – wood slat fence	rus05/ref_countryside_rus05
+rus_fence_07 – wood-slat fence	rus05/ref_countryside_rus05
+rus_fence_07_red – wood-slat fence	rus05/ref_country_town_rus_01_sloped
+rus_fence_07_blue – wood-slat fence	rus05/ref_country_town_rus_02_B
+rus_fence_10 – wood-slat fence with metal patch	~1.00 (0.57-1.14), rus/ref_lumber_mill_rus_01
+rus_fence_14 – wood-slat fence with miore metal patches	~1.00 (0.58-1.06), rus4/ref_town_rus_02_sn
+rus_fence_16 – wood-slat fence with patchwork of chain link and corrugated metal repairs	~1.00 (0.58‑1.14), rus4/ref_town_rus_02_sn
+rus_fence_15+_02 – wood-slat fence	~1.00 (0.58-1.21), rus4/ref_lumber_mill_rus_abandoned_03_rus4_sn
+rus_fence_17 – wood-slat fence with metal patches	~1.00 (0.49-1.06), rus4/ref_lumber_mill_rus_abandoned_03_rus4_sn
+rus_wood_boards_01 – extra fence slats	~1.00 (0.65-3.94), rus4/ref_lumber_mill_rus_abandoned_03_rus4_sn
+rus_wood_boards_02 – extra fence slats	~1.00 (0.68-2.51), rus4/ref_ghosttown_03_rus4_sn
+rus_wood_boards_03 – extra fence slats	~1.00 (0.60-2.22), rus4/ref_monastery_03_rus4_sn
+rus_glg_fency_01 – wood-slat fence with barbed wire on top	rus3/ref_prison_rus_01_sn
+rus_glg_fency_02 – broken wood-slat fence with barbed wire on top	rus3/ref_prison_rus_01_sn
+rus_glg_fency_03+_02 – broken wood-slat fence with broken barbed wire	rus3/ref_prison_rus_01_sn
+rus_village_gate – wooden arch pedestrian gate	~0.61 (0.61-1.00), rus3/ref_flooded_village
+rus_gate_01 – wooden arch vehicle gate	rus05/ref_lumber_mill_rus_03
+fence_concrete_a – concrete fence	~1.00 (0.94-1.75), inst, rus05/ref_car_factory_rus_01
+fence_concrete_b – concrete fence	~1.00 (0.76-1.75), inst, rus05/ref_car_factory_rus_01
+fence_concrete_b_antilod – concrete fence	inst, rus05/ref_railway_station_rus05
+us_concrete_fence_a – concrete fence	inst, usa/ref_garage_usa_01_sn
+us_concrete_fence_b – concrete fence	inst, usa3/ref_railroad_03_usa3
+us_fence_01_us06 – stone fence	inst, usa_6/ref_us6_city_01
+us_fence_02_us06 – stone fence end post	~1.10 (1.00-1.21), inst, usa_6/ref_us6_big_house_01
+us_fence_03_us06 – stone fence	inst, usa_6/ref_us6_city_01
+us_fence_04_us06 – stone fence	~1.00 (0.63-1.00), inst, usa_6/ref_us6_city_01
+us_fence_05_us06 – brick fence	inst, usa_6/ref_us6_city_01
+rus_fence_factory_01 – brick fence	rus4/ref_factory_rocket_rus_01_sn
+rus_fence_factory_old_01 – old brick fence	~0.62 (0.62-1.12), rus4/ref_ghosttown_03_rus4_sn
+rus_fence_pilor_factory_01 – brick fence end post	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_fence_yard_01 – fence of steel bars framed with bricks	rus4/ref_town_rus_01_sn
+rus_fence_yard_02 – brick fence end post	~1.00 (1.00-1.45), rus4/ref_town_rus_01_sn
+us_fence_07_us06 – short section of metal picket fence (or gate)	~1.00 (1.00-1.40), inst, usa_6/ref_us6_big_house_01
+rus_fence_12 – metal fence	~1.00 (0.94-1.48), rus4/ref_town_rus_01_sn
+rus_gate_garage_01a – tall metal fence
+rus_banner_missile_01 – metal fence: [R] illegible posted notices	inst, rus4/ref_town_rus_02_sn
+kpp_gate_barrier_rus – closed metal vehicle gate	rus4/ref_controltower_01_rus_sn
+kpp_gate_rus – chain link gate with hammer & sickle plaque
+rus_gate_base_01+_02 – tall metal vehicle gate	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_gate_base_02 – tall metal vehicle gate	rus4/ref_missile_fuel_factory_02_rus4_sn
+rus_gate_factory_02 – tall metal vehicle gate	rus/ref_factory_rus_01
+rus_gate_factory_03 – tall metal vehicle gate	rus/ref_factory_rus_04
+rus_gate_factory_04a – tall metal vehicle gate	rus4/ref_factory_rocket_rus_01_sn
+rus_gate_garage_01 – tall metal vehicle gate	inst, rus/ref_factory_rus_04
+rus_gate_garage_02 – tall metal vehicle gate	rus05/ref_car_factory_rus_01
+us_gate_garage_02_us06 – tall chain-link vehicle gate	inst, usa_6/ref_us6_port_01
+rus_launchpad_fence_01+_instanced – metal pedestrian barrier	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_fence_01_blue+_instanced – metal pedestrian barrier	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_fence_01_red – metal pedestrian barrier	rus4/ref_launchpad_rus_01_sn
+fence_02_rus+_instanced – corrugated metal fence	usa_6/ref_us6_garage_02
+us_gate_garage_03_us06 – chain link fence	inst, usa_6/ref_us6_port_01
+fence_01+_02 – chain link fence	~1.00 (0.74-1.49), usa/ref_airport_usa_01
+fence_01_rus – chain link fence	rus3/ref_airport_rus_01_sn
+fence_01_rus_blue – chain link fence	rus4/ref_launchpad_rus_01_sn
+rus_fence_05 – chain link fence	~1.00 (0.86-1.71), rus4/ref_ghosttown_03_rus4_sn
+rus_fence_11 – chain link fence	rus/ref_service_hub_rus_02
+rus_fence_18 – chain link fence with barbed wire on top	usa_6/ref_us6_garage_02
+rus_fence_18_blue – chain link fence with barbed wire on top	rus4/ref_launchpad_rus_01_sn
+rus_glg_fency_04 – tall barbed wire fence	winch, rus3/ref_prison_rus_01_sn
+rus_glg_fency_04_a – tall barbed wire fence	winch, rus3/ref_prison_rus_01_sn
+rus_glg_fency_04_b – tall barbed wire fencepost with broken wires	winch, rus3/ref_prison_rus_01_sn
+rus_glg_pillar_01 – tall barbed wire fencepost only	winch, rus3/ref_prison_rus_01_sn
+Surfaces
+Flooring
+rus_flooring_01 – tight wooden sidewalk	rus/ref_small_house_rus_01
+rus_flooring_02 – loose wooden sidewalk	~1.00 (0.69-1.35), rus/ref_small_house_rus_01
+rus_flooring_03 – broken loose wooden sidewalk	~1.00 (0.26-1.25), rus05/ref_countryside_rus05
+rus_flooring_04 – makeshift loose wooden sidewalk	rus4/ref_town_rus_02_sn
+rus_flooring_05 – makeshift very loose wooden sidewalk	rus4/ref_town_rus_02_sn
+rus_flooring_06 – very loose wooden sidewalk	~1.00 (0.62-1.00), rus4/ref_town_rus_02_sn
+us_concrete_block_02_us06 – concrete sidewalk	~0.62 (0.53-0.62), inst, usa_6/ref_us6_city_01
+us_concrete_block_02_1_us06 – one square of concrete sidewalk	~0.65 (0.52-0.70), inst, usa_6/ref_us6_city_01
+us_concrete_block_01_us06 – surface of concrete slabs	~1.38 (1.00-1.51), inst, usa_6/ref_us6_city_01
+us_concrete_block_03_us06 – surface of concrete slabs	~1.00 (0.69-1.00), inst, usa_6/ref_us6_garage_02
+us_concrete_block_05_us06 – surface of concrete slabs	~1.00 (0.59-1.00), inst, usa_6/ref_us6_garage_02
+us_concrete_block_04_us06 – surface of concrete slabs	~1.00 (0.65-1.00), inst, usa_6/ref_us6_garage_02
+us_concrete_block_06_us06 – surface of concrete slabs on a stonemasonry foundation
+	~0.73, inst, usa_6/ref_us6_church_01
+Large Slabs
+concrete_block_01 – square concrete slab	~1.50 (1.00-1.73), usa4/ref_factory_craft_03_usa4
+concrete_block_06 – square concrete slab	~1.00 (0.28-1.74), inst, rus05/ref_car_factory_rus_01
+concrete_block_07 – rectangular concrete slab with rebar reinforcement and handles
+	~1.00 (0.45-2.58), inst, rus/ref_service_hub_rus_02
+concrete_block_07_without damage – rectangular concrete slab with rebar reinforcement and handles
+	~0.53 (0.47-1.00), inst, rus05/ref_car_factory_rus_01
+concrete_block_09 – long rectangular concrete slab with rebar reinforcement and handles: [R]
+	~1.00 (0.83-2.11), inst, rus/ref_service_hub_rus_02
+concrete_block_10+_inst – rectangular concrete slab	~1.00 (0.17-1.60), inst, rus3/ref_airport_rus_01_sn
+concrete_sidewalk_long_01 – rectangular tile sidewalk	rus4/ref_launchpad_rus_01_sn
+concrete_sidewalk_long_02 – rectangular tile sidewalk	rus4/ref_launchpad_rus_01_sn
+concrete_sidewalk_long_cracked_01 – rectangular tile sidewalk	rus4/ref_launchpad_rus_01_sn
+concrete_sidewalk_long_cracked_02 – rectangular tile sidewalk	rus4/ref_launchpad_rus_01_sn
+concrete_sidewalk_short_01 – square tile sidewalk	rus4/ref_launchpad_rus_01_sn
+concrete_sidewalk_short_cracked_01 – square tile sidewalk	rus4/ref_launchpad_rus_01_sn
+rus_launchpad_01 – rectangular concrete slab
+rus_slab_01 – rectangular concrete slab with rebar ribs	inst, rus/ref_factory_rus_01
+rus_slab_02 – two rectangular concrete slabs with rebar ribs	inst, rus/ref_factory_rus_02
+rus_slab_02_01 – two rectangular concrete slabs with rebar ribs	rus4/ref_factory_rocket_rus_01_sn
+rus_slab_03 – three rectangular concrete slabs with rebar ribs	~1.00 (0.83-1.57), inst, rus/ref_factory_rus_02
+rus_slab_04 – 2×3 grid of square concrete slabs	inst, rus/ref_factory_rus_02
+cargo_helper_concrete_copy – rectangular concrete slab with rebar reinforcement	inst
+Pedestrian Bridges
+rus_glg_bridge_02 – pedestrian catwalk	~1.80, inst, rus05/ref_small_railway_rus_01
+rus_glg_bridge_05 – makeshift pedestrian catwalk	rus05/ref_small_railway_rus_01
+rus_glg_bridge_01 – raised pedestrian catwalk	~1.34 (0.91-1.76), inst, rus3/ref_abandoned_lumber_mill_rus_sn
+wooden_bridge_small_01 – raised pedestrian catwalk with handrails
+Road Accessories
+Road Scenery
+Road Stripes
+road_marking_01 – white stripe	inst, usa_6/ref_us6_garage_02
+road_marking_01yel – yellow stripe	inst, usa_6/ref_us6_garage_02
+road_marking_02 – long white stripe	inst, usa_6/ref_warehouse_us6_01
+road_marking_02yel – long yellow stripe	inst, usa_6/ref_warehouse_us6_01
+road_marking_03 – short white stripe	inst, usa/ref_garage_usa_01
+road_marking_03yel – short yellow stripe	inst, usa/ref_port_usa_01
+road_marking_04 – thin white stripe with short T at one end	rus05/ref_car_factory_rus_01
+us_road_markings – white stripe	inst, usa/ref_town_usa_01
+road_marking_05 – crosswalk	inst, usa/ref_town_usa_01
+road_marking_06: [E] "stop"	inst, usa3/ref_factory_paper_usa3
+road_marking_07 – yield	inst, usa/ref_garage_usa_01
+road_marking_08 – "1" in blue square, e.g. bay number	inst, usa/ref_garage_usa_01
+road_marking_08a – "2" in blue square, e.g. bay number	inst, usa/ref_garage_usa_01
+road_marking_08b – "3" in blue square, e.g. bay number	inst, usa4/ref_garage_02_usa4
+road_marking_09 – thin arrow	inst, usa4/ref_garage_02_usa4
+road_marking_10 – prohibited lane	usa3/ref_factory_paper_usa3
+road_marking_nosn_10 – prohibited lane (no procedural snow)	usa_6/ref_us6_port_01
+road_marking_10_instanced – prohibited lane (no procedural snow)	inst
+road_marking_11 – end of prohibited lane	usa3/ref_factory_paper_usa3
+road_marking_nosn_11+_instanced – end of prohibited lane (no procedural snow)
+	~1.25 (1.00-1.75), inst, usa_6/ref_us6_garage_02
+Asphalt Damage
+us_decal_damage_01_us06 – decal of pothole	inst, usa_6/ref_us6_garage_02
+us_decal_damage_02_us06 – decal of pothole	inst, usa_6/ref_us6_garage_02
+us_decal_damage_03_us06 – decal of pothole and cracks	inst, usa_6/ref_us6_garage_02
+us_decal_damage_04_us06 – decal of stones	inst, usa_6/ref_us6_garage_02
+us_decal_damage_05_us06 – decal of oily debris	inst, usa_6/ref_us6_garage_02
+us_decal_damage_06_us06 – decal of pothole and cracks	inst, usa_6/ref_us6_garage_02
+us_decal_damage_07_us06 – decal of damage	inst, usa_6/ref_us6_garage_02
+us_decal_damage_08_us06 – decal of long pothole	inst, usa_6/ref_us6_garage_02
+us_decal_damage_09_us06 – decal of shoulder damage	inst, usa_6/ref_us6_garage_02
+us_decal_damage_10_us06 – decal of stones on shoulder	inst, usa_6/ref_us6_garage_02
+us_decal_damage_11_us06 – decal of cracks	inst, usa_6/ref_us6_garage_02
+us_decal_damage_12_us06 – decal of cracks	inst, usa_6/ref_us6_garage_02
+us_decal_damage_13_us06 – decal of cracks	inst, usa_6/ref_us6_garage_02
+Concrete Damage
+us_decal_damage_14_us06 – decal of wear and cracks	inst, usa_6/ref_us6_garage_02
+us_decal_damage_15_us06 – decal of damage	inst, usa_6/ref_us6_garage_02
+us_decal_damage_16_us06 – decal of damage	inst, usa_6/ref_us6_city_01
+us_decal_damage_17_us06 – decal of wear	inst, usa_6/ref_us6_city_01
+us_decal_damage_18_us06 – decal of patched rectangle	inst, usa_6/ref_us6_city_01
+us_decal_damage_19_us06 – decal of wear	inst, usa_6/ref_us6_city_01
+us_decal_damage_20_us06 – decal of wear with weed intrusion	inst, usa_6/ref_us6_garage_02
+us_decal_damage_21_us06 – decal of pothole with splashed stones	inst, usa_6/ref_us6_garage_02
+Underground Service Access
+lattice_01 – long, narrow storm drain	inst, usa/ref_town_usa_01
+lattice_02 – small storm drain	~2.46 (1.26-2.97), inst, usa/ref_town_usa_01
+lattice_03: [E] "USA" (underground service access)	~1.66 (1.00-4.48), inst, usa/ref_town_usa_01
+lattice_04 – manhole cover	~1.66 (1.00-2.35), inst, usa/ref_town_usa_01
+Road Curbs
+asphalt_border_01+_instanced – curved curb	rus05/ref_car_factory_rus_01
+asphalt_border_01_nosnw_us06 – curved curb (no procedural snow)	inst, usa_6/ref_us6_city_01
+asphalt_border_02 – curb stone	~0.89 (0.82-1.00), rus05/ref_car_factory_rus_01
+parking_stop_01+_instanced – low pipe bolted to ground	inst, usa_6/ref_us6_city_01
+rus_pipe_limiter_01 – low pipe bolted to ground	~1.00 (1.00-1.95), inst, usa_6/ref_us6_city_01
+us_speed_bump_01_us06 – metal speed bump	~1.00 (0.55-1.00), inst, usa_6/ref_us6_city_01
+us_speed_bump_02_us06 – metal speed bump	inst, usa_6/ref_us6_garage_02
+us_speed_bump_03_us06 – metal speed bump	~0.66 (0.61-1.00), inst, usa_6/ref_us6_city_01
+Road Barriers
+road_cone_01 – traffic cone	usa/ref_garage_usa_01
+bollards_us07 – flexible traffic bollard	usa_6/ref_us6_city_01
+road_blocker_01 – temporary road block	usa/ref_port_usa_01
+barrier_01 – closed traffic gate	~1.00 (1.00-1.49), inst, rus/ref_tunnel_rus_01
+barrier_01a – open traffic gate	inst, rus/ref_tunnel_rus_01
+barrier_01_objective – moveable traffic gate
+crossing_rus_01 – metal ramp over rails with open gate
+concrete_block_03 – K-rail a.k.a. Jersey barrier	~1.00 (1.00-1.46), inst, rus05/ref_car_factory_rus_01
+concrete_block_03_objective – three K-rails
+concrete_block_04 – K-rail	~1.00 (0.95-1.56), inst, rus05/ref_car_factory_rus_01
+concrete_block_02 – concrete block	~2.07 (1.00-2.07), rus4/ref_missile_defense_big_03_rus4_sn_01
+concrete_block_08 – concrete block: [R]	~1.00 (0.73-3.61), inst, rus05/ref_car_factory_rus_01
+Other Road Structures
+rus_polygon_road_01 – cobblestone hump over obstacle or speed hump	inst, rus05/ref_car_factory_rus_01
+rus_polygon_road_02 – raised cobblestone shoulder	~0.70, inst, rus05/ref_car_factory_rus_01
+us_block_entry_01_us06 – concrete driveway entrance with culvert	inst, usa_6/ref_us6_city_01
+rus_tunnel_01+_02 – tunnel entrance	rus/ref_tunnel_rus_01
+tunnel_01 – tunnel entrance	inst, usa/ref_tunnel_usa_01
+tunnel_01_us6 – tunnel entrance	inst
+us_tunnel_wide_01_us06 – wide tunnel entrance	inst, usa_6/ref_us6_tunnel_wide_01
+tunnel_02 – tunnel entrance	rus4/ref_tunnel_railroad_rus4_sn
+tunnel_03 – tunnel entrance
+sign_tonnel – tunnel road sign
+snow_patch_02 – snow patch	inst
+us_sewer_pipe_01 – storm drain culvert entrance with shadows in back
+us_sewer_pipe_01_us06 – storm drain culvert entrance with shadows near front	inst
+Road Bridges
+Metal Road Bridges
+rus_bridge_road_04_base – metal truss bridge under construction
+Yellow Center Lines
+bridge_road_01 – metal truss bridge; bad procedural snow
+bridge_road_01_a – metal truss bridge; no procedural snow on road
+bridge_road_01_a_objective – metal truss bridge; no procedural snow on road
+bridge_road_01_sn_objective – metal truss bridge; explicit snow on road
+bridge_road_01_b – metal arch bridge; no procedural snow on road
+bridge_road_01_b_objective – metal arch bridge
+bridge_road_01_c – metal arch bridge with shorter road deck
+bridge_road_01_sn – metal arch bridge with shorter road deck
+bridge_road_01_sn_half – metal arch bridge with half-length road deck and supports	inst
+rus_bridge_road_01_a – metal half-arch bridge with shorter road deck
+bridge_road_01_sn_trial0301 – metal arch bridge; two spans with shorter road deck; explicit snow on road
+No Center Lines
+rus_bridge_road_01 – metal low-truss bridge; no procedural snow on road
+rus_bridge_road_01_objective – metal low-truss bridge; bad procedural snow, see-through asphalt roadbed
+rus_bridge_road_001_objective – metal low-truss bridge; different bad procedural snow
+rus_bridge_road_01snow_objective – metal low-truss bridge; explicit snow and better procedural snow
+rus_bridge_road_01_b – metal arch bridge; no procedural snow on road
+rus_bridge_road_01_b_objective – metal arch bridge; no procedural snow on road
+bridge_road_01_b_half – metal half-arch bridge; no procedural snow on road
+rus_bridge_road_02a – metal truss bridge with pedestrian sidewalk
+rus_bridge_road_08_short_sn – center section of metal truss bridge
+rus_bridge_road_08_long_sn – end section of metal truss bridge
+Wooden Road Bridges
+bridge_logs_01_objective – log span
+bridge_wooden – hand-made wooden bridge	~0.87 (0.74-1.00), usa/ref_oak_grove
+bridge_wooden_02 – engineered wooden bridge
+bridge_wooden_big_02 – long engineered wooden bridge	winch
+bridge_wooden_big_02_objective – long engineered wooden bridge
+bridge_wooden_big_02_us06_objective – long engineered wooden bridge
+bridge_wooden_big_01 – long rickety wooden bridge
+bridge_wooden_big_01_02 – long rickety wooden bridge; improved dynamic physics?
+cargo_helper_bridge_01 – dynamic lightweight wooden bridge deck	winch
+rus_glg_bridge_03 – log bridge with gap between driving slats
+rus_glg_bridge_04 – log bridge with no gap between driving slats
+Stone Road Bridges
+us_bridge_pavement_01_us06	inst
+Broken Bridges
+rus_bridge_broken_01 – support for broken metal arch bridge; no landmark
+rus_bridge_broken_04 – support for broken metal arch bridge; with landmark
+rus_bridge_broken_02 – center support for two broken metal arch bridges; no landmark
+rus_bridge_broken_04b – center support for two broken metal arch bridges; with landmark
+rus_bridge_broken_011a – broken half of metal arch bridge
+rus_bridge_broken_01a – broken half of metal arch bridge
+rus_bridge_broken_02a – broken half of metal arch bridge	usa4/ref_us_mine_01_sn
+rus_bridge_broken_03a – broken half of metal arch bridge
+rus_bridge_broken_04a – broken half of metal arch bridge
+rus_bridge_road_03_broken – metal arch bridge with broken center
+rus_bridge_broken_03b – pieces of metal arch bridge
+rus_bridge_broken_04c – pieces of metal arch bridge
+rus_bridge_broken_02b – pieces of metal arch bridge	usa4/ref_us_mine_01_sn
+Bridge Supports
+bridge_road_01_support – road bridge support pier extension
+bridge_road_01_sn_support – road bridge support pier extension
+metal_bridge_big_01_support – metal bridge support pier appropriate for rus_bridge_road_08_*_sn
+bridge_road_04_base2 – concrete bridge support pier appropriate for rus_bridge_road_08_*_sn
+rus_bridge_road_big_base – railroad bridge support pier
+rus_bridge_road_07_base – base of railroad bridge support pier
+rus_bridge_road_07_middle – middle of railroad bridge support pier
+rus_bridge_road_07_upper – top of railroad bridge support pier
+rus_bridge_road_island_base – support pier foundation on slope
+Utilities
+Wire Distribution
+pole_a – wooden utility pole	wire, winch, inst, rus4/ref_missile_fuel_factory_02_rus4_sn
+pole_a_objective – repairable wooden utility pole with wire segments
+pole_a_w_light_01 – wooden utility pole with streetlight	wire, winch, light, inst, usa_6/ref_us6_lumber_mill_02
+pole_b – braced wooden utility pole	wire, winch, inst, rus/ref_countryside_rus_01_extra
+us_power_pole – braced wooden utility pole with transformer and white streetlight
+	wire, winch, light, inst, usa_6/ref_us6_lumber_mill_02
+us_power_pole_yel – braced wooden utility pole with transformer and yellow streetlight
+	wire, winch, light, inst, usa_6/ref_us6_lumber_mill_02
+us_power_pole_off – braced wooden utility pole with transformer and broken streetlight	usa_6/ref_us6_port_01
+pole_empty_01 – wooden utility pole without top tree	inst, rus4/ref_ghosttown_03_rus4_sn
+us_light_pole_off_us06 – concrete utility pole	inst, usa_6/ref_us6_garage_02
+power_lines_01 – electrical transmission tower	wire, winch, inst, rus05/ref_car_factory_rus_01
+power_lines_01_camfix – electrical transmission tower	wire, winch, inst
+power_lines_01_objective – electrical transmission tower
+station_02 – six-wire substation transformer	wire, inst, usa3/ref_power_plant_01_usa3
+station_03 – four-wire substation transformer: [E]	usa3/ref_power_plant_01_usa3
+station_03_rus – four-wire substation transformer	rus3/ref_power_plant_01_rus3
+station_04 – four-wire substation routing pylon	rus3/ref_power_plant_01_rus3
+station_04a – large four-wire substation routing pylon	rus3/ref_power_plant_01_rus3
+station_04b – large zero-wire substation pylon	usa3/ref_power_plant_01_usa3
+station_05+_02 – power switch and meter: [E]	usa3/ref_power_plant_01_usa3
+station_05_instanced – power switch and meter: [E]	inst
+station_05_rus – power switch and meter	rus3/ref_power_plant_01_rus3
+Streetlights
+us_light_pole – concrete pole with white streetlight and overhead wire attachments
+	wire, winch, light, inst, rus4/ref_launchpad_rus_01_sn
+us_light_pole_yel – concrete pole with white streetlight and overhead wire attachments
+	wire, winch, light, inst, usa_6/ref_us6_garage_02
+lamppole_a – wooden pole with white streetlight and overhead wire attachments
+	wire, winch, light, inst, rus4/ref_town_rus_02_sn
+lamppole_a_yel – wooden pole with yellow streetlight and overhead wire attachments
+	wire, winch, light, inst, rus4/ref_town_rus_02_sn
+lamppole_a_disabled – wooden pole with broken streetlight and overhead wire attachments
+	wire, inst, rus4/ref_ghosttown_03_rus4_sn
+pole_a_w_light_01 – wooden utility pole with streetlight	wire, winch, light, inst, usa_6/ref_us6_lumber_mill_02
+us_power_pole – braced wooden utility pole with transformer and white streetlight
+	wire, winch, light, inst, usa_6/ref_us6_lumber_mill_02
+us_power_pole_yel – braced wooden utility pole with transformer and yellow streetlight
+	wire, winch, light, inst, usa_6/ref_us6_lumber_mill_02
+us_power_pole_off – braced wooden utility pole with transformer and broken streetlight	usa_6/ref_us6_port_01
+us_city_lamp – 4 meter decorative lamp	~1.00 (0.68-1.00), winch, usa_6/ref_us6_city_01
+streetlamp_01 – 4 meter decorative lamp	winch, light, usa/ref_town_usa_01
+streetlamp_01_us06 – 4 meter decorative lamp	winch, light, inst, usa_6/ref_us6_city_01
+streetlamp_04 – 3 meter cheap fluorescent lamp	~1.12 (1.00-1.47), winch, light, usa/ref_airport_usa_01
+streetlamp_05 – 2.5 meter decorative sidewalk lamp	~0.62 (0.45-1.00), light, inst, usa/ref_town_usa_01
+Other Lights
+space_hangar_lamp_01 – wall-mount lamp	rus4/ref_launchpad_rus_01_sn
+streetlamp_02 – wall-mount decorative lamp	~1.00 (0.67-1.31), light, inst, usa/ref_town_usa_01
+streetlamp_02a – wall-mount decorative lamp	~0.65 (0.48-1.00), light, inst, usa/ref_town_usa_01
+streetlamp_03 (floating) – wall-mount security light	light, inst, usa/ref_town_usa_01
+streetlamp_03a (floating) – floating-mount light	~1.00 (0.67-1.50), light, inst, usa/ref_town_usa_01
+streetlamp_03a_high (floating) – floating-mount light; bigger flare cone	~1.43 (1.00-2.02), rus3/ref_airport_rus_01_sn
+
+rus2_streetlamp_03b – floating-mount light array	wire, winch, light, inst, rus4/ref_launchpad_rus_01_sn
+streetlamp_03b (floating) – floating-mount light array; bigger flare cone
+	~1.50 (1.00-1.80), light, rus4/ref_launchpad_rus_01_sn
+streetlamp_04a – ceiling mount fluorescent light	~1.00 (0.68-1.00), light, usa/ref_town_usa_01
+light_sky_spot_01 – buried spot light	light
+The light_sky_spot_01 model is in the shape of a black cube, but you're expected to bury the model so that it can't be seen. The model comes with a very dim spotlight that hovers 25 meters above the cube and shines down on it. It's basically a nightlight for a small area of the map so that terrain and objects in it can be seen without other sources of illumination (e.g. when a truck's headlights aren't pointed at it). Although this light can be seen under the right conditions in the Editor, I haven't managed to see its effects within the game, so it's unclear whether this model is ever useful.
+Arrow Signs
+English Arrow Signs
+These are all arrow-shaped English sign boards with posts.
+us_banner_airfield_02 – "air field"
+us_banner_camp_01 – "camp"
+us_banner_camp_02 – "camp"
+us_banner_dam_01 – "dam"
+us_banner_dam_02 – "dam"
+us_banner_drillingsite_01 – "drilling site"
+us_banner_drillingsite_02 – "drilling site"
+us_banner_factory_01 – "factory"
+us_banner_factory_02 – "factory"
+us_banner_farm_01 – "farm"
+us_banner_farm_02 – "farm"
+us_banner_garage_01 – "garage"
+us_banner_garage_02 – "garage"
+us_banner_gas_01 – "gas"
+us_banner_gas_02 – "gas"
+us_banner_lumber_01 – "lumber"
+us_banner_lumber_02 – "lumber"
+us_banner_meteo_01 – "meteo"
+us_banner_meteo_02 – "meteo"
+us_banner_oilfieald_01 – "oilfield"
+us_banner_oilfield_02 – "oilfield"
+us_banner_seaport_01 – "port"
+us_banner_seaport_02 – "port"
+us_banner_service_01 – "service"
+us_banner_service_02 – "service"
+us_banner_town_01 – "town"
+us_banner_town_02 – "town"
+us_banner_truckparking_01 – "truck parking"
+us_banner_truckparking_02 – "truck parking"
+us_banner_tunnel_01 – "tunnel"
+us_banner_tunnel_02 – "tunnel"
+us_banner_warehouse_01 – "warehouse"
+us_banner_warehouse_02 – "warehouse"
+Russian Arrow Signs
+These are all arrow-shaped Russian sign boards without posts. Presumably they should be used with the following post. These signs fall apart in the built-in campaign when the player's truck simply approaches them, so don't expect to get better behavior in your own maps.
+pole_banner_01 – single log support post
+rus_banner_drilling_left_01 – "drilling"
+rus_banner_drilling_right_01 – "drilling"
+rus_banner_factory_left_01 – "factory"
+rus_banner_factory_right_01 – "factory"
+rus_banner_garage_left_01 – "garage"
+rus_banner_garage_right_01 – "garage"
+rus_banner_lumber_mill_left_01 – "sawmill"
+rus_banner_lumber_mill_right_01 – "sawmill"	inst
+rus_banner_meteo_station_left_01 – "weather station"
+rus_banner_meteo_station_right_01 – "weather station"
+rus_banner_quarry_left_01 – "quarry"	inst
+rus_banner_quarry_right_01 – "quarry"	inst
+Road Signs
+US Road Signs
+sign_15mph – (advisory) "15 mph"	usa/ref_town_usa_01
+sign_35mph – (advisory) "35 mph"
+sign_55mph – (advisory) "55 mph"
+sign_arrow_left – left-curve chevron
+sign_arrow_right – right-curve chevron
+sign_big_caution_long_vehicle_turning – "truck entrance"	usa/ref_port_usa_01
+sign_big_prepar_for_unexpected – "be prepared for the unexpected"	usa_6/ref_us6_port_01
+sign_block_left – left hazard marker	usa/ref_airport_usa_01
+sign_block_right – right hazard marker	usa/ref_airport_usa_01
+sign_bridge_01 – overhead hazard marker	winch
+sign_ca_deer – deer crossing
+sign_ca_stop – "stop" (dirt base)
+sign_octagon_stop – "stop" (concrete base)	usa/ref_town_usa_01
+sign_ca_watch_for_fallen_rock – "watch for fallen rock"
+sign_ca_water_over_road – "water over road"
+sign_detour_01 – "detour (arrow right)"
+sign_detour_02 – "detour (arrow left)"
+sign_garbage – "$1000 fine for littering enforced"
+sign_last_chance – "last chance" for gas
+sign_long_phone_before_crossing – "drivers of long low vehicles phone before crossing"	usa/ref_airport_usa_01
+sign_long_unsuitable_for_long_vehicles – "vehicles over 40' prohibited"	usa/ref_port_usa_01
+sign_quad_danger_unstable_cliffs – "danger – do not climb over fence – unstable cliffs"
+sign_quad_end_county_maintained_road – "end county maintained road"
+sign_quad_stop_ignore_sat_nav_gps – "no wide vehicles – do not follow sat nav"
+sign_rect_narrow_road – "no wide vehicles – do not follow sat nav – very narrow road"	usa/ref_airport_usa_01
+sign_rect_drive_with_lights_on – "slow ped xing"	~0.80, usa/ref_town_usa_01
+sign_rect_road_closed – "road closed"
+sign_rect_trucks_use_lower_gear – "trucks use lower gear"
+sign_residental_area – "residential quiet zone – please be respectful"	usa/ref_town_usa_01
+sign_rhomb_moose – "moose xing"
+sign_rhomb_slope – 9% grade down
+sign_rhomb_winding_road – winding road
+sign_tonnel – tunnel
+sign_triangle_unevenness – low ground clearance
+sign_triangle_yield – "yield"	usa/ref_town_usa_01
+sign_workzone – "water over road"
+Canadian Road Signs
+sign_ca_crossing – (Ontario) water over road
+sign_ca_fall_breed_right – falling rocks on right
+sign_ca_rockfall_right – falling rocks on right
+sign_ca_rockfall_left – falling rocks on left
+sign_rhomb_truck_crossing – falling rocks on left
+sign_ca_give_way – yield
+sign_ca_incline_12 – 12% grade down
+sign_ca_slippery_road – slippery when wet
+sign_ca_speed_ahead_40 – (Ontario) (advisory) 40 km/h (ahead on ramp)
+sign_ca_speed_50_km_h – (Ontario) (advisory) 50 km/h (on ramp)
+sign_ca_speed_60_km_h – (advisory) 60 km/h
+Russian Road Signs
+road_sign_garbage_stop: [R] "dumping of garbage prohibited"	inst
+rus_road_sign_01 – falling rocks on right
+rus_road_sign_03 – level crossing with barriers
+rus_road_sign_04 – road construction
+rus_road_sign_05 – 10% grade down
+rus_road_sign_07 – 12% grade up
+rus_road_sign_06 – unprotected quayside or riverbank
+rus_road_sign_09 – other danger
+rus_road_sign_11 – hotel/motel to right
+rus_road_sign_12 – auto repair – 500m to right
+rus_road_sign_24 – auto repair – right
+rus_road_sign_13 – restaurant
+rus_road_sign_14 – no entry for animal-drawn vehicles	rus05/ref_railway_station_rus05_B
+rus_road_sign_15 – no trucks over 4 tonnes
+rus_road_sign_16 – speed limit 50 km/h
+rus_road_sign_17 – no entry for trailers
+rus_road_sign_18 – left arrow
+rus_road_sign_19 – left/right arrow
+rus_road_sign_20 – right arrow
+rus_road_sign_21: [R] "stop" here on red
+rus_road_sign_23: [R] "detour" (right arrow)
+rus_sign_bus_stop_01 – bus stop	rus4/ref_town_rus_03_sn
+sign_rus_danger_01: [R] "danger": [E] "danger"
+sign_triangle_unevenness – low ground clearance
+Railroads
+Rail Scenery
+rail_01 – single rail track with mini ties	inst, rus05/ref_port_rus_01
+rail_blocker_02 – buffer stop/stopblock: [E]
+rail_blocker_03 – buffer stop/stopblock	rus4/ref_factory_rocket_rus_01_sn
+rus_railway_stoper_01 – primitive buffer stop/stopblock	inst, rus/ref_railroad_station_rus_01
+rail_blocker_objective_01 – track under construction: [E]
+rail_blocker_objective_rus_01 – track under construction
+rail_crossing_01 – metal ramp over rails	rus4/ref_launchpad_rus_01_sn
+crossing_rus_01 – metal ramp over rails with open gate
+trafficlight_01 – floating-mount railroad signal light	~1.44 (1.00-1.44), inst, usa/ref_airport_usa_01
+us_rail_staff_01 – railroad signal light on pole	usa3/ref_railroad_02_usa3
+rail_depot_02 – rolling stock maintenance building: [E]	usa3/ref_depot_03_usa3
+us_rail_staff_02 – trackside liquid tank: [E]	usa3/ref_railroad_02_usa3
+us_rail_staff_03 – railroad overhead sprayer	usa3/ref_depot_03_usa3
+Rail Bridges
+rus_bridge_road_04nocross – railway truss bridge with pedestrian walkways
+rus_bridge_road_08 – railway truss bridge with pedestrian walkways
+rus_bridge_road_09_no_collision – railway truss bridge with pedestrian walkways
+rus_bridge_road_05 – large railway truss bridge with pedestrian walkways
+rus_bridge_road_05_no_collision – large railway truss bridge with pedestrian walkways
+rus_bridge_road_06 – railway beam bridge with pedestrian walkways
+rus_bridge_road_big_objective – new double-length railway truss bridge with pedestrian walkways
+bridge_and_train_objective – railroad truss bridge with waiting train
+Rolling Stock
+trailer_train_rocket_01_collision – collision boxes for trailer_train_rocket_01_objective
+trailer_train_rocket_01_objective – rail delivery of rocket
+ca_rail_carriage_01 – gondola rail car: [E]
+rus_rail_carriage_01+_02 – gondola rail car: [R]	inst, rus/ref_railroad_station_rus_01
+ca_rail_carriage_02 – gondola rail car: [E]	usa3/ref_depot_03_usa3
+rus_rail_carriage_02+_02 – gondola rail car: [R]	inst, rus/ref_railroad_station_rus_01
+ca_rail_carriage_03 – log bunk flat car: [E]
+rus_rail_carriage_03 – log bunk flat car: [R]	rus/ref_railroad_station_rus_01
+ca_rail_carriage_04 – new log bunk flat car: [E]
+rus_rail_carriage_04 – new log bunk flat car: [R]
+ca_rail_carriage_05 – tank car: [E]	usa3/ref_depot_03_usa3
+rus_rail_carriage_05+_02 – tank car: [R]	inst, rus/ref_railroad_station_rus_01
+ca_rail_carriage_06 – boxcar: [E]	usa3/ref_depot_03_usa3
+train_carriage_objective – log bunk flat car with sequoia log: [E]
+rus_rail_carriage_part_a – railroad truck/bogie	inst, usa3/ref_depot_03_usa3
+rus_rail_carriage_part_b – single axle with wheels	inst, usa3/ref_depot_03_usa3
+Vehicles
+Land Vehicles
+sedan_01+_nosnw_instanced – American sedan	usa_6/ref_us6_city_01
+sedan_01_blue+_nosnw_instanced – American sedan	usa_6/ref_us6_city_01
+sedan_01_coffee+_nosnw_instanced – American sedan	usa_6/ref_us6_city_01
+sedan_01_purple+_nosnw_instanced – American sedan	usa_6/ref_us6_city_01
+car_crashed_02 – wrecked and rusted American sedan	inst, usa_6/ref_us6_city_01
+upgrade_parts_us – wrecked and rusted American sedan with upgrade symbol	inst
+suv_01+_nosnw_instanced – American SUV	usa_6/ref_us6_city_01
+suv_01_black+_nosnw_instanced – American SUV	usa_6/ref_us6_city_01
+suv_01_blue+_nosnw_instanced – American SUV	usa_6/ref_us6_city_01
+suv_01_red+_nosnw_instanced – American SUV	usa_6/ref_us6_city_01
+us_trux_02_us06 – short-bed pickup with stuff in bed	inst, usa_6/ref_us6_city_01
+vhc_excavator_01 – tracked excavator	inst, rus05/ref_dump_rus_01
+old_car_rus – Russian sedan	inst, rus4/ref_town_rus_02_sn
+car_crashed_01 – wrecked Russian sedan	inst, rus4/ref_town_rus_02_sn
+upgrade_parts_rus – wrecked Russian sedan with upgrade symbol	inst
+tractor – abandoned tractor	rus/ref_factory_rus_02
+rus_autojunk_02 – abandoned tractor	inst, rus/ref_countryside_rus_01_extra
+rus_trailer_01 – two-wheeled wood-sided trailer	rus/ref_countryside_rus_01_extra
+rus_trailer_02 – two-wheeled metal-sided trailer	rus/ref_countryside_rus_01_extra
+rus_trailer_03 – four-wheeled metal-sided trailer	rus05/ref_car_factory_rus_01
+rus_trailer_04 – four-wheeled wood-sided trailer	rus05/ref_car_factory_rus_01
+us_trailer_03_us06 – canvas-covered semi-trailer: [E] "Wild Cart Nelson"	inst, usa_6/ref_us6_garage_02
+Aircraft
+us_airplane_01 – C-130 cargo plane (but with only two engines): [E] "United States Navy"
+	~1.18, usa/ref_airport_usa_01
+helicopter_rus_01 – civilian Mi-8MTV-1 passenger/exploration helicopter: [R] "polar"	rus3/ref_airport_rus_01_sn
+helicopter_rus_01a – old Soviet military Mi-8 transport helicopter	rus3/ref_airport_rus_01_sn
+ufo_01 – flying disc UFO	rus4/ref_ravine_03_sn
+Cable Car
+funicular_cabin_01 – cable car cabin
+funicular_support_01 – cable car tower
+Nature
+Animals and People
+None of the animal or people models can be collided with.
+Bold Animals
+Bold animals are visible at any distance, day or night.
+fish_01_animated – a fish swimming in a figure-8 pattern
+fireflies_animated_01 – multiple fireflies that fade in and out
+Birds and butterflies all use the same animated model, each with multiple animals flying in circles and figure-8 patterns.
+The bird models are silent. To get associated sound effects, see pages 227 or 232.
+birds_flying_01 – black birds
+birds_sea_01 – black and white birds; for some reason the left wing is much darker than the right wing
+buterfly_flying_01 – butterflies; recommended scale = ~0.2; the wings are one sided, so often only one wing can be seen at a time
+Shy Animals and People
+Saber tried to be clever with assigning levels of detail so that animals and people are only visible within a certain distance range. When it works, this means that you can see the model at a distance, but it fades away as you get closer. Unfortunately, this is broken for most models.
+
+bear_01 – large white bear; visible in the Editor at 60 – 150 m; in the game at 120 – 185 m
+cat_01 – black cat; visible in the Editor at 20 – 40 m; in the game at 40 – 50 m	rus4/ref_garage_rus_02_sn
+fish_man1 – fisherman in rowboat; visible in the Editor at 80 – 190 m; in the game at 150 – 260 m
+fish_man_notshy – fisherman in rowboat; visible in the Editor at 5 – 190 m; in the game at 5 – 260 m
+wolf2 – unblinking pair of green eyes; visible only in the game at night at 30 – 50 m	rus4/ref_ravine_03_sn
+    Tip: Place the wolf2 model where it is unlikely that the player will shine her truck's headlights on it. Otherwise it looks ridiculous when the light reveals that nothing is there. The inside of a curve or up a protected slope are potentially good locations.
+tiger_01 – orange tiger; visible in the Editor at 85 – 120 m; never visible in the game
+wolf – large orange fox; visible in the Editor at 60 – 70 m; never visible in the game	usa/ref_forest_birches_usa_02
+yeti_snow_man – gray huminoid; visible in the Editor at 75 – 105 m; never visible in the game	rus4/ref_ravine_03_sn
+hunter_01 – never visible
+mushroomer_01 – never visible
+Lying Trees
+The pine_lying_a and spruce_lying_02 models appear to perfectly duplicate plants of the same names. The major difference is that the plants are firmly rooted to the ground (despite being tipped over), while the models are easily pulled out of position. That makes the models much less useful as winch attachment points.
+pine_lying_a – lying tree	winch
+spruce_lying_02 – lying tree	winch
+wooden_blockage_01_objective – pile of lying trees
+wooden_blockage_01_02_objective – pile of lying trees with a different landmark
+pond_objective – widely separated piles of lying trees
+Rocks
+Rocks tend to look good at many scales. The stronger constraint on rock scale is the accuracy of the collision mesh when the player is rock crawling. A lot of small, overly detailed rocks are bad for performance. On the other hand, scaling up a simplified collision mesh causes the truck's tires to visually float above or sink into the rock surface.
+Thus, each rock model has a recommended range of scales that it works best at. Some of these values are derived from Saber's recommendations, and some are my own. I've checked them all, but with the caveat that I'm driving blind when checking the shape of collision meshes. You might find that some orientations work better for rock crawling than others.
+Rocks marked "bottomless" don't have a bottom surface, so they cannot be rotated arbitrarily
+Models Suitable for Rock Crawling
+These models have collision meshes that closely match their visual appearance. +_snow indicates a variation with snow on one side (not necessarily the top). These models don't prevent additional procedural snow, so presumably they're intended for spring maps with no procedural snow.
+rock_02a_us6 – roundish boulder	scale = 1	inst
+rock_03 – boulder	scale = 3 – 5	(0.81-6.42), inst, usa/ref_forest_birches_usa_01_sn
+rock_03_rus – boulder	scale = 3 – 5	(1.00-6.01), inst, rus/ref_quarry_rus_01
+rock_04_rus – boulder	scale = 6 – 10	(1.44-10.70), inst, rus/ref_quarry_rus_01
+rock_05+_snow – flattened boulder	scale = 4 – 7	(1.00-8.10), inst, usa4/ref_forest_firs_08_usa4
+rock_rus_ter_01 – flattened boulder	scale = 4 – 7	(1.00-15.33), inst, rus/ref_quarry_rus_01
+rock_05_waterfall_snow – flattened boulder with snow	scale = 3 – 5	inst
+rock_10_a_flat_sn – pile of boulders	scale = 3 – 5	(1.00-2.14), inst, usa_6/ref_us6_city_01
+rock_10_a_pile_sn – same with more boulders on top	scale = 3 – 5	inst
+rock_06+_snow – boulder	scale = 6 – 10	(1.00-21.63), inst, usa3/ref_quarry_usa_02
+rock_06_cap+_snow – bottomless boulder	scale = 6 – 10	(1.00-1.40), inst, usa_6/ref_us6_city_01
+rock_06a – bottomless boulder	scale = 6 – 10	(1.38-12.64), inst, usa3/ref_quarry_usa_02
+rock_06a_rus+_inst – bottomless boulder	scale = 6 – 10	(1.52-8.93), inst, rus3/ref_bunker_rus_sn
+rock_06a_cap+_snow – bottomless boulder	scale = 6 – 10	(1.00-1.00), inst, usa_6/ref_us6_city_01
+rock_04a_us – bottomless boulder	scale = 6 – 10	(1.57-17.26), inst, usa/ref_quarry_us_01
+rock_04a_rus – bottomless boulder	scale = 6 – 10	(1.24-12.04), inst, usa/ref_lake_usa_01_sn
+rock_ancient_rus – bottomless boulder w/ petroglyphs	scale = 1 – 2	(1.65-2.55), inst, rus05/ref_sacred_stones_rus
+rock_03_pile – bottomless pile of boulders	scale = 2 – 4	(1.85-2.22), rus4/ref_lake_01_rus4_sn
+rock_03_pile_dlc+_snow – bottomless pile of boulders	scale = 2 – 4	inst
+rock_03_objective – bottomless pile of boulders	scale = 2 – 4	(1.00-1.00), usa3/ref_factory_paper_usa3
+rock_03_rus_objective – bottomless pile of boulders	scale = 2 – 4	(1.00-1.08), rus3/ref_church
+rock_06_pile – bottomless pile of boulders	scale = 6 – 10	(0.66-1.00), inst, usa_6/ref_us6_city_01
+rock_06_objective – bottomless pile of boulders	scale = 6 – 10
+In case you're curious, the rock_06* models are related to each other as follows:
+    • rock_06a_cap is the top of rock_06a
+    • rock_06_cap is one end of rock_06a_cap
+    • rock_06_cap is also the bottom of rock_06
+    • rock_06a_rus is a recolor of rock_06a
+    • rock_06a_rus_inst is identical to rock_06a_rus, but has some useful XML properties that Saber forgot to include in the rock_06a_rus model.
+Models Suitable for Blocking a Truck's Progress
+These models have collision meshes that only approximate their visual appearance.
+rock_01 – boulder	scale = 1	(0.58-1.00), inst, rus05/ref_mill_rus05
+rock_02 – roundish boulder	scale = 1	inst
+rock_02a – roundish boulder	scale = 1	inst
+rock_08 – cubical boulder	scale = 1	inst
+rock_09 – cublcal boulder	scale = 1	inst
+rock_09_cap_a – bottomless cubical boulder	scale = 1	inst
+rock_07+_02_inst – bottomless elongated boulder	scale = 1 – 2	inst
+rock_07a+_inst – bottomless elongated boulder cluster	scale = 1 – 2	inst
+Models Suitable Only for Viewing
+These models have really bad collision meshes and can't be placed vertically enough to hide it.
+The rock_10a_pile model has a visual equivalent with a better collision mesh at rock_10_a_pile_sn. I don't know what the _sn suffix signifies since neither is textured with snow, but both allow procedural snow.
+rock_10_a_pile – pile of boulders	scale = 4 – 7	(1.23-1.23), inst, usa_6/ref_us6_city_01
+rock_10_b_pile – pile of boulders	scale = 1 – 2	inst
+rock_01_pile_snow – bottomless pile of boulders	scale = 1 – 2	inst
+rock_rus_ter_01_objective – bottomless boulder pile	scale = 2 – 3.3	(1.58-3.21), rus/ref_ravine_01
+Ice
+rock_06_ice – iceberg	inst
+ice_hummock_01 – pile of ice shards
+ice_hummock_01snow – pile of ice shards
+ice_underwater_01 – ice shards
+ice_underwater_01a – ice shards
+us_ice_chunk_01 – ice shelf	inst
+ice_patch_01 – solid, lumpy ice	inst
+ice_patch_01_big – solid, lumpy ice	inst
+us_ice_chunk_thin_02 – small ice sheet or shelf	inst
+ice_patch_02_big – large ice sheet	inst
+snow_patch_02 – snow patch	inst
+icicle_01 – icicles	~1.00 (0.32-2.00), rus4/ref_garage_rus_02_sn
+icicle_02 – icicles	~0.87 (0.36-1.42), rus4/ref_garage_rus_02_sn
+icicle_03 – icicles	~1.65 (0.61-2.96), rus4/ref_town_rus_03_sn
+icicle_04 – icicles	~0.81 (0.44-1.00), rus4/ref_factory_rocket_rus_02_sn
+icicle_05 – icicles	~1.72 (0.64-2.30), rus4/ref_town_rus_03_sn
+Farplane Models
+Farplane models can be used as a backdrop beyond the edges of your map.
+
+You can scale or shift the position of a farplane model as you like, although it is not intended to exactly match the edges of your terrain. Instead, the idea is that your map's terrain is high near the edges so the the player is never looking more than slightly downwards when looking beyond the terrain edges, and the farplane model is then visible in the distance.
+Many farplane models have a low side. These are appropriate when used with background water that extends to the horizon (page 221).
+farplane_us_01_02 – square; brown hills on three sides
+farplane_rus_02_02 – square; green hills on three sides
+farplane_rus_02_03 – square; green hills on three sides
+farplane_rus_03_01 – square; green hills on three sides; less low on open side
+farplane_us_01_03 – rectangle; brown hills on three sides; open on short side
+farplane_rus_02_01 – rectangular; green hills on three sides; open on short side
+farplane_us_01_04 – square; brown hills on three sides
+farplane_us_02_01 – square; green hills on three sides
+farplane_us_02_03 – very rectangular; green hills on three sides; open on long side
+farplane_us_04_01 – square; black & snowy mountains on four sides
+farplane_rus_05_01 – brown hills on four sides
+farplane_tr_01_02 – mountains on three sides
+farplane_tr_02_01 – mountains on three sides
+farplane_trial_03_02 – mountains on three sides; reduced procedural snow
+farplane_06_01_us06 – mix of green, white, and brown mountains on three sides; truly open on fourth side	inst
