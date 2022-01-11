@@ -1,3 +1,5 @@
+bug reports to snowrunner@saber3d.com
+
 For Steam, create the minimal "getting started" guide and link to the
 main PDF, with links both near the top and the bottom.
 
@@ -165,9 +167,6 @@ how to publish
   map's *.pak file includes files that look relevant, but aren't
     e.g. all images in ui/textures
 
-Can a localization text file include an ID in quotes
-  in order to translate English to another language?
-
 foreach f2 (`ls {,_dlc/*/}classes/models/*.xml | egrep '[0-9][^/]*_02'`)
   set f1 = `echo $f2 | sed -e 's/_02//' -e 's/.*[/]//g'`
   echo $f1 >> 02.txt
@@ -185,68 +184,7 @@ cat /cygdrive/c/Users/Chris/Documents/GitHub/bbsmm/models2.txt | sed -e 's/[ :].
 diff mine.txt real.txt  | less
 
 
-
-
-SnowRunner distributions
-
-LinkedGrassBrush associates a grass brush with the plant brush.
-
-PlantsPerBlock is divided by four to get the plants per quarter block
-  divide rounds down, so 1-3 means 0.
-
-FlatThreshold requires the terrain to be as flat as specified in order
-  for a plant to be placed.
-  A value of 1.0 is no restriction.
-  A value of 0.05 prevents plants on a slope over ~30 degrees.
-  Is it based on the *change* in terrain angle nearby?
-
-Perpendicularity ranges from 0 (vertical) to 1 (perpendicular to the slope).
-
-Divergence is the maximum angle in radians that the plant can
-  diverge from its perfect orientation (vertical or perpendicular).
-  The actual divergence of each plant is random from 0 to the Divergence value.
-
-The scale of the plant is randomized between MinSize and MaxSize.
-  A scale of 1.0 is the default for a plant.
-
-A plant is only placed if the scale at that position is in the range of
-  MinMapScale to MaxMapScale.
-
-A plant at MinMapScale is placed with Scale=MinSize.
-A plant at MaxMapScale is placed with Scale=MaxSize.
-
-		<DebrisChunks PlantsPerBlock="1200">
-			<PlantType Brand="debris_chunks" PlaceOnlyOutsideSnow="true" />
-			<PlantType Brand="debris_snow" PlaceOnlyInSnow="true" />
-		</DebrisChunks>
-
-		<LyingSpruces FlatThreshold="0.2" PlantsPerBlock="25">
-			<PlantType
-				Brand="pine_lying_a"
-				MinSize="0.5"
-				MaxSize="0.8"
-				Perpendicularity="1.0"
-				PlaceOnlyOutsideWater="true"
-			/>
-			<PlantType
-				Brand="pine_lying_b"
-				MinSize="0.5"
-				MaxSize="0.8"
-				Perpendicularity="1.0"
-				PlaceOnlyOutsideWater="true"
-			/>			
-			<PlantType
-				Brand="spruce_lying_02"
-				MinSize="0.6"
-				MaxSize="0.8"
-				Perpendicularity="1.0"
-				PlaceOnlyInWater="true"
-			/>
-		</LyingSpruces>
-
 Can weather classes be edited or created?
-
-Should "texture layers" be called "terrain layers"?
 
 Use the term "mask" for painted areas?
   but is the "masked" region on or off?
@@ -336,14 +274,11 @@ changing an objective sometimes resets it
 
 useful ways to edit map XML:
   rename a map
-  rename a model
-  non-uniform scale?
-
-non-uniform scales?
-  requires XML editing
+  rebrand a model
+  remove a truck add-on
+  reorder roads (when drawn on the navigation map)
 
 can watchpoints be usefully opened now?
-does grass have shadows now?
 
 in grass reference, include use by material by references?
   refer to the material that uses the grass?
@@ -351,9 +286,104 @@ in grass reference, include use by material by references?
 
 how does highlighting work for a multi-map region?
 
-make a summary of where the properties are defined for things like:
-  the info in the mod browser
-  the map selection screen
-  the map name and background for the loading screen
-  the map and region name on the navigation map
-  the names on the global map
+summarize zone visibility
+  driving view:
+    when visible
+    color
+    icon (from property or other)
+  navigation map
+    when visible
+    when labeled
+    name (from property or other)
+  for many objectives, need separate rows for
+    offer zone
+      is this the same for all types?
+      when unlocked and not completed
+        yellow in driving view
+        zone name on navigation map and task list
+    destination zone
+      when it is the current stage's destination
+
+What are the typical rewards from built-in objectives?
+
+discover watchpoint: 50 xp
+discover trailer: 30 xp
+discover truck (scout): 100 xp
+
+visit quest: 1050 $, 60 xp
+deliver trailer: 1050 $, 130 xp
+deliver cargo x4: $1600, 180 xp
+deliver cargo x4 with crane: $3200, 280 xp
+deliver 4x medium logs: $11300, 990 xp
+deliver with crane: $1300, 210 xp
+deliver cargo x4 via contest: $3300/1600/950, 360/180/110xp
+
+mkdir '/cygdrive/c/Users/Chris/Desktop/Snowrunner saves'/6
+cp -r '/cygdrive/c/Program Files (x86)/Steam/userdata/40322497/1465360'/* '/cygdrive/c/Users/Chris/Desktop/Snowrunner saves'/6
+
+Do watchpoint cloak the map in their range?
+
+To add bumps to a smooth road:
+  Load _tint.tga
+    Colors->Components->Extract Component...
+      Component RGB Blue (keep other options as default)
+      "OK"
+    Ctrl-C
+  Load _height.png separately
+    Layer->New Layer...
+      Layer name: bumps
+      Mode: Grain Extract (base value - layer value + 128) [clamped]
+      Blend space: Auto
+      Fill with transparency
+    Ctrl-V
+    Layer->Anchor Layer (ctrl-H)
+    Layer->Mask->Add Layer Mask...
+      Grayscale copy of layer
+    With the layer mask selected,
+      Filters->Blur->Gaussian Blur...
+        SizeX/Y = 2
+        OK
+    Select visual layer (left icon in the visual/mask pair)
+    Select only blue/green/alpha channels
+    Use paint bucket to paint channels with black
+    Select only red/alpha channels
+    Windows->Dockable Dialogs->Histogram
+    Filters->Noise->Hurl...
+      Randomization (%) = 100
+      OK
+      (histogram is flat)
+    Tools->Paint Tools->Smudge
+      choose a hard brush, hardness 100
+      size ~50
+      spacing 1.0 [important!]
+      rate ~5 [important!]
+      draw from past one tip of the line, along it, and past the other tip
+      (histogram is peaked slightly in the middle)
+    optional: Filters->Blur->Gaussian Blur...
+      SizeX/Y = 0.5 - 1.0
+      OK
+      (histogram is a strong bell curve)
+    Colors->Levels...
+      Adjust gray arrow centered below Input Levels until the histogram mean
+        is as close to 0.5 as possible.
+      OK
+      (histogram is centered at 50%, with tails of ~25% on each side)
+      (on the other hand, a higher mean value means more dips than hills,
+       which could be a good thing)
+    right click layer->Edit Layer Attributes... (or directly in the layer box)
+      opacity ~1.5%
+      (i.e. total bumps of 50% * 1.5% * max_height = 150 =
+       1.125 m crest to trough)
+    Export As...
+      _height)source.png
+In the Editor:
+  (Geometry)->Copy Height Sourcemap
+
+zone appearance reference
+  (see zone visibility for *when* a zone can be seen in each view)
+  perimeter color
+  icon in driving view
+    e.g. from property or fixed by type
+  icon on nav map
+    e.g. from property or
+  name on nav map & in zone list
