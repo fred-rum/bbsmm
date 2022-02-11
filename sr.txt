@@ -64,8 +64,6 @@ commit property changes (particular ID naming) before opening the zone editor
 spurious new campaign start always selects an empty save slot if there is one.
   recommend leaving one open.
 
-How does "recover" work after a gateway crossing?
-
 keyboad shortcuts for the zone settings editor
   e.g. F2 to edit a property string
 
@@ -277,6 +275,7 @@ useful ways to edit map XML:
   rebrand a model
   remove a truck add-on
   reorder roads (when drawn on the navigation map)
+  copy railroad nodes to gravel overlay
 
 can watchpoints be usefully opened now?
 
@@ -355,12 +354,12 @@ To add bumps to a smooth road:
     Tools->Paint Tools->Smudge
       choose a hard brush, hardness 100
       size ~50
-      spacing 1.0 [important!]
-      rate ~5 [important!]
+      spacing 1.0 [important!] - determines spacing of brush applications
+      rate ~5 [important!] - determines smudge length
       draw from past one tip of the line, along it, and past the other tip
       (histogram is peaked slightly in the middle)
     optional: Filters->Blur->Gaussian Blur...
-      SizeX/Y = 0.5 - 1.0
+      SizeX/Y = 0.5 - 1.0 (1.0 seems best for avoiding triangle ridges)
       OK
       (histogram is a strong bell curve)
     Colors->Levels...
@@ -374,8 +373,10 @@ To add bumps to a smooth road:
       opacity ~1.5%
       (i.e. total bumps of 50% * 1.5% * max_height = 150 =
        1.125 m crest to trough)
+      (with blur, 3.0 seems to work better, but the result needs to be sanded
+       down wherever the random numbers max out)
     Export As...
-      _height)source.png
+      _height_source.png
 In the Editor:
   (Geometry)->Copy Height Sourcemap
 
