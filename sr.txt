@@ -156,6 +156,7 @@ Bottom panel of ZSE/RSE is for filesystem errors
 
 https://drive.google.com/drive/u/1/my-drive
 https://drive.google.com/file/d/1x_CtAODJ8bd9d5wilTKIZIziYaE8C-JM/view
+https://drive.google.com/file/d/1u_YYKvQcdBzS1GrpHNI7zYD8PjCmk6Cf/view?usp=sharing
 
 https://snowrunner.mod.io/guides/big-book-of-snowrunner-map-making
 
@@ -388,3 +389,32 @@ zone appearance reference
   icon on nav map
     e.g. from property or
   name on nav map & in zone list
+
+The game acts like map 1 has been discovered from the beginning, even
+if it isn't the starting map.  If the starting map is in a different
+position, then it is also discovered from the beginning.
+
+The game thinks it can recover a truck to a garage even if that garage
+isn't unlocked yet.  In some cases, the truck is lost until the garage
+is unlocked.  In other cases, the player's money is taken (in hard
+mode), but the truck isn't recovered anywhere.
+
+A truck sometimes isn't destroyed after an objective that is supposed
+to destroy it.  Instead, it remains on the map, still reserved.
+
+
+<y>text</> should match another translation
+SR_GATEWAY_* should match the name at the left of the map
+
+translate other languages using Deepl?
+  needs script to copy quotes into <y>text</>
+
+
+Any text surrounded by &lt;y&gt; and &lt;/&gt; refers to another translation and should be copied as exactly as possible. E.g.
+SR_FUEL_CHECK_VISIT "Visit &lt;y&gt;Snagtooth Diesel&lt;/&gt;."
+matches
+SR_SNAGTOOTH_DIESEL "Snagtooth Diesel"
+
+The following refer to truck names that should match your game's translation. Since all translations appear to simply copy the English name, the truck name between &lt;y&gt; and &lt;/&gt; should similarly remain in English:
+SR_BUCKS_TRUCK_REPAIR "Repair the &lt;y&gt;International Paystar 5070&lt;/&gt;."
+SR_HEAVY_TRUCK_REPAIR "Repair the &lt;y&gt;Freightliner 114SD&lt;/&gt;."
